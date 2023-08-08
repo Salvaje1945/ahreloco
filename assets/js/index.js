@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     <nav class="cabecera__desplegable--menu" id="cabecera-menu-desp">
         <div class="desplegable__menu--logo">
             <div class="desplegable__menu--logo_img">
-                <img src="assets/img/International_Fasteners_SA_Logo.png" alt="International Fasteners S.A., San Andrés, Buenos Aires, Argentina." />
+                <img src="assets/img/International_Fasteners_SA_Logo_Lauros.png" alt="International Fasteners S.A., San Andrés, Buenos Aires, Argentina." />
             </div>
         </div>
         <ul>

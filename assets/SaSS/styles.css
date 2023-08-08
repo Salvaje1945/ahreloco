@@ -361,11 +361,12 @@ a {
   align-items: center;
   justify-content: center;
   gap: 0;
+  margin: 9svw 0 0;
 }
 #contenedor #cabecera .cabecera__contenido--moviles .cabecera__desplegable--menu .desplegable__menu--logo .desplegable__menu--logo_img {
-  min-width: 111px;
+  min-width: 146px;
   min-height: 140px;
-  width: 29.6svw;
+  width: 38.93svw;
   height: auto;
 }
 #contenedor #cabecera .cabecera__contenido--moviles .cabecera__desplegable--menu .desplegable__menu--logo .desplegable__menu--logo_img img {
