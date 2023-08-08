@@ -227,12 +227,12 @@ $fam_05: 'Staatliches', sans-serif;
 }
 */
 @font-face {
-  font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface";
   src: url(../fonts/AbrilFatface-Regular.woff) format("woff");
   font-display: auto;
 }
 @font-face {
-  font-family: "Antonio", sans-serif;
+  font-family: "Antonio";
   src: url(../fonts/Antonio-VariableFont_wght.woff) format("woff");
   font-display: auto;
 }
@@ -387,7 +387,7 @@ a {
   display: block;
   padding: 2svh 0;
   text-align: center;
-  font-family: "Antonio", sans-serif;
+  font-family: "Antonio";
   color: #297240;
   font-size: 7svw;
   font-weight: 500;
@@ -436,7 +436,7 @@ a {
   display: block;
 }
 #contenedor #cabecera .cabecera__contenido--moviles .cabecera__moviles--logo .cabecera__moviles--titulo h1 {
-  font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface";
   font-size: 7svw;
   color: #000;
   margin: 0;
