@@ -1,10 +1,11 @@
-import $ from './funciones_globales/elementos_por_id.js'
-import dameElAltoDePantalla from './funciones_globales/alto_pantalla.js'
-import dameElAnchoDePantalla from './funciones_globales/ancho_pantalla.js'
+//import $ from './funciones_globales/elementos_por_id.js'
+//import dameElAltoDePantalla from './funciones_globales/alto_pantalla.js'
+//import dameElAnchoDePantalla from './funciones_globales/ancho_pantalla.js'
 // import carrouselContenido from './carousel.js'
 //import cabeceraAbrirMenu from './menu.js'
 // import animacionNosotros from './animaciones/animacion_nosotros.js'
 import responsiveMedia from './objeto_responsive.js'
+import carrouselContenido from './carousel.js'
 
 document.addEventListener('DOMContentLoaded', ()=> {
     // const anchoDePantallaInicial = dameElAnchoDePantalla()
@@ -68,4 +69,4 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
 // $('#cabecera-menu-abrir').addEventListener('click', cabeceraAbrirMenu)
 
-// carrouselContenido()
+carrouselContenido()

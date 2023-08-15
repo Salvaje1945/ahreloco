@@ -93,15 +93,16 @@
                 transition: .5s ease all;
                 z-index: 998;
                 touch-action: none;
+                -ms-touch-action: none;
 
                 .desplegable__menu--logo {
                     @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: center, $flx_bx_juco: center, $flx_bx_gap: 0);
-                    margin: 9svw 0 0;
+                    margin: 3svw 0 0;
 
                     .desplegable__menu--logo_img {
-                        min-width: 146px;
-                        min-height: 140px;
-                        width: 38.93svw;
+                        min-width: 200px;
+                        min-height: 192px;
+                        width: 53.33svw;
                         height: auto;
 
                         img {
@@ -119,18 +120,21 @@
                     display: block;
                     width: 100%;
                     padding: 0 5%;
-                    margin: 3svh 0 0;
+                    margin: 7svw 0 0;
     
                     li {
                         display: block;
-                        padding: 2svh 0;
+                        padding: 0 0 7svw;
                         text-align: center;
                         font-family: $fam_02;
                         color: map-get($color, "verde_03");
-                        font-size: 7svw;
+                        font-size: 7.2svw;
                         font-weight: 500;
+                        line-height: 1;
+                        letter-spacing: .2svw;
     
                         a {
+                            //line-height: 1;
                             // text-transform: uppercase;
                             // text-transform: capitalize;
                             // font-variant: small-caps;
@@ -148,6 +152,7 @@
                                 font-size: 2.5rem;
                             }
                         }
+                        
                     }
                 }
             }
