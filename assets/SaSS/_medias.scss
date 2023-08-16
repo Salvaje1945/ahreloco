@@ -1,6 +1,110 @@
-/*
 @use 'vars' as *;
 @use 'predef' as *;
+
+@media only screen and (min-width: map-get($wth_res, "mob_03")) {
+
+    #contenedor {
+
+        #cabecera {
+
+            .cabecera__contenido--moviles {
+                height: 60.11px;
+
+                .cabecera__moviles--logo {
+
+                    .cabecera__moviles--logo_img {
+                        width: 45px;
+                    }
+
+                    .cabecera__moviles--titulo {
+
+                        h1 {
+                            font-size: 31.57px;
+                        }
+    
+                    }
+                    
+                }
+
+                .cabecera__moviles--btn{
+                    font-size: 31.57px;
+                }
+
+                .cabecera__desplegable--menu{
+
+                    .desplegable__menu--logo {
+                        margin: 14px 0 0;
+
+                        .desplegable__menu--logo_img {
+                            width: 241px;
+                        }
+
+                    }
+
+                    ul {
+                        margin: 31.57px 0 0;
+
+                        li {
+                            font-size: 32.47px;
+                            padding: 0 0 31.57px;
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (min-width: map-get($wth_res, "mob_04")) {
+
+    #contenedor {
+
+        #cabecera {
+
+            .cabecera__contenido--moviles {
+
+                .cabecera__moviles--logo {
+
+                    .cabecera__moviles--logo_img {
+                        width: 56px;
+                    }
+                    
+                }
+
+            }
+        }
+
+        #contenido {
+
+            #contenido__carousel {
+
+                #contenido__carousel--mov {
+    
+                    .slider {
+                        height: 500px;
+                        transition: .5s linear all;
+                    }
+
+                    .navigation {
+                        height: 500px;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+
+}
+
+
+/*
 
 @media only screen and (max-height: map-get($hgt_res, "bkp_06")) {
 

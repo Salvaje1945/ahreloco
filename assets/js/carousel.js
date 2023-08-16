@@ -1,14 +1,14 @@
-//import $ from './funciones_globales/elementos_por_id.js'
+import $ from './funciones_globales/elementos_por_id.js'
 
 export default function carrouselContenido() {
 
-    const slider = document.querySelector(".slider");
-    const nextBtn = document.querySelector(".next-btn");
-    const prevBtn = document.querySelector(".prev-btn");
-    const slides = document.querySelectorAll(".slide");
-    const slideIcons = document.querySelectorAll(".slide-icon");
-    const numberOfSlides = slides.length;
-    var slideNumber = 0;
+    const slider = $('.slider')
+    const nextBtn = $('.next-btn')
+    const prevBtn = $('.prev-btn')
+    const slides = document.querySelectorAll('.slide')
+    const slideIcons = document.querySelectorAll('.slide-icon')
+    const numberOfSlides = slides.length
+    var slideNumber = 0
 
     //image slider next button
     nextBtn.addEventListener("click", () => {

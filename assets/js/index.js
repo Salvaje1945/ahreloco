@@ -10,7 +10,7 @@ import carrouselContenido from './carousel.js'
 document.addEventListener('DOMContentLoaded', ()=> {
     // const anchoDePantallaInicial = dameElAnchoDePantalla()
     // animacionNosotros(anchoDePantallaInicial)
-    responsiveMedia('#cabecera', '(min-width: 768px)',
+    responsiveMedia('#cabecera', '(min-width: 1024px)',
 `<div class="cabecera__contenido--moviles" id="cabecera-contenido">
     <nav class="cabecera__desplegable--menu" id="cabecera-menu-desp">
         <div class="desplegable__menu--logo">
@@ -41,19 +41,22 @@ document.addEventListener('DOMContentLoaded', ()=> {
 </div>`,
 `<div class="cabecera__contenido">
     <div class="cabecera__contenido--logo">
-        <img src="assets/img/logo_noctua-01.png" alt="Noctua Desarrollos" />
-        <div class="cabecera__logo--titulo">
-            <h1>NOCTUA <span>desarrollos</span></h1>
+        <div class="cabecera__contenido--logo_img">
+            <img src="assets/img/IF_logo_corona_moviles.png" alt="International Fasteners S.A. - Herramientas neumáticas e insumos para la industria." />
+        </div>
+        <div class="cabecera__contenido--titulo">
+            <h1>International Fasteners</h1>
         </div>
     </div>
     <nav class="cabecera__contenido--menu">
         <ul>
-            <li><a href="#contenido-sobre-nosotros" id="menu-dkp-nosotros">Nosotros</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Proyectos</a></li>
+            <li><a href="#contenido-sobre-nosotros" id="menu-mov-nosotros">Nuestra empresa</a></li>
+            <li><a href="#">Quienes nos eligen</a></li>
+            <li><a href="#">Herramientas</a></li>
+            <li><a href="#">Insumos</a></li>
+            <li><a href="#">Asesoramiento técnico</a></li>
+            <li><a href="#">Catálogo</a></li>
             <li><a href="#">Contáctenos</a></li>
-            <li><a href="#">Blog</a></li>
         </ul>
     </nav>
 </div>`)
