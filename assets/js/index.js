@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 `<div class="cabecera__contenido">
     <div class="cabecera__contenido--logo">
         <div class="cabecera__contenido--logo_img">
-            <img src="assets/img/International_Fasteners_SA_logo.png" alt="International Fasteners S.A. - Herramientas neumáticas e insumos para la industria." />
+            <img src="assets/img/International_Fasteners_SA_Logo.png" alt="International Fasteners S.A. - Herramientas neumáticas e insumos para la industria." />
         </div>
         <div class="cabecera__contenido--titulo">
             <h1>International Fasteners</h1>
