@@ -123,7 +123,22 @@
                         font-variant: small-caps;
                     }
                 }
+
+                h1 {
+                    font-family: $fam_01;
+                    //font-size: 7svw;
+                    font-weight: 600;
+                    color: map-get($color, "negro");
+                    margin: 0;
+                    padding: 0;
+                    line-height: 1;
+                    text-transform: capitalize;
+                    font-variant: small-caps;
+                }
+
             }
+
+
         }
 
         .cabecera__contenido--moviles {

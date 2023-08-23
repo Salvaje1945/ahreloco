@@ -29,12 +29,13 @@ document.addEventListener('DOMContentLoaded', ()=> {
         </ul>
     </nav>
 <div class="cabecera__moviles--logo">
-    <div class="cabecera__moviles--logo_img">
+    <!-- <div class="cabecera__moviles--logo_img">
         <img src="assets/img/IF_logo_corona_moviles.png" alt="International Fasteners S.A. - Herramientas neumáticas e insumos para la industria." />
     </div>
     <div class="cabecera__moviles--titulo">
         <h1>International Fasteners</h1>
-    </div>
+    </div> -->
+    <h1>International Fasteners</h1>
 </div>
 <div class="cabecera__moviles--btn activo" id="cabecera-menu-abrir"><i class="fa-solid fa-bars"></i></div>
 <div class="cabecera__moviles--btn" id="cabecera-menu-cerrar"><i class="fa-solid fa-xmark"></i></div>
@@ -42,7 +43,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
 `<div class="cabecera__contenido">
     <div class="cabecera__contenido--logo">
         <div class="cabecera__contenido--logo_img">
-            <img src="assets/img/IF_logo_corona_moviles.png" alt="International Fasteners S.A. - Herramientas neumáticas e insumos para la industria." />
+            <img src="assets/img/International_Fasteners_SA_logo.png" alt="International Fasteners S.A. - Herramientas neumáticas e insumos para la industria." />
         </div>
         <div class="cabecera__contenido--titulo">
             <h1>International Fasteners</h1>

@@ -412,6 +412,19 @@ a {
   text-transform: capitalize;
   font-variant: small-caps;
 }
+#contenedor #cabecera .cabecera__contenido .cabecera__contenido--logo h1,
+#contenedor #cabecera .cabecera__contenido .cabecera__moviles--logo h1,
+#contenedor #cabecera .cabecera__contenido--moviles .cabecera__contenido--logo h1,
+#contenedor #cabecera .cabecera__contenido--moviles .cabecera__moviles--logo h1 {
+  font-family: "Abril Fatface";
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  text-transform: capitalize;
+  font-variant: small-caps;
+}
 #contenedor #cabecera .cabecera__contenido--moviles {
   height: 13.33svw;
   padding: 0 2.5%;
