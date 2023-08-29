@@ -396,8 +396,10 @@
                     position: relative;
                     background: map-get($color, "verde_03");
                     width: 100%;
-                    min-height: 500px;
-                    height: 133.33svw;
+                    min-height: 655px;
+                    // height: 133.33svw;
+                    // height: 70.82svh;
+                    height: calc(100svh - 13.33svw);
                     //margin: 20px;
                     overflow: hidden;
                     //border-radius: 10px;
@@ -411,30 +413,44 @@
 
                         img {
                             position: absolute;
+                            //width: 225%;
                             width: 100%;
+                            //min-height: 500px;
                             height: 100%;
+                            //object-fit: contain;
                             object-fit: cover;
                         }
 
                         .info {
                             position: absolute;
-                            color: #222;
-                            background: rgba(255, 255, 255, 0.3);
-                            width: 75%;
-                            margin-top: 50px;
-                            margin-left: 50px;
-                            padding: 20px;
-                            border-radius: 5px;
-                            box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
+                            //color: #222;
+                            color: map-get($color, "gris_11");
+                            font-family: $fam_02;
+                            //background: rgba(255, 255, 255, 0.3);
+                            // width: 75%;
+                            // margin-top: 50px;
+                            // margin-left: 50px;
+                            // padding: 20px;
+                            padding: 2svw;
+                            // border-radius: 5px;
+                            width: 100%;
+                            //box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
+                            
 
                             h2 {
-                                font-size: 2em;
+                                // font-family: $fam_02;
+                                // font-size: 2em;
+                                font-size: 15svw;
                                 font-weight: 800;
+                                line-height: 1.2;
+                                // -webkit-text-stroke: 0.2svw #000;
+                                text-shadow: #000 0.5svw 0.5svw 1px;
                             }
 
                             p {
-                                font-size: 1em;
+                                font-size: 7svw;
                                 font-weight: 400;
+                                text-shadow: #000 0.5svw 0.5svw 1px;
                             }
                         }
                     }
@@ -455,7 +471,8 @@
                 }
                   
                 .navigation {
-                    height: 133.33svw;
+                    // height: 133.33svw;
+                    height: calc(100svh - 13.33svw);
                     display: flex;
                     align-items: center;
                     justify-content: space-between;

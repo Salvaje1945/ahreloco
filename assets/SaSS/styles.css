@@ -726,8 +726,8 @@ a {
   position: relative;
   background: #297240;
   width: 100%;
-  min-height: 500px;
-  height: 133.33svw;
+  min-height: 655px;
+  height: calc(100svh - 13.33svw);
   overflow: hidden;
   transition: 0.5s ease all;
 }
@@ -747,22 +747,21 @@ a {
 }
 #contenedor #contenido #contenido__carousel #contenido__carousel--mov .slider .slide .info {
   position: absolute;
-  color: #222;
-  background: rgba(255, 255, 255, 0.3);
-  width: 75%;
-  margin-top: 50px;
-  margin-left: 50px;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 5px 25px rgba(1, 1, 1, 0.05);
+  color: #f9f5f4;
+  font-family: "Antonio";
+  padding: 2svw;
+  width: 100%;
 }
 #contenedor #contenido #contenido__carousel #contenido__carousel--mov .slider .slide .info h2 {
-  font-size: 2em;
+  font-size: 15svw;
   font-weight: 800;
+  line-height: 1.2;
+  text-shadow: #000 0.5svw 0.5svw 1px;
 }
 #contenedor #contenido #contenido__carousel #contenido__carousel--mov .slider .slide .info p {
-  font-size: 1em;
+  font-size: 7svw;
   font-weight: 400;
+  text-shadow: #000 0.5svw 0.5svw 1px;
 }
 #contenedor #contenido #contenido__carousel #contenido__carousel--mov .slider .slide.active {
   -webkit-clip-path: circle(150% at 0 50%);
@@ -773,7 +772,7 @@ a {
   opacity: 1;
 }
 #contenedor #contenido #contenido__carousel #contenido__carousel--mov .navigation {
-  height: 133.33svw;
+  height: calc(100svh - 13.33svw);
   display: flex;
   align-items: center;
   justify-content: space-between;
