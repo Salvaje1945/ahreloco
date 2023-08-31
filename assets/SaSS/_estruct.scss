@@ -79,6 +79,14 @@
             @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: center, $flx_bx_juco: space-between, $flx_bx_gap: 0);
             min-height: 50px;
 
+            // .cabecera__contenido--logo {
+            //     @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: flex-end, $flx_bx_juco: flex-start, $flx_bx_gap: 7px);
+            // }
+
+            // .cabecera__moviles--logo {
+            //     @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: center, $flx_bx_juco: flex-start, $flx_bx_gap: 7px);
+            // }
+
             .cabecera__contenido--logo,
             .cabecera__moviles--logo {
                 @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: center, $flx_bx_juco: flex-start, $flx_bx_gap: 7px);
@@ -424,7 +432,7 @@
                         .info {
                             position: absolute;
                             //color: #222;
-                            color: map-get($color, "gris_11");
+                            // color: map-get($color, "gris_11");
                             font-family: $fam_02;
                             //background: rgba(255, 255, 255, 0.3);
                             // width: 75%;
@@ -438,17 +446,34 @@
                             
 
                             h2 {
+                                color: map-get($color, "gris_11");
                                 // font-family: $fam_02;
                                 // font-size: 2em;
-                                font-size: 15svw;
+                                // font-size: 15svw;
                                 font-weight: 800;
-                                line-height: 1.2;
+                                line-height: 1;
                                 // -webkit-text-stroke: 0.2svw #000;
                                 text-shadow: #000 0.5svw 0.5svw 1px;
+                                margin: 0 0 9svw;
                             }
 
-                            p {
-                                font-size: 7svw;
+                            .info__h2--nrm {
+                                font-size: 15svw;
+                            }
+
+                            .info__h2--mdn {
+                                font-size: 16svw;
+                            }
+
+                            .info__h2--gde {
+                                font-size: 20svw;
+                                line-height: 1.1;
+                            }
+
+                            h3 {
+                                // text-align: center;
+                                color: map-get($color, "gris_08");
+                                font-size: 11svw;
                                 font-weight: 400;
                                 text-shadow: #000 0.5svw 0.5svw 1px;
                             }
@@ -472,7 +497,8 @@
                   
                 .navigation {
                     // height: 133.33svw;
-                    height: calc(100svh - 13.33svw);
+                    // height: calc(100svh - 13.33svw);
+                    height: calc(100svh - 9svw);
                     display: flex;
                     align-items: center;
                     justify-content: space-between;

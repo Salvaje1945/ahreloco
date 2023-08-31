@@ -55,8 +55,8 @@
 
             }
         }
-    }
 
+    }
 
 }
 
@@ -86,13 +86,35 @@
                 #contenido__carousel--mov {
     
                     .slider {
-                        height: 500px;
-                        transition: .5s linear all;
+                        
+                        .slide {
+
+                            .info {
+
+                                .info__h2--nrm {
+                                    font-size: 72.15px;
+                                    // font-size: calc(72.15px + 3svw);
+                                }
+    
+                                .info__h2--mdn {
+                                    font-size: 76.96px;
+                                }
+    
+                                .info__h2--gde {
+                                    font-size: 96.2px;
+                                    // font-size: calc(96.2px + 3svw);
+                                }
+    
+                                h3 {
+                                    font-size: 52.91px;
+                                }
+
+                            }
+
+                        }
+
                     }
 
-                    .navigation {
-                        height: 500px;
-                    }
                 }
             }
 
@@ -102,6 +124,114 @@
 
 
 }
+
+@media only screen and (min-width: map-get($wth_res, "mob_05")) {
+
+    #contenedor {
+
+        #contenido {
+
+            #contenido__carousel {
+
+                #contenido__carousel--mov {
+    
+                    .slider {
+                        
+                        .slide {
+
+                            .info {
+
+                                .info__h2--nrm {
+                                    // font-size: 72.15px;
+                                    font-size: calc(72.15px + 4svw);
+                                }
+    
+                                .info__h2--mdn {
+                                    // font-size: 76.96px;
+                                    font-size: calc(76.96px + 4svw);
+                                }
+    
+                                .info__h2--gde {
+                                    // font-size: 96.2px;
+                                    font-size: calc(96.2px + 4svw);
+                                }
+    
+                                h3 {
+                                    font-size: 52.91px;
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+
+}
+
+@media only screen and (min-width: map-get($wth_res, "dkp_01")) {
+
+    #contenedor {
+
+        #contenido {
+
+            #contenido__carousel {
+
+                #contenido__carousel--mov {
+    
+                    .slider {
+                        height: calc(100svh - 7svw);
+                        
+                        // .slide {
+
+                        //     .info {
+
+                        //         .info__h2--nrm {
+                        //             // font-size: 72.15px;
+                        //             font-size: calc(72.15px + 4svw);
+                        //         }
+    
+                        //         .info__h2--mdn {
+                        //             // font-size: 76.96px;
+                        //             font-size: calc(76.96px + 4svw);
+                        //         }
+    
+                        //         .info__h2--gde {
+                        //             // font-size: 96.2px;
+                        //             font-size: calc(96.2px + 4svw);
+                        //         }
+    
+                        //         h3 {
+                        //             font-size: 52.91px;
+                        //         }
+
+                        //     }
+
+                        // }
+
+                    }
+
+                    .navigation {
+                        height: calc(100svh - 5.7svw);
+                    }
+
+                }
+            }
+
+        }
+
+    }
+
+
+}
+
 
 
 /*
