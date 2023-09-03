@@ -91,6 +91,11 @@
 
                             .info {
 
+                                h2 {
+                                    // margin: 0 0 9svw;
+                                    margin: 0 0 33px;
+                                }
+
                                 .info__h2--nrm {
                                     font-size: 72.15px;
                                     // font-size: calc(72.15px + 3svw);
@@ -141,6 +146,11 @@
 
                             .info {
 
+                                h2 {
+                                    // margin: 0 0 calc(27px + 4svw);
+                                    margin: 0 0 33px;
+                                }
+
                                 .info__h2--nrm {
                                     // font-size: 72.15px;
                                     font-size: calc(72.15px + 4svw);
@@ -165,6 +175,11 @@
                         }
 
                     }
+
+                    // .navigation {
+                    //     // height: calc(100svh - 9svw);
+                    //     height: 95svh;
+                    // }
 
                 }
             }
@@ -219,7 +234,7 @@
                     }
 
                     .navigation {
-                        height: calc(100svh - 5.7svw);
+                        height: 92svh;
                     }
 
                 }
@@ -229,6 +244,29 @@
 
     }
 
+
+}
+
+@media only screen and (min-width: map-get($wth_res, "dkp_02")) {
+
+    #contenedor {
+
+        #contenido {
+
+            #contenido__carousel {
+
+                #contenido__carousel--mov {
+    
+                    .navigation {
+                        height: 88svh;
+                    }
+
+                }
+            }
+
+        }
+
+    }
 
 }
 

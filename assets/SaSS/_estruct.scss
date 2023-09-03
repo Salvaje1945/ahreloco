@@ -453,7 +453,8 @@
                                 font-weight: 800;
                                 line-height: 1;
                                 // -webkit-text-stroke: 0.2svw #000;
-                                text-shadow: #000 0.5svw 0.5svw 1px;
+                                // text-shadow: #000 0.5svw 0.5svw 1px;
+                                text-shadow: #000 3px 3px 1px;
                                 margin: 0 0 9svw;
                             }
 
@@ -475,7 +476,8 @@
                                 color: map-get($color, "gris_08");
                                 font-size: 11svw;
                                 font-weight: 400;
-                                text-shadow: #000 0.5svw 0.5svw 1px;
+                                // text-shadow: #000 0.5svw 0.5svw 1px;
+                                text-shadow: #000 3px 3px 1px;
                             }
                         }
                     }
@@ -498,7 +500,8 @@
                 .navigation {
                     // height: 133.33svw;
                     // height: calc(100svh - 13.33svw);
-                    height: calc(100svh - 9svw);
+                    // height: calc(100svh - 9svw);
+                    height: 95svh;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
