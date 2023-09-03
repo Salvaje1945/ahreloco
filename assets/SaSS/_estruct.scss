@@ -398,7 +398,7 @@
 
         #contenido__carousel {
 
-            #contenido__carousel--mov {
+            .contenido__carousel--slider {
 
                 .slider {
                     position: relative;
@@ -433,7 +433,7 @@
                             position: absolute;
                             //color: #222;
                             // color: map-get($color, "gris_11");
-                            font-family: $fam_02;
+                            // font-family: $fam_02;
                             //background: rgba(255, 255, 255, 0.3);
                             // width: 75%;
                             // margin-top: 50px;
@@ -447,13 +447,6 @@
 
                             h2 {
                                 color: map-get($color, "gris_11");
-                                // font-family: $fam_02;
-                                // font-size: 2em;
-                                // font-size: 15svw;
-                                font-weight: 800;
-                                line-height: 1;
-                                // -webkit-text-stroke: 0.2svw #000;
-                                // text-shadow: #000 0.5svw 0.5svw 1px;
                                 text-shadow: #000 3px 3px 1px;
                                 margin: 0 0 9svw;
                             }
@@ -472,11 +465,8 @@
                             }
 
                             h3 {
-                                // text-align: center;
                                 color: map-get($color, "gris_08");
                                 font-size: 11svw;
-                                font-weight: 400;
-                                // text-shadow: #000 0.5svw 0.5svw 1px;
                                 text-shadow: #000 3px 3px 1px;
                             }
                         }
@@ -554,71 +544,29 @@
 
         }
 
-        /*
-        .contenido__carrousel {
-            height: 83svh;
-            background-color: #000;
-            background-image: url(../img/fondo_cabecera_buho.jpg);
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            overflow-x: hidden;
-            padding: 5svh 5% 0;
-            //margin: 0 0 1px;
+        #contenido__info {
 
-            .contenido__carrousel--slider {
-                @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: flex-start, $flx_bx_juco: center, $flx_bx_gap: 0);
-                width: 285vw;
-                height: 76svh;
-                transition: .5s ease all;
+            .contenido__info--nosotros {
+                padding: 5svw;
+                margin: 1px 0 0;
 
-                .carrousel__slider--slide {
-                    display: inline-block;
-                    width: 33.33%;
-                    height: 100%;
-                    padding-right: 5vw;
-
-                    h2 {
-                        // font-family: $fam_01;
-                        margin-bottom: 7px;
-                        font-size: 4.5rem;
-                        text-shadow: 2px 2px map-get($color, "negro");
-                        line-height: 0.79; 
-                    }
-
-                    p {
-                        // font-family: $fam_02;
-                        font-size: 5svh;
-                        text-shadow: 2px 2px map-get($color, "negro");
-                        color: map-get($color, "gris_16");
-                        max-height: 58svh;  
-                    }
-
-                    &:nth-child(1) {
-                        h2 {
-                            color: map-get($color, "naranja_02");
-                        }
-                    }
-    
-                    &:nth-child(2) {
-                        h2 {
-                            color: map-get($color, "verde_02");
-                        }
-                    }
-    
-                    &:nth-child(3) {
-                        h2 {
-                            color: map-get($color, "celeste_01");
-                        }
-                    }
-
+                h2 {
+                    color: map-get($color, "verde_03");
+                    // text-shadow: #000 3px 3px 1px;
+                    font-size: 11svw;
+                    margin: 0 0 9svw;
+                    position: relative;
+                    left: -100%;
+                    width: auto;
                 }
 
+                p {
+                    font-size: 7svw;
+                }
             }
-
         }
 
+        /*
         .contenido__nosotros {
             padding: 2svh 0 5svh;
             margin: 1px 0 0;

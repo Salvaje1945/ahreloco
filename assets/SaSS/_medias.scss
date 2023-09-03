@@ -83,7 +83,7 @@
 
             #contenido__carousel {
 
-                #contenido__carousel--mov {
+                .contenido__carousel--slider {
     
                     .slider {
                         
@@ -138,7 +138,7 @@
 
             #contenido__carousel {
 
-                #contenido__carousel--mov {
+                .contenido__carousel--slider {
     
                     .slider {
                         
@@ -199,37 +199,77 @@
 
             #contenido__carousel {
 
-                #contenido__carousel--mov {
+                .contenido__carousel--slider {
     
+                    // .slider {
+                    //     height: calc(100svh - 7svw);
+                        
+                    //     // .slide {
+
+                    //     //     .info {
+
+                    //     //         .info__h2--nrm {
+                    //     //             // font-size: 72.15px;
+                    //     //             font-size: calc(72.15px + 4svw);
+                    //     //         }
+    
+                    //     //         .info__h2--mdn {
+                    //     //             // font-size: 76.96px;
+                    //     //             font-size: calc(76.96px + 4svw);
+                    //     //         }
+    
+                    //     //         .info__h2--gde {
+                    //     //             // font-size: 96.2px;
+                    //     //             font-size: calc(96.2px + 4svw);
+                    //     //         }
+    
+                    //     //         h3 {
+                    //     //             font-size: 52.91px;
+                    //     //         }
+
+                    //     //     }
+
+                    //     // }
+
+                    // }
+
                     .slider {
                         height: calc(100svh - 7svw);
                         
-                        // .slide {
+                        .slide {
 
-                        //     .info {
+                            .info {
 
-                        //         .info__h2--nrm {
-                        //             // font-size: 72.15px;
-                        //             font-size: calc(72.15px + 4svw);
-                        //         }
+                                // h2 {
+                                //     // margin: 0 0 calc(27px + 4svw);
+                                //     margin: 0 0 33px;
+                                // }
+
+                                .info__h2--nrm,
+                                .info__h2--mdn,
+                                .info__h2--gde {
+                                    // font-size: 72.15px;
+                                    // font-size: calc(72.15px + 4svw);
+                                    font-size: calc(76.96px + 4svw)
+                                }
     
-                        //         .info__h2--mdn {
-                        //             // font-size: 76.96px;
-                        //             font-size: calc(76.96px + 4svw);
-                        //         }
+                                // .info__h2--mdn {
+                                //     // font-size: 76.96px;
+                                //     font-size: calc(76.96px + 4svw);
+                                // }
     
-                        //         .info__h2--gde {
-                        //             // font-size: 96.2px;
-                        //             font-size: calc(96.2px + 4svw);
-                        //         }
+                                // .info__h2--gde {
+                                //     // font-size: 96.2px;
+                                //     font-size: calc(96.2px + 4svw);
+                                // }
     
-                        //         h3 {
-                        //             font-size: 52.91px;
-                        //         }
+                                // h3 {
+                                //     font-size: 52.91px;
+                                // }
 
-                        //     }
+                            }
 
-                        // }
+                        }
 
                     }
 
@@ -255,7 +295,7 @@
 
             #contenido__carousel {
 
-                #contenido__carousel--mov {
+                .contenido__carousel--slider {
     
                     .navigation {
                         height: 88svh;
