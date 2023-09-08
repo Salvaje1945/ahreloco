@@ -798,8 +798,9 @@ h3 {
   position: relative;
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div p {
-  font-size: 6svw;
-  line-height: 1.5;
+  font-size: 5svw;
+  line-height: 1.2;
+  margin: 0 0 5svw;
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div .info__nosotros--txt_fx {
   position: absolute;
