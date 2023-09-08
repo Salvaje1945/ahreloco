@@ -56,6 +56,36 @@
             }
         }
 
+        #contenido {
+
+            #contenido__info {
+
+                .contenido__info--nosotros {
+                    // padding: 5svw;
+                    padding: 22.6px;
+
+                    h2 {
+                        // font-size: 11svw;
+                        // margin: 0 0 7svw;
+                        margin: 0 0 31.64px;
+                        font-size: 50px;
+                    }
+
+                    div {
+                        
+                        p {
+                            // font-size: 6svw;
+                            font-size: 27px;
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
     }
 
 }
@@ -194,6 +224,10 @@
 @media only screen and (min-width: map-get($wth_res, "dkp_01")) {
 
     #contenedor {
+
+        #cabecera {
+            height: 7svw;
+        }
 
         #contenido {
 

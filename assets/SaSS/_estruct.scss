@@ -42,26 +42,25 @@
 
 #contenedor {
     
-    /*
     .contenedor__subir {
-        @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: center, $flx_bx_juco: space-around, $flx_bx_gap: 0);
+        @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: center, $flx_bx_juco: center, $flx_bx_gap: 0);
         position: fixed;
         width: 38px;
         height: 38px;
         border-radius: 7px;
-        border: 1px solid map-get($color, "gris_01");
+        border: 1px solid map-get($color, "verde_03");
         background-color: map-get($color, "gris_12");
         bottom: 2.65svh;
         right: -100%;
         padding: 3.65px 0.5px 0 0;
-        box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.3);
         transition: .3s ease all;
         z-index: 999;
 
         div {
             display: inline-block;
             font-size: 1.75rem;
-            color: map-get($color, "gris_01");
+            color: map-get($color, "verde_03");
             line-height: 5px !important;
         }
     }
@@ -70,14 +69,17 @@
         right: 5%;
         transition: .3s linear all;
     }
-    */
 
     #cabecera {
+        min-height: 50px;
+        height: 13.33svw;
+        @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: center, $flx_bx_juco: center, $flx_bx_gap: 0);
         
         .cabecera__contenido,
         .cabecera__contenido--moviles {
             @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: center, $flx_bx_juco: space-between, $flx_bx_gap: 0);
-            min-height: 50px;
+            // min-height: 50px;
+            width: 100%;
 
             // .cabecera__contenido--logo {
             //     @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: flex-end, $flx_bx_juco: flex-start, $flx_bx_gap: 7px);
@@ -150,7 +152,7 @@
         }
 
         .cabecera__contenido--moviles {
-            height: 13.33svw;
+            // height: 13.33svw;
             padding: 0 2.5%;
 
             .cabecera__desplegable--menu {
@@ -307,7 +309,7 @@
         }
 
         .cabecera__contenido {
-            height: 7svw;
+            // height: 7svw;
             padding: 0 1%;
 
             .cabecera__contenido--logo {
@@ -554,14 +556,66 @@
                     color: map-get($color, "verde_03");
                     // text-shadow: #000 3px 3px 1px;
                     font-size: 11svw;
-                    margin: 0 0 9svw;
+                    margin: 0 0 7svw;
                     position: relative;
                     left: -100%;
                     width: auto;
                 }
 
-                p {
-                    font-size: 7svw;
+                .contenido__info--nosotros_txt-box {
+                    height: 77svh;
+                    overflow: hidden;
+                    transition: .7s ease all;
+
+                    div {
+                        position: relative;
+
+                        p {
+                            font-size: 6svw;
+                            line-height: 1.5;
+                        }
+
+                        .info__nosotros--txt_fx {
+                            position: absolute;
+                            display: block;
+                            width: 100%;
+                            height: 77svh;
+                            background: linear-gradient(to top, rgba(255, 255, 255, 1) 1%, rgba(255, 122, 89, 0) 30%);
+                            top: 0;
+                            left: 0;
+                        }
+
+                        .info__nosotros--txt_fx.no {
+                            display: none;
+                        }
+
+                    }
+
+                }
+
+                .contenido__info--nosotros_txt-box.activo {
+                    height: auto;
+                    overflow: auto;
+                    transition: .7s ease all;
+                }
+                
+                .contenido__info--nosotros_ampliar,
+                .contenido__info--nosotros_contraer {
+                    height: 11svh;
+                    display: block;
+                }
+
+                .contenido__info--nosotros_ampliar {
+                    background-color: aqua;
+                }
+
+                .contenido__info--nosotros_contraer {
+                    background-color: brown;
+                }
+
+                .contenido__info--nosotros_ampliar.no,
+                .contenido__info--nosotros_contraer.no {
+                    display: none;
                 }
             }
         }

@@ -1,18 +1,32 @@
 import $ from '../funciones_globales/elementos_por_id.js'
 
 export default function animacionNosotros(elAncho) {
-    
+
     const alturaCabecera = $('#cabecera').offsetHeight
 
-    const alturaCarrousel = $('#contenido__carousel').offsetHeight
+    const alturaCarrousel = $('#contenido_carousel-slider').offsetHeight
 
     const sumaAlturaCabezaMasCarrusel = alturaCabecera + alturaCarrousel
+
+    const anchoEjecusion = elAncho
+
+    // *** CONSOLA ***
+
+    console.log('*** ALTO DE LA CABECERA ***')
+
+    console.log(alturaCabecera)
+
+    console.log('******')
+
+    console.log('*** ALTO DEL CAROUSEL ***')
+
+    console.log(alturaCarrousel)
+
+    console.log('******')
 
     console.log('*** ALTO DE PANTALLA ***')
 
     console.log(sumaAlturaCabezaMasCarrusel)
-
-    const anchoEjecusion = elAncho
 
     console.log('******')
 
@@ -27,6 +41,8 @@ export default function animacionNosotros(elAncho) {
             if (anchoEjecusion < 768) {
 
                 let scrollActual = window.pageYOffset || document.documentElement.scrollTop
+
+                //console.log('*** ')
 
                 let porcentajeScroll = (scrollActual * 100) / sumaAlturaCabezaMasCarrusel
 

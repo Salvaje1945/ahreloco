@@ -6,6 +6,7 @@ import dameElAnchoDePantalla from './funciones_globales/ancho_pantalla.js'
 import animacionNosotros from './animaciones/animacion_nosotros.js'
 import responsiveMedia from './objeto_responsive.js'
 import carrouselContenido from './carousel.js'
+import expYcontrTxt from './expandir.js'
 
 document.addEventListener('DOMContentLoaded', ()=> {
     const anchoDePantallaInicial = dameElAnchoDePantalla()
@@ -74,3 +75,5 @@ window.addEventListener('resize', ()=> {
 // $('#cabecera-menu-abrir').addEventListener('click', cabeceraAbrirMenu)
 
 carrouselContenido()
+
+expYcontrTxt()
