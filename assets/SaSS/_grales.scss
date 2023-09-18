@@ -102,6 +102,15 @@ h3 {
   font-weight: 400;
 }
 
+.btn_01 {
+  display: block;
+  @include norm__btns($norm_btn-wth: 100%, $norm_btn-hgt: 9.5svh, $norm_btn-bgc: map-get($color, "verde_03"), $norm_btn-color: map-get($color, "gris_06"), $norm_btn-fntsiz: 3svh, $norm_btn-fntwght: 600, $norm_btn-brdrad: 7px, $norm_btn-hvr_bgc: map-get($color, "gris_01"));
+}
+
+.btn_01.no {
+  display: none;
+}
+
 // p {
 //   font-family: $fam_03;
 // }

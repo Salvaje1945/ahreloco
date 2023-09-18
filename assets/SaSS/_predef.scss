@@ -101,7 +101,7 @@
     gap: $flx_bx_gap;
 }
 
-// Menúes desplegables cabecera
+// MENÚ DESPLEGABLE MÓVILES
 
 @mixin cabeza__desplegables--edit ($cbz_dsp-wth: auto, $cbz_dsp-hgt: 100svh, $cbz_dsp-pos: fixed, $cbz_dsp-pdd: 10px) {
     font-family: $fnt_01;
@@ -111,6 +111,26 @@
     transition: .5s;
     z-index: 999;
     padding: $cbz_dsp-pdd;
+}
+
+// BOTONES
+
+@mixin norm__btns ($norm_btn-wth: 100%, $norm_btn-hgt: 42px, $norm_btn-bgc: map-get($color, "azul_02"), $norm_btn-color: map-get($color, "gris_08"), $norm_btn-fntsiz: 1rem, $norm_btn-fntwght: 600, $norm_btn-brdrad: 7px, $norm_btn-hvr_bgc: map-get($color, "verde_01")) {
+    width: $norm_btn-wth;
+    height: $norm_btn-hgt;
+    background-color: $norm_btn-bgc;
+    color: $norm_btn-color;
+    font-family: $fam_02;
+    font-size: $norm_btn-fntsiz;
+    font-weight: $norm_btn-fntwght;
+    text-align: center;
+    transition: .3s ease all;
+    border-radius: $norm_btn-brdrad;
+
+    &:hover {
+        background-color: $norm_btn-hvr_bgc;
+        transition: .3s linear all;
+    } 
 }
 
 // Cajas hijas

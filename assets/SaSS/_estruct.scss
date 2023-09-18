@@ -548,18 +548,26 @@
 
         #contenido__info {
 
-            .contenido__info--nosotros {
-                padding: 5svw;
+            .contenido__info--nosotros,
+            .contenido__info--clientes {
+                // padding: 2.65svh 5svw;
                 margin: 1px 0 0;
 
                 h2 {
-                    color: map-get($color, "verde_03");
-                    // text-shadow: #000 3px 3px 1px;
                     font-size: 11svw;
-                    margin: 0 0 7svw;
+                    //margin: 0 0 7svw;
+                    // width: auto;
+                    height: 10svh;
+                }
+            }
+
+            .contenido__info--nosotros {
+                padding: 2.65svh 5svw;
+
+                h2 {
+                    color: map-get($color, "verde_03");
                     position: relative;
                     left: -100%;
-                    width: auto;
                 }
 
                 .contenido__info--nosotros_txt-box {
@@ -600,23 +608,49 @@
                     transition: .7s ease all;
                 }
                 
-                .contenido__info--nosotros_ampliar,
-                .contenido__info--nosotros_contraer {
-                    height: 11svh;
-                    display: block;
+            }
+
+            .contenido__info--clientes {
+                padding: 2.65svh 0;
+
+                h2 {
+                    color: map-get($color, "negro");
+                    margin: 0 0 0 5svw;
                 }
 
-                .contenido__info--nosotros_ampliar {
-                    background-color: aqua;
-                }
-
-                .contenido__info--nosotros_contraer {
-                    background-color: brown;
-                }
-
-                .contenido__info--nosotros_ampliar.no,
-                .contenido__info--nosotros_contraer.no {
-                    display: none;
+                .contenido__clientes {
+                    //height: 83svh;
+                    // background-color: #000;
+                    // background-image: url(../img/fondo_cabecera_buho.jpg);
+                    // background-size: cover;
+                    // background-position: center center;
+                    // background-repeat: no-repeat;
+                    // background-attachment: fixed;
+                    // overflow-x: hidden;
+                    padding: 5svh 5% 0;
+                    //margin: 0 0 1px;
+        
+                    .contenido__clientes--slider {
+                        @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: flex-start, $flx_bx_juco: center, $flx_bx_gap: 0);
+                        width: 285vw;
+                        height: 76svh;
+                        transition: .5s ease all;
+                        overflow: hidden;
+        
+                        .clientes__slider--slide {
+                            display: inline-block;
+                            width: 33.33%;
+                            height: 100%;
+                            padding-right: 5vw;
+        
+                            img {
+                                width: 100%;
+                            }
+        
+                        }
+        
+                    }
+        
                 }
             }
         }

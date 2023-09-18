@@ -291,6 +291,28 @@ h3 {
   font-weight: 400;
 }
 
+.btn_01 {
+  display: block;
+  width: 100%;
+  height: 9.5svh;
+  background-color: #297240;
+  color: #ededed;
+  font-family: "Antonio";
+  font-size: 3svh;
+  font-weight: 600;
+  text-align: center;
+  transition: 0.3s ease all;
+  border-radius: 7px;
+}
+.btn_01:hover {
+  background-color: #333;
+  transition: 0.3s linear all;
+}
+
+.btn_01.no {
+  display: none;
+}
+
 #contenedor {
   display: grid;
   grid-template-columns: 100%;
@@ -777,17 +799,22 @@ h3 {
 #contenedor #contenido #contenido__carousel .contenido__carousel--slider .navigation-visibility .slide-icon.active {
   background: #297240;
 }
-#contenedor #contenido #contenido__info .contenido__info--nosotros {
-  padding: 5svw;
+#contenedor #contenido #contenido__info .contenido__info--nosotros,
+#contenedor #contenido #contenido__info .contenido__info--clientes {
   margin: 1px 0 0;
+}
+#contenedor #contenido #contenido__info .contenido__info--nosotros h2,
+#contenedor #contenido #contenido__info .contenido__info--clientes h2 {
+  font-size: 11svw;
+  height: 10svh;
+}
+#contenedor #contenido #contenido__info .contenido__info--nosotros {
+  padding: 2.65svh 5svw;
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros h2 {
   color: #297240;
-  font-size: 11svw;
-  margin: 0 0 7svw;
   position: relative;
   left: -100%;
-  width: auto;
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box {
   height: 77svh;
@@ -819,20 +846,34 @@ h3 {
   overflow: auto;
   transition: 0.7s ease all;
 }
-#contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_ampliar,
-#contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_contraer {
-  height: 11svh;
-  display: block;
+#contenedor #contenido #contenido__info .contenido__info--clientes {
+  padding: 2.65svh 0;
 }
-#contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_ampliar {
-  background-color: aqua;
+#contenedor #contenido #contenido__info .contenido__info--clientes h2 {
+  color: #000;
+  margin: 0 0 0 5svw;
 }
-#contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_contraer {
-  background-color: brown;
+#contenedor #contenido #contenido__info .contenido__info--clientes .contenido__clientes {
+  padding: 5svh 5% 0;
 }
-#contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_ampliar.no,
-#contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_contraer.no {
-  display: none;
+#contenedor #contenido #contenido__info .contenido__info--clientes .contenido__clientes .contenido__clientes--slider {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0;
+  width: 285vw;
+  height: 76svh;
+  transition: 0.5s ease all;
+}
+#contenedor #contenido #contenido__info .contenido__info--clientes .contenido__clientes .contenido__clientes--slider .clientes__slider--slide {
+  display: inline-block;
+  width: 33.33%;
+  height: 100%;
+  padding-right: 5vw;
+}
+#contenedor #contenido #contenido__info .contenido__info--clientes .contenido__clientes .contenido__clientes--slider .clientes__slider--slide img {
+  width: 100%;
 }
 
 @media only screen and (min-width: 452px) {
@@ -861,11 +902,7 @@ h3 {
     font-size: 32.47px;
     padding: 0 0 31.57px;
   }
-  #contenedor #contenido #contenido__info .contenido__info--nosotros {
-    padding: 22.6px;
-  }
   #contenedor #contenido #contenido__info .contenido__info--nosotros h2 {
-    margin: 0 0 31.64px;
     font-size: 50px;
   }
   #contenedor #contenido #contenido__info .contenido__info--nosotros div p {

@@ -1,7 +1,7 @@
 //import $ from './funciones_globales/elementos_por_id.js'
 //import dameElAltoDePantalla from './funciones_globales/alto_pantalla.js'
 import dameElAnchoDePantalla from './funciones_globales/ancho_pantalla.js'
-// import carrouselContenido from './carousel.js'
+import clientesSlider from './clientes.js'
 //import cabeceraAbrirMenu from './menu.js'
 import animacionNosotros from './animaciones/animacion_nosotros.js'
 import responsiveMedia from './objeto_responsive.js'
@@ -77,3 +77,5 @@ window.addEventListener('resize', ()=> {
 carrouselContenido()
 
 expYcontrTxt()
+
+clientesSlider()
