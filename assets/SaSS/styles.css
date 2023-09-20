@@ -854,6 +854,30 @@ h3 {
   color: #000;
   margin: 0 0 0 5svw;
 }
+#contenedor #contenido #contenido__info .contenido__info--clientes .clientes__h2 {
+  visibility: hidden;
+}
+#contenedor #contenido #contenido__info .contenido__info--clientes .clientes__h2.animacion {
+  visibility: visible;
+  -webkit-animation: clientesfadein 2.5s forwards;
+          animation: clientesfadein 2.5s forwards;
+}
+@-webkit-keyframes clientesfadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes clientesfadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 #contenedor #contenido #contenido__info .contenido__info--clientes .contenido__clientes {
   padding: 5svh 5% 0;
 }

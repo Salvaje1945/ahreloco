@@ -2,8 +2,9 @@
 //import dameElAltoDePantalla from './funciones_globales/alto_pantalla.js'
 import dameElAnchoDePantalla from './funciones_globales/ancho_pantalla.js'
 import clientesSlider from './clientes.js'
-//import cabeceraAbrirMenu from './menu.js'
+// import cabeceraAbrirMenu from './menu.js'
 import animacionNosotros from './animaciones/animacion_nosotros.js'
+import animacionClientes from './animaciones/animacion_clientes.js'
 import responsiveMedia from './objeto_responsive.js'
 import carrouselContenido from './carousel.js'
 import expYcontrTxt from './expandir.js'
@@ -11,6 +12,7 @@ import expYcontrTxt from './expandir.js'
 document.addEventListener('DOMContentLoaded', ()=> {
     const anchoDePantallaInicial = dameElAnchoDePantalla()
     animacionNosotros(anchoDePantallaInicial)
+    animacionClientes()
     responsiveMedia('#cabecera', '(min-width: 1024px)',
 `<div class="cabecera__contenido--moviles" id="cabecera-contenido">
     <nav class="cabecera__desplegable--menu" id="cabecera-menu-desp">
@@ -21,7 +23,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
         </div>
         <ul>
             <li><a href="#nosotros" id="menu-mov-nosotros">Nuestra empresa</a></li>
-            <li><a href="#">Quienes nos eligen</a></li>
+            <li><a href="#clientes" id="menu-mov-clientes">Quienes nos eligen</a></li>
             <li><a href="#">Herramientas</a></li>
             <li><a href="#">Insumos</a></li>
             <li><a href="#">Asesoramiento técnico</a></li>
@@ -52,8 +54,8 @@ document.addEventListener('DOMContentLoaded', ()=> {
     </div>
     <nav class="cabecera__contenido--menu">
         <ul>
-            <li><a href="#nosotros" id="menu-mov-nosotros">Nuestra empresa</a></li>
-            <li><a href="#">Quienes nos eligen</a></li>
+            <li><a href="#nosotros" id="menu-dkp-nosotros">Nuestra empresa</a></li>
+            <li><a href="#clientes" id="menu-dkp-clientes">Quienes nos eligen</a></li>
             <li><a href="#">Herramientas</a></li>
             <li><a href="#">Insumos</a></li>
             <li><a href="#">Asesoramiento técnico</a></li>

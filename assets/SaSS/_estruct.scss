@@ -617,6 +617,29 @@
                 h2 {
                     color: map-get($color, "negro");
                     margin: 0 0 0 5svw;
+                    // opacity: 0;
+                }
+
+                .clientes__h2 {
+                    // opacity: 0;
+                    visibility: hidden;
+                }
+
+                .clientes__h2.animacion {
+                    visibility: visible;
+                    animation: clientesfadein 2.5s forwards;
+
+                    @keyframes clientesfadein {
+
+                        0% {
+                            opacity: 0;
+                        }
+
+                        100% {
+                            opacity: 1;
+                        }
+                        
+                    }
                 }
 
                 .contenido__clientes {

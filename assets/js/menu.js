@@ -13,8 +13,12 @@ export default function cabeceraAbrirMenu() {
     }
 
     $('#cabecera-menu-cerrar').onclick = cabeceraCerrarMenu
-    $('#menu-mov-nosotros').onclick = function(){
+
+    function accionEnClicOpsMenu(){
         cabeceraCerrarMenu()
         mostrarBotonSubir()
     }
+
+    $('#menu-mov-nosotros').onclick = accionEnClicOpsMenu
+    $('#menu-mov-clientes').onclick = accionEnClicOpsMenu
 }
