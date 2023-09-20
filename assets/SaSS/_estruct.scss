@@ -612,6 +612,7 @@
 
             .contenido__info--clientes {
                 padding: 2.65svh 0;
+                overflow: hidden;
 
                 h2 {
                     color: map-get($color, "negro");
@@ -633,9 +634,9 @@
                     .contenido__clientes--slider {
                         @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: flex-start, $flx_bx_juco: center, $flx_bx_gap: 0);
                         width: 285vw;
-                        height: 76svh;
+                        //height: 76svh;
                         transition: .5s ease all;
-                        overflow: hidden;
+                        // overflow: hidden;
         
                         .clientes__slider--slide {
                             display: inline-block;

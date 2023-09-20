@@ -848,6 +848,7 @@ h3 {
 }
 #contenedor #contenido #contenido__info .contenido__info--clientes {
   padding: 2.65svh 0;
+  overflow: hidden;
 }
 #contenedor #contenido #contenido__info .contenido__info--clientes h2 {
   color: #000;
@@ -863,7 +864,6 @@ h3 {
   justify-content: center;
   gap: 0;
   width: 285vw;
-  height: 76svh;
   transition: 0.5s ease all;
 }
 #contenedor #contenido #contenido__info .contenido__info--clientes .contenido__clientes .contenido__clientes--slider .clientes__slider--slide {
