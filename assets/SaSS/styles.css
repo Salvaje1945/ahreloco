@@ -813,8 +813,30 @@ h3 {
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros h2 {
   color: #297240;
-  position: relative;
-  left: -100%;
+}
+#contenedor #contenido #contenido__info .contenido__info--nosotros .nosotros__h2 {
+  visibility: hidden;
+}
+#contenedor #contenido #contenido__info .contenido__info--nosotros .nosotros__h2.animacion {
+  visibility: visible;
+  -webkit-animation: nosotrosfadein 2.5s forwards;
+          animation: nosotrosfadein 2.5s forwards;
+}
+@-webkit-keyframes nosotrosfadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes nosotrosfadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box {
   height: 77svh;

@@ -566,8 +566,30 @@
 
                 h2 {
                     color: map-get($color, "verde_03");
-                    position: relative;
-                    left: -100%;
+                    // position: relative;
+                    // left: -100%;
+                }
+
+                .nosotros__h2 {
+                    // opacity: 0;
+                    visibility: hidden;
+                }
+
+                .nosotros__h2.animacion {
+                    visibility: visible;
+                    animation: nosotrosfadein 2.5s forwards;
+
+                    @keyframes nosotrosfadein {
+
+                        0% {
+                            opacity: 0;
+                        }
+
+                        100% {
+                            opacity: 1;
+                        }
+                        
+                    }
                 }
 
                 .contenido__info--nosotros_txt-box {
