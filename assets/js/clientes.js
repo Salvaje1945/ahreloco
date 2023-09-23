@@ -14,7 +14,7 @@ export default function clientesSlider() {
             indice = 0
         }
 
-        $('#clientes-slider').style.transform = "translateX(-" + indice * 33.33 + "%)"
+        $('#clientes-slider').style.transform = "translateX(-" + indice * 100 + "svw)"
 
     }
 

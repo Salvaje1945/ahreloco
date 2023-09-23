@@ -682,24 +682,27 @@
                     // background-repeat: no-repeat;
                     // background-attachment: fixed;
                     // overflow-x: hidden;
-                    padding: 5svh 5% 0;
+                    padding: 5svh 0 0;
                     //margin: 0 0 1px;
         
                     .contenido__clientes--slider {
                         @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: flex-start, $flx_bx_juco: center, $flx_bx_gap: 0);
-                        width: 285vw;
-                        //height: 76svh;
+                        width: 1100svw;
+                        // height: 76svh;
                         transition: .5s ease all;
                         // overflow: hidden;
         
                         .clientes__slider--slide {
                             display: inline-block;
-                            width: 33.33%;
+                            // width: 33.33%;
+                            width: 9.09%;
                             height: 100%;
-                            padding-right: 5vw;
+                            // padding-right: 5vw;
+                            padding: 0 5svw;
         
                             img {
                                 width: 100%;
+                                //height: 100%;
                             }
         
                         }
