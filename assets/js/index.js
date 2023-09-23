@@ -15,14 +15,61 @@ document.addEventListener('DOMContentLoaded', ()=> {
     // const anchoDePantallaInicial = dameElAnchoDePantalla()
     // animacionNosotros(anchoDePantallaInicial)
     animacionesEncabezados()
+//     responsiveMedia('#cabecera', '(min-width: 1024px)',
+// `<div class="cabecera__contenido--moviles" id="cabecera-contenido">
+//     <nav class="cabecera__desplegable--menu" id="cabecera-menu-desp">
+//         <div class="desplegable__menu--logo">
+//             <div class="desplegable__menu--logo_img">
+//                 <img src="assets/img/International_Fasteners_SA_Logo_Lauros.png" alt="International Fasteners S.A., San Andrés, Buenos Aires, Argentina." />
+//             </div>
+//         </div>
+//         <ul>
+//             <li><a href="#nosotros" id="menu-mov-nosotros">Nuestra empresa</a></li>
+//             <li><a href="#clientes" id="menu-mov-clientes">Quienes nos eligen</a></li>
+//             <li><a href="#">Herramientas</a></li>
+//             <li><a href="#">Insumos</a></li>
+//             <li><a href="#">Asesoramiento técnico</a></li>
+//             <li><a href="#">Catálogo</a></li>
+//             <li><a href="#">Contáctenos</a></li>
+//         </ul>
+//     </nav>
+// <div class="cabecera__moviles--logo">
+//     <!-- <div class="cabecera__moviles--logo_img">
+//         <img src="assets/img/IF_logo_corona_moviles.png" alt="International Fasteners S.A. - Herramientas neumáticas e insumos para la industria." />
+//     </div>
+//     <div class="cabecera__moviles--titulo">
+//         <h1>International Fasteners</h1>
+//     </div> -->
+//     <h1>International Fasteners</h1>
+// </div>
+// <div class="cabecera__moviles--btn activo" id="cabecera-menu-abrir"><i class="fa-solid fa-bars"></i></div>
+// <div class="cabecera__moviles--btn" id="cabecera-menu-cerrar"><i class="fa-solid fa-xmark"></i></div>
+// </div>`,
+// `<div class="cabecera__contenido">
+//     <div class="cabecera__contenido--logo">
+//         <div class="cabecera__contenido--logo_img">
+//             <img src="assets/img/International_Fasteners_SA_Logo.png" alt="International Fasteners S.A. - Herramientas neumáticas e insumos para la industria." />
+//         </div>
+//         <div class="cabecera__contenido--titulo">
+//             <h1>International Fasteners</h1>
+//         </div>
+//     </div>
+//     <nav class="cabecera__contenido--menu">
+//         <ul>
+//             <li><a href="#nosotros" id="menu-dkp-nosotros">Nuestra empresa</a></li>
+//             <li><a href="#clientes" id="menu-dkp-clientes">Quienes nos eligen</a></li>
+//             <li><a href="#">Herramientas</a></li>
+//             <li><a href="#">Insumos</a></li>
+//             <li><a href="#">Asesoramiento técnico</a></li>
+//             <li><a href="#">Catálogo</a></li>
+//             <li><a href="#">Contáctenos</a></li>
+//         </ul>
+//     </nav>
+// </div>`)
+
     responsiveMedia('#cabecera', '(min-width: 1024px)',
 `<div class="cabecera__contenido--moviles" id="cabecera-contenido">
     <nav class="cabecera__desplegable--menu" id="cabecera-menu-desp">
-        <div class="desplegable__menu--logo">
-            <div class="desplegable__menu--logo_img">
-                <img src="assets/img/International_Fasteners_SA_Logo_Lauros.png" alt="International Fasteners S.A., San Andrés, Buenos Aires, Argentina." />
-            </div>
-        </div>
         <ul>
             <li><a href="#nosotros" id="menu-mov-nosotros">Nuestra empresa</a></li>
             <li><a href="#clientes" id="menu-mov-clientes">Quienes nos eligen</a></li>

@@ -476,51 +476,34 @@ h3 {
   position: fixed;
   width: 100%;
   height: 100svh;
-  background-color: #fff;
+  background: url("../img/International_Fasteners_SA_Logo_Gris_fondo_transp_01.png") no-repeat fixed #fff;
+  background-position: -111px -75px;
   top: 0;
   left: -150%;
   transition: 0.5s ease all;
   z-index: 998;
   touch-action: none;
   -ms-touch-action: none;
-}
-#contenedor #cabecera .cabecera__contenido--moviles .cabecera__desplegable--menu .desplegable__menu--logo {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
   gap: 0;
-  margin: 3svw 0 0;
-}
-#contenedor #cabecera .cabecera__contenido--moviles .cabecera__desplegable--menu .desplegable__menu--logo .desplegable__menu--logo_img {
-  min-width: 200px;
-  min-height: 192px;
-  width: 53.33svw;
-  height: auto;
-}
-#contenedor #cabecera .cabecera__contenido--moviles .cabecera__desplegable--menu .desplegable__menu--logo .desplegable__menu--logo_img img {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  -o-object-fit: contain;
-     object-fit: contain;
-  display: block;
 }
 #contenedor #cabecera .cabecera__contenido--moviles .cabecera__desplegable--menu ul {
   list-style: none;
   display: block;
   width: 100%;
   padding: 0 5%;
-  margin: 7svw 0 0;
 }
 #contenedor #cabecera .cabecera__contenido--moviles .cabecera__desplegable--menu ul li {
   display: block;
-  padding: 0 0 7svw;
+  padding: 0 0 11svw;
   text-align: center;
   font-family: "Antonio";
   color: #297240;
-  font-size: 7.2svw;
-  font-weight: 500;
+  font-size: 8.7svw;
+  font-weight: 600;
   line-height: 1;
   letter-spacing: 0.2svw;
 }
@@ -537,6 +520,9 @@ h3 {
 #contenedor #cabecera .cabecera__contenido--moviles .cabecera__desplegable--menu ul li div span {
   color: #fff;
   font-size: 2.5rem;
+}
+#contenedor #cabecera .cabecera__contenido--moviles .cabecera__desplegable--menu ul li:last-child {
+  padding: 0;
 }
 #contenedor #cabecera .cabecera__contenido--moviles .cabecera__desplegable--menu.activo {
   left: 0;
@@ -935,18 +921,9 @@ h3 {
   #contenedor #cabecera .cabecera__contenido--moviles .cabecera__moviles--btn {
     font-size: 31.57px;
   }
-  #contenedor #cabecera .cabecera__contenido--moviles .cabecera__desplegable--menu .desplegable__menu--logo {
-    margin: 14px 0 0;
-  }
-  #contenedor #cabecera .cabecera__contenido--moviles .cabecera__desplegable--menu .desplegable__menu--logo .desplegable__menu--logo_img {
-    width: 241px;
-  }
-  #contenedor #cabecera .cabecera__contenido--moviles .cabecera__desplegable--menu ul {
-    margin: 31.57px 0 0;
-  }
   #contenedor #cabecera .cabecera__contenido--moviles .cabecera__desplegable--menu ul li {
-    font-size: 32.47px;
-    padding: 0 0 31.57px;
+    font-size: 39.24px;
+    padding: 0 0 49.6px;
   }
   #contenedor #contenido #contenido__info .contenido__info--nosotros h2 {
     font-size: 50px;
