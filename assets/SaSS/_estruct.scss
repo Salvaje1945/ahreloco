@@ -642,11 +642,12 @@
             }
 
             .contenido__info--clientes {
-                padding: 2.65svh 0;
+                padding: 2.65svh 0 5svh;
                 overflow: hidden;
+                background-color: map-get($color, "gris_01");
 
                 h2 {
-                    color: map-get($color, "negro");
+                    color: map-get($color, "blanco");
                     margin: 0 0 0 5svw;
                     // opacity: 0;
                 }
@@ -673,6 +674,11 @@
                     }
                 }
 
+                .clientes__btn {
+                    margin: 0 5%;
+                    //width: 90svw;
+                }
+
                 .contenido__clientes {
                     //height: 83svh;
                     // background-color: #000;
@@ -682,8 +688,8 @@
                     // background-repeat: no-repeat;
                     // background-attachment: fixed;
                     // overflow-x: hidden;
-                    padding: 5svh 0 0;
-                    //margin: 0 0 1px;
+                    padding: 0 0 5svh;
+                    // margin: 0 0 1px;
         
                     .contenido__clientes--slider {
                         @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: flex-start, $flx_bx_juco: center, $flx_bx_gap: 0);
@@ -708,6 +714,8 @@
                         }
         
                     }
+
+                    
         
                 }
             }

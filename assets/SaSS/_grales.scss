@@ -112,6 +112,12 @@ h3 {
   display: none;
 }
 
+.btn_02 {
+  display: block;
+  @include norm__btns($norm_btn-wth: 90%, $norm_btn-hgt: 9.5svh, $norm_btn-bgc: map-get($color, "gris_04"), $norm_btn-color: map-get($color, "gris_01"), $norm_btn-fntsiz: 3.5svh, $norm_btn-fntwght: 600, $norm_btn-brdrad: 7px, $norm_btn-hvr_bgc: map-get($color, "blanco"));
+  letter-spacing: .3svw;
+}
+
 // p {
 //   font-family: $fam_03;
 // }
