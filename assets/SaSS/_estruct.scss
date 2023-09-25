@@ -558,7 +558,8 @@
         #contenido__info {
 
             .contenido__info--nosotros,
-            .contenido__info--clientes {
+            .contenido__info--clientes,
+            .contenido__info--caracteristicas {
                 // padding: 2.65svh 5svw;
                 margin: 1px 0 0;
 
@@ -717,6 +718,37 @@
 
                     
         
+                }
+            }
+
+            .contenido__info--caracteristicas {
+                background-color: map-get($color, "gris_17");
+                padding: 2.65svh 5svw;
+
+                .info__caracteristicas--cont {
+                    @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-between, $flx_bx_gap: 0);
+
+                    .caracteristicas__cont--box {
+                        //width: 90svw;
+                        margin: 0 0 7svw;
+                        display: inline-block;
+                        min-width: 337.5px;
+                        text-align: center;
+
+                        span {
+                            color: map-get($color, "verde_03");
+                            font-size: 15svw;
+                            margin: 0 0 5svw;
+
+                        }
+
+                        p {
+                            font-family: $fam_04;
+                            color: map-get($color, "gris_01");
+                            font-weight: 300;
+                            font-size: 5svw;
+                        }
+                    } 
                 }
             }
         }

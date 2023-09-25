@@ -807,11 +807,13 @@ h3 {
   background: #297240;
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros,
-#contenedor #contenido #contenido__info .contenido__info--clientes {
+#contenedor #contenido #contenido__info .contenido__info--clientes,
+#contenedor #contenido #contenido__info .contenido__info--caracteristicas {
   margin: 1px 0 0;
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros h2,
-#contenedor #contenido #contenido__info .contenido__info--clientes h2 {
+#contenedor #contenido #contenido__info .contenido__info--clientes h2,
+#contenedor #contenido #contenido__info .contenido__info--caracteristicas h2 {
   font-size: 11svw;
   height: 10svh;
 }
@@ -931,6 +933,34 @@ h3 {
 }
 #contenedor #contenido #contenido__info .contenido__info--clientes .contenido__clientes .contenido__clientes--slider .clientes__slider--slide img {
   width: 100%;
+}
+#contenedor #contenido #contenido__info .contenido__info--caracteristicas {
+  background-color: #f1f1f1;
+  padding: 2.65svh 5svw;
+}
+#contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0;
+}
+#contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box {
+  margin: 0 0 7svw;
+  display: inline-block;
+  min-width: 337.5px;
+  text-align: center;
+}
+#contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box span {
+  color: #297240;
+  font-size: 15svw;
+  margin: 0 0 5svw;
+}
+#contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box p {
+  font-family: "Raleway", sans-serif;
+  color: #333;
+  font-weight: 300;
+  font-size: 5svw;
 }
 
 @media only screen and (min-width: 452px) {
