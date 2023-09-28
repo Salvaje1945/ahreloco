@@ -318,8 +318,8 @@ h3 {
   display: block;
   width: 90%;
   height: 9.5svh;
-  background-color: #aaa;
-  color: #333;
+  background-color: #dbdadf;
+  color: #297240;
   font-family: "Antonio";
   font-size: 3.5svh;
   font-weight: 600;
@@ -329,7 +329,7 @@ h3 {
   letter-spacing: 0.3svw;
 }
 .btn_02:hover {
-  background-color: #fff;
+  background-color: #333;
   transition: 0.3s linear all;
 }
 
@@ -880,10 +880,9 @@ h3 {
 #contenedor #contenido #contenido__info .contenido__info--clientes {
   padding: 2.65svh 0 5svh;
   overflow: hidden;
-  background-color: #333;
 }
 #contenedor #contenido #contenido__info .contenido__info--clientes h2 {
-  color: #fff;
+  color: #000;
   margin: 0 0 0 5svw;
 }
 #contenedor #contenido #contenido__info .contenido__info--clientes .clientes__h2 {
@@ -924,6 +923,7 @@ h3 {
   gap: 0;
   width: 1100svw;
   transition: 0.5s ease all;
+  margin: 10svh 0;
 }
 #contenedor #contenido #contenido__info .contenido__info--clientes .contenido__clientes .contenido__clientes--slider .clientes__slider--slide {
   display: inline-block;
@@ -936,7 +936,7 @@ h3 {
 }
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas {
   background-color: #f1f1f1;
-  padding: 2.65svh 5svw;
+  padding: 5svh 5svw 2.65svh;
 }
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont {
   display: flex;
@@ -946,21 +946,49 @@ h3 {
   gap: 0;
 }
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box {
-  margin: 0 0 7svw;
+  margin: 0 0 10svh;
   display: inline-block;
-  min-width: 337.5px;
+  width: 337.5px;
   text-align: center;
+  visibility: hidden;
 }
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box span {
+  display: flex;
+  justify-content: center;
   color: #297240;
   font-size: 15svw;
-  margin: 0 0 5svw;
+  margin: 0 0 1.5svh;
 }
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box p {
   font-family: "Raleway", sans-serif;
   color: #333;
   font-weight: 300;
-  font-size: 5svw;
+  font-size: 4.7svw;
+}
+#contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box.animacion {
+  visibility: visible;
+  -webkit-animation: animacioniconos 1.5s forwards;
+          animation: animacioniconos 1.5s forwards;
+}
+@-webkit-keyframes animacioniconos {
+  0% {
+    opacity: 0;
+    margin-top: 15svh;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+@keyframes animacioniconos {
+  0% {
+    opacity: 0;
+    margin-top: 15svh;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
 }
 
 @media only screen and (min-width: 452px) {

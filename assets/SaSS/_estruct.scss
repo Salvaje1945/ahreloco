@@ -645,10 +645,10 @@
             .contenido__info--clientes {
                 padding: 2.65svh 0 5svh;
                 overflow: hidden;
-                background-color: map-get($color, "gris_01");
+                //background-color: map-get($color, "gris_01");
 
                 h2 {
-                    color: map-get($color, "blanco");
+                    color: map-get($color, "negro");
                     margin: 0 0 0 5svw;
                     // opacity: 0;
                 }
@@ -698,6 +698,7 @@
                         // height: 76svh;
                         transition: .5s ease all;
                         // overflow: hidden;
+                        margin: 10svh 0;
         
                         .clientes__slider--slide {
                             display: inline-block;
@@ -715,30 +716,31 @@
                         }
         
                     }
-
-                    
         
                 }
             }
 
             .contenido__info--caracteristicas {
                 background-color: map-get($color, "gris_17");
-                padding: 2.65svh 5svw;
+                padding: 5svh 5svw 2.65svh;
 
                 .info__caracteristicas--cont {
                     @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-between, $flx_bx_gap: 0);
 
                     .caracteristicas__cont--box {
                         //width: 90svw;
-                        margin: 0 0 7svw;
+                        margin: 0 0 10svh;
                         display: inline-block;
-                        min-width: 337.5px;
+                        width: 337.5px;
                         text-align: center;
+                        visibility: hidden;
 
                         span {
+                            display: flex;
+                            justify-content: center;
                             color: map-get($color, "verde_03");
                             font-size: 15svw;
-                            margin: 0 0 5svw;
+                            margin: 0 0 1.5svh;
 
                         }
 
@@ -746,9 +748,33 @@
                             font-family: $fam_04;
                             color: map-get($color, "gris_01");
                             font-weight: 300;
-                            font-size: 5svw;
+                            font-size: 4.7svw;
                         }
-                    } 
+                    }
+
+                    .caracteristicas__cont--box.animacion {
+                        visibility: visible;
+                        animation: animacioniconos 1.5s forwards;
+
+                        @keyframes animacioniconos {
+
+                            0% {
+                                opacity: 0;
+                                margin-top: 15svh;
+                            }
+
+                            100% {
+                                opacity: 1;
+                                margin-top: 0;
+                            }
+                            
+                        }
+                    }
+
+                    // #industrial {
+                    //     visibility: hidden;
+
+                    // }
                 }
             }
         }

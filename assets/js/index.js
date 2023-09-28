@@ -1,20 +1,21 @@
 //import $ from './funciones_globales/elementos_por_id.js'
 //import dameElAltoDePantalla from './funciones_globales/alto_pantalla.js'
-// import dameElAnchoDePantalla from './funciones_globales/ancho_pantalla.js'
+import dameElAnchoDePantalla from './funciones_globales/ancho_pantalla.js'
 import clientesSlider from './clientes.js'
 // import cabeceraAbrirMenu from './menu.js'
 // import animacionNosotros from './animaciones/animacion_nosotros.js'
 // import animacionClientes from './animaciones/animacion_clientes.js'
-import animacionesEncabezados from './animaciones/animaciones_encabezados.js'
+import animaciones from './animaciones/animaciones.js'
 // import cualquieraEh from './animaciones/animaciones_encabezados.js'
 import responsiveMedia from './objeto_responsive.js'
 import carrouselContenido from './carousel.js'
 import expYcontrTxt from './expandir.js'
 
 document.addEventListener('DOMContentLoaded', ()=> {
-    // const anchoDePantallaInicial = dameElAnchoDePantalla()
+    const anchoDePantallaInicial = dameElAnchoDePantalla()
     // animacionNosotros(anchoDePantallaInicial)
-    animacionesEncabezados()
+    animaciones(anchoDePantallaInicial, 'encabezados')
+    animaciones(anchoDePantallaInicial, 'iconos')
 //     responsiveMedia('#cabecera', '(min-width: 1024px)',
 // `<div class="cabecera__contenido--moviles" id="cabecera-contenido">
 //     <nav class="cabecera__desplegable--menu" id="cabecera-menu-desp">
