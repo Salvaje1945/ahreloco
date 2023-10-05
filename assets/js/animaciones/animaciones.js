@@ -18,6 +18,12 @@ export default function animaciones(elAncho, elElemento) {
 
     const alturaClientes = $('#clientes').offsetHeight
 
+    const alturaPostventa = $('#postventa').offsetHeight
+
+    const alturaServicioTec = $('#serviciotecnico').offsetHeight
+
+    const alturaEntrega = $('#entrega').offsetHeight
+
     function animacionIconos() {
 
         // const alturaIconoIndustrial = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /4)
@@ -66,6 +72,48 @@ export default function animaciones(elAncho, elElemento) {
 
     }
 
+    function animacionCualidades() {
+
+        // const alturaIconoIndustrial = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /4)
+
+        const alturaMaterial = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes + alturaPostventa
+
+        const alturaTerminacion = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes + alturaPostventa + alturaServicioTec
+
+        const alturaResultado = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes + alturaPostventa + alturaServicioTec + alturaEntrega
+
+        const alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
+
+        if(anchoPantalla < 768) {
+
+            window.addEventListener('scroll', function () {
+    
+                let scrollActual = window.pageYOffset || document.documentElement.scrollTop
+    
+                if (scrollActual >= alturaMaterial) {
+    
+                    $('#material').classList.add('animacion')
+    
+                }
+
+                if (scrollActual >= alturaTerminacion) {
+    
+                    $('#terminacion').classList.add('animacion')
+    
+                }
+
+                if (scrollActual >= alturaResultado) {
+    
+                    $('#resultado').classList.add('animacion')
+    
+                }
+
+            })
+
+        }
+
+    }
+
     function animacionesEncabezados() {
 
         function fadeIn() {
@@ -103,6 +151,10 @@ export default function animaciones(elAncho, elElemento) {
 
     if (elementoTipo === 'iconos') {
         animacionIconos()
+    }
+
+    if (elementoTipo === 'cualidades') {
+        animacionCualidades()
     }
 
 }

@@ -1,4 +1,46 @@
 /*
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('../fonts/Raleway-VariableFont_wght.woff');
+
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../fonts/BebasNeue-Regular.woff) format('woff');
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Pathway Gothic One';
+    src: url(../fonts/PathwayGothicOne-Regular.woff) format('woff');
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Urbanist';
+    src: url(../fonts/Urbanist-Regular.woff) format('woff');
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Staatliches';
+    src: url(../fonts/Staatliches-Regular.woff) format('woff');
+    font-display: auto;
+}
+
+
+@font-face {
+    font-family: 'Koulen';
+    src: url(../fonts/Koulen-Regular.woff) format('woff');
+    font-display: auto;
+}
+*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap");
+/*
 $fam_01: 'Bebas Neue', sans-serif;
 $fam_02: 'Pathway Gothic One', sans-serif;
 $fam_03: 'Urbanist', sans-serif;
@@ -188,44 +230,6 @@ $fam_05: 'Staatliches', sans-serif;
     } 
 }
 */
-/*
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
-
-
-@font-face {
-    font-family: 'Bebas Neue';
-    src: url(../fonts/BebasNeue-Regular.woff) format('woff');
-    font-display: auto;
-}
-
-@font-face {
-    font-family: 'Pathway Gothic One';
-    src: url(../fonts/PathwayGothicOne-Regular.woff) format('woff');
-    font-display: auto;
-}
-
-@font-face {
-    font-family: 'Urbanist';
-    src: url(../fonts/Urbanist-Regular.woff) format('woff');
-    font-display: auto;
-}
-
-@font-face {
-    font-family: 'Staatliches';
-    src: url(../fonts/Staatliches-Regular.woff) format('woff');
-    font-display: auto;
-}
-
-
-@font-face {
-    font-family: 'Koulen';
-    src: url(../fonts/Koulen-Regular.woff) format('woff');
-    font-display: auto;
-}
-*/
 @font-face {
   font-family: "Abril Fatface";
   src: url(../fonts/AbrilFatface-Regular.woff) format("woff");
@@ -235,6 +239,12 @@ $fam_05: 'Staatliches', sans-serif;
   font-family: "Antonio";
   src: url(../fonts/Antonio-VariableFont_wght.woff) format("woff");
   font-display: auto;
+}
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url(../fonts/Raleway-VariableFont_wght.woff) format("woff");
+  font-display: auto;
+  font-weight: 100;
 }
 html,
 :root {
@@ -808,12 +818,14 @@ h3 {
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros,
 #contenedor #contenido #contenido__info .contenido__info--clientes,
-#contenedor #contenido #contenido__info .contenido__info--caracteristicas {
+#contenedor #contenido #contenido__info .contenido__info--caracteristicas,
+#contenedor #contenido #contenido__info .contenido__info--cualidades {
   margin: 1px 0 0;
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros h2,
 #contenedor #contenido #contenido__info .contenido__info--clientes h2,
-#contenedor #contenido #contenido__info .contenido__info--caracteristicas h2 {
+#contenedor #contenido #contenido__info .contenido__info--caracteristicas h2,
+#contenedor #contenido #contenido__info .contenido__info--cualidades h2 {
   font-size: 11svw;
   height: 10svh;
 }
@@ -981,6 +993,66 @@ h3 {
   }
 }
 @keyframes animacioniconos {
+  0% {
+    opacity: 0;
+    margin-top: 15svh;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+#contenedor #contenido #contenido__info .contenido__info--cualidades {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 0;
+  min-height: 400px;
+  background-image: url("../img/fondo_grampas_verde.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 5svh 0 2.65svh;
+}
+#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--box {
+  margin: 0 0 10svh;
+  display: inline-block;
+  width: 351px;
+  text-align: center;
+  visibility: hidden;
+  color: #fff;
+}
+#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--box h3 {
+  color: #cacaca;
+  font-size: 7svw;
+}
+#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--box p {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 4.7svw;
+  display: block;
+  line-height: 1.5;
+  font-weight: 250;
+  text-shadow: #000 3px 3px 2px;
+}
+#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--box.animacion {
+  visibility: visible;
+  -webkit-animation: animacioncualidades 1.5s forwards;
+          animation: animacioncualidades 1.5s forwards;
+}
+@-webkit-keyframes animacioncualidades {
+  0% {
+    opacity: 0;
+    margin-top: 15svh;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+@keyframes animacioncualidades {
   0% {
     opacity: 0;
     margin-top: 15svh;

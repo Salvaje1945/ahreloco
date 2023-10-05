@@ -559,7 +559,8 @@
 
             .contenido__info--nosotros,
             .contenido__info--clientes,
-            .contenido__info--caracteristicas {
+            .contenido__info--caracteristicas,
+            .contenido__info--cualidades {
                 // padding: 2.65svh 5svw;
                 margin: 1px 0 0;
 
@@ -775,6 +776,62 @@
                     //     visibility: hidden;
 
                     // }
+                }
+            }
+
+            .contenido__info--cualidades {
+                @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-evenly, $flx_bx_gap: 0);
+                min-height: 400px;
+                background-image: url('../img/fondo_grampas_verde.jpg');
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                padding: 5svh 0 2.65svh;
+
+                .info__cualidades--box {
+                    margin: 0 0 10svh;
+                    display: inline-block;
+                    width: 351px;
+                    text-align: center;
+                    visibility: hidden;
+                    color: map-get($color, "blanco");
+                    // --wp--preset--font-size--normal: 16px;
+                    // --wp--preset--font-size--huge: 42px;
+
+                    h3 {
+                        color: map-get($color, "gris_08");
+                        font-size: 7svw;
+                    }
+
+                    p {
+                        // font-family: $fam_04;
+                        font-family: 'Raleway', sans-serif;
+                        color: map-get($color, "blanco");
+                        font-size: 4.7svw;
+                        display: block;
+                        line-height: 1.5;
+                        font-weight: 250;
+                        text-shadow: #000 3px 3px 2px;
+                    }
+                }
+
+                .info__cualidades--box.animacion {
+                    visibility: visible;
+                    animation: animacioncualidades 1.5s forwards;
+
+                    @keyframes animacioncualidades {
+
+                        0% {
+                            opacity: 0;
+                            margin-top: 15svh;
+                        }
+
+                        100% {
+                            opacity: 1;
+                            margin-top: 0;
+                        }    
+                    }
                 }
             }
         }

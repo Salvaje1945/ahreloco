@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('../fonts/Raleway-VariableFont_wght.woff');
 
 
 @font-face {
@@ -40,6 +41,11 @@
 }
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
+
+
 @font-face {
   font-family: 'Abril Fatface';
   src: url(../fonts/AbrilFatface-Regular.woff) format('woff');
@@ -51,6 +57,14 @@
   src: url(../fonts/Antonio-VariableFont_wght.woff) format('woff');
   font-display: auto;
 }
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url(../fonts/Raleway-VariableFont_wght.woff) format('woff');
+  font-display: auto;
+  font-weight: 100;
+}
+
 
 html,
 :root {

@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     // animacionNosotros(anchoDePantallaInicial)
     animaciones(anchoDePantallaInicial, 'encabezados')
     animaciones(anchoDePantallaInicial, 'iconos')
+    animaciones(anchoDePantallaInicial, 'cualidades')
 //     responsiveMedia('#cabecera', '(min-width: 1024px)',
 // `<div class="cabecera__contenido--moviles" id="cabecera-contenido">
 //     <nav class="cabecera__desplegable--menu" id="cabecera-menu-desp">
