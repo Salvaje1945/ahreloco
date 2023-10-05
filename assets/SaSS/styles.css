@@ -936,19 +936,19 @@ h3 {
 }
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas {
   background-color: #f1f1f1;
-  padding: 5svh 5svw 2.65svh;
+  padding: 5svh 0 2.65svh;
 }
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont {
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 0;
 }
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box {
   margin: 0 0 10svh;
   display: inline-block;
-  width: 337.5px;
+  width: 351px;
   text-align: center;
   visibility: hidden;
 }
