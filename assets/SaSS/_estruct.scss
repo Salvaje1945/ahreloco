@@ -34,7 +34,7 @@
 
     #pie {
         grid-area: pie;
-        height: 20svh;
+        // height: 20svh;
         background-color: #333;
     }
 }
@@ -604,23 +604,40 @@
                 }
 
                 .contenido__info--nosotros_txt-box {
-                    height: 77svh;
+                    // height: 77svh;
+                    // height: 50svh;
+                    // overflow: hidden;
+                    // transition: .7s ease all;
+                    // transition: height .7s linear;
+
+                    max-height: 77svh;
                     overflow: hidden;
-                    transition: .7s ease all;
+                    transition: max-height 2s linear;
+
+                    // display: grid;
+                    // overflow: hidden;
+                    // grid-template-rows: 50svh;
+                    // transition: grid-template-rows 500ms;
 
                     div {
                         position: relative;
+                        // overflow: hidden;
 
                         p {
+                            font-family: $fam_04;
                             font-size: 5svw;
-                            line-height: 1.2;
+                            font-weight: 400;
+                            color: map-get($color, "negro");
+                            // line-height: .99;
                             margin: 0 0 5svw;
+                            text-align: justify;
                         }
 
                         .info__nosotros--txt_fx {
                             position: absolute;
                             display: block;
                             width: 100%;
+                            // height: 77svh;
                             height: 77svh;
                             background: linear-gradient(to top, rgba(255, 255, 255, 1) 1%, rgba(255, 122, 89, 0) 30%);
                             top: 0;
@@ -636,16 +653,23 @@
                 }
 
                 .contenido__info--nosotros_txt-box.activo {
-                    height: auto;
+                    // height: 100%;
+                    // overflow: auto;
+                    // transition: .7s ease all;
+                    // grid-template-rows: 1fr;
+                    // transition: grid-template-rows .7s;
+
                     overflow: auto;
-                    transition: .7s ease all;
+                    max-height: 500svh;
+                    transition: max-height 2s linear;
                 }
                 
             }
 
             .contenido__info--clientes {
-                padding: 2.65svh 0 5svh;
+                padding: 0 0 5svh;
                 overflow: hidden;
+                margin-top: 4svh;
                 //background-color: map-get($color, "gris_01");
 
                 h2 {
@@ -699,7 +723,7 @@
                         // height: 76svh;
                         transition: .5s ease all;
                         // overflow: hidden;
-                        margin: 10svh 0;
+                        margin: 3svh 0;
         
                         .clientes__slider--slide {
                             display: inline-block;
@@ -747,9 +771,9 @@
 
                         p {
                             font-family: $fam_04;
-                            color: map-get($color, "gris_01");
-                            font-weight: 300;
-                            font-size: 4.7svw;
+                            color: map-get($color, "negro");
+                            font-weight: 400;
+                            font-size: 5svw;
                         }
                     }
 
@@ -781,13 +805,13 @@
 
             .contenido__info--cualidades {
                 @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-evenly, $flx_bx_gap: 0);
-                min-height: 400px;
+                min-height: 55svh;
                 background-image: url('../img/fondo_grampas_verde.jpg');
                 background-size: cover;
                 background-position: center center;
                 background-repeat: no-repeat;
                 background-attachment: fixed;
-                padding: 5svh 0 2.65svh;
+                padding: 5svh 0;
 
                 .info__cualidades--box {
                     margin: 0 0 10svh;
@@ -796,24 +820,24 @@
                     text-align: center;
                     visibility: hidden;
                     color: map-get($color, "blanco");
-                    // --wp--preset--font-size--normal: 16px;
-                    // --wp--preset--font-size--huge: 42px;
 
                     h3 {
-                        color: map-get($color, "blanco");
-                        font-size: 7svw;
-                        text-shadow: #000 3px 3px 2px;
+                        color: map-get($color, "gris_08");
+                        font-size: 7.5svw;
                     }
 
                     p {
-                        // font-family: $fam_04;
-                        font-family: 'Raleway', sans-serif;
+                        font-family: $fam_04;
                         color: map-get($color, "blanco");
-                        font-size: 4.7svw;
+                        font-size: 5svw;
                         display: block;
-                        line-height: 1.5;
-                        font-weight: 250;
-                        text-shadow: #000 3px 3px 2px;
+                        // line-height: 1;
+                        font-weight: 300;
+                        // text-shadow: #000 3px 3px 2px;
+                    }
+
+                    &:last-child {
+                        margin: 0;
                     }
                 }
 
@@ -910,5 +934,10 @@
         */
 
     }
+
+    #pie {
+        height: 70svh;
+    }
+
 
 }

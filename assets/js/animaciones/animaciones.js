@@ -14,9 +14,7 @@ export default function animaciones(elAncho, elElemento) {
 
     const alturaNosotros = $('#nosotros').offsetHeight
 
-    const alturaClientesH2 = $('#contenido-clientes-h2').offsetHeight
-
-    const alturaClientes = $('#clientes').offsetHeight
+    const alturaIndustrial = $('#industrial').offsetHeight
 
     const alturaPostventa = $('#postventa').offsetHeight
 
@@ -24,21 +22,99 @@ export default function animaciones(elAncho, elElemento) {
 
     const alturaEntrega = $('#entrega').offsetHeight
 
+    const alturaCaracteristicas = $('#caracteristicas').offsetHeight
+
+    const alturaBloqueMaterial = $('#material').offsetHeight
+
+    const alturaBloqueTerminacion = $('#terminacion').offsetHeight
+
+    const alturaCualidades = $('#cualidades').offsetHeight
+
+    const alturaClientesH2 = $('#contenido-clientes-h2').offsetHeight
+
+    const alturaClientes = $('#clientes').offsetHeight
+
     function animacionIconos() {
 
         // const alturaIconoIndustrial = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /4)
 
-        const alturaIconoIndustrial = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientesH2
+        // const alturaInicio = $('#nosotros-leer-mas').classList.contains('no')
 
-        const alturaIconoPostventa = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2)
+        // let alturaIconoIndustrial
+        // let alturaIconoPostventa
+        // let alturaIconoTecnico
+        // let alturaIconoEntrega
 
-        const alturaIconoTecnico = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2) + (alturaClientes /4)
+        // if(alturaInicio) {
 
-        const alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
+        //     alturaIconoIndustrial = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientesH2
+
+        //     alturaIconoPostventa = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2)
+
+        //     alturaIconoTecnico = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2) + (alturaClientes /4)
+
+        //     alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
+
+        // } else {
+
+        //     alturaIconoIndustrial = alturaCabecera + alturaCarrousel + (alturaNosotrosH2 / 2)
+
+        //     alturaIconoPostventa = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2)
+
+        //     alturaIconoTecnico = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2) + (alturaClientes /4)
+
+        //     alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
+
+        // }
+
+
+
+        // const alturaIconoIndustrial = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientesH2
+
+        // const alturaIconoPostventa = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2)
+
+        // const alturaIconoTecnico = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2) + (alturaClientes /4)
+
+        // const alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
+
+        //const alturaParaClientes = alturaCabecera + alturaCarrousel + (alturaNosotrosH2 / 2)
 
         if(anchoPantalla < 768) {
 
             window.addEventListener('scroll', function () {
+
+                const alturaInicio = $('#nosotros-leer-mas').classList.contains('no')
+
+                let alturaIconoIndustrial
+                let alturaIconoPostventa
+                let alturaIconoTecnico
+                let alturaIconoEntrega
+
+                if(alturaInicio) {
+
+                    alturaIconoIndustrial = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientesH2
+        
+                    alturaIconoPostventa = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2)
+        
+                    alturaIconoTecnico = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2) + (alturaClientes /4)
+        
+                    alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
+        
+                } else {
+        
+                    alturaIconoIndustrial = alturaCabecera + alturaCarrousel + (alturaNosotrosH2 / 2)
+        
+                    // alturaIconoPostventa = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2)
+
+                    alturaIconoPostventa = alturaCabecera + alturaCarrousel + (alturaNosotros /2)
+        
+                    // alturaIconoTecnico = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2) + (alturaClientes /4)
+
+                    alturaIconoTecnico = alturaCabecera + alturaCarrousel + alturaNosotros - (alturaNosotros /4)
+        
+                    alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaIndustrial /2)
+        
+                }
     
                 let scrollActual = window.pageYOffset || document.documentElement.scrollTop
     
@@ -76,19 +152,62 @@ export default function animaciones(elAncho, elElemento) {
 
         // const alturaIconoIndustrial = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /4)
 
-        const alturaMaterial = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes + alturaPostventa
+        // const alturaMaterial = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes + alturaPostventa
 
-        const alturaTerminacion = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes + alturaPostventa + alturaServicioTec
+        // const alturaTerminacion = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes + alturaPostventa + alturaServicioTec
 
-        const alturaResultado = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes + alturaPostventa + alturaServicioTec + alturaEntrega
+        // const alturaResultado = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes + alturaPostventa + alturaServicioTec + alturaEntrega
 
-        const alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
+        // const alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
 
         if(anchoPantalla < 768) {
 
             window.addEventListener('scroll', function () {
-    
+
+                const alturaInicio = $('#nosotros-leer-mas').classList.contains('no')
+
+                let alturaMaterial
+                let alturaTerminacion
+                let alturaResultado
+
                 let scrollActual = window.pageYOffset || document.documentElement.scrollTop
+
+                if(alturaInicio) {
+
+                    alturaMaterial = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas + alturaBloqueMaterial
+
+                    alturaTerminacion = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas + alturaBloqueMaterial + alturaBloqueTerminacion
+
+                    alturaResultado = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas + alturaBloqueMaterial + (alturaBloqueTerminacion *3)
+
+                    // alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
+
+                } else {
+
+                    alturaMaterial = alturaCabecera + alturaCarrousel + alturaNosotros + alturaIndustrial + alturaPostventa
+
+                    alturaTerminacion = alturaCabecera + alturaCarrousel + alturaNosotros + alturaIndustrial + alturaPostventa + alturaServicioTec + (alturaEntrega /2)
+
+                    alturaResultado = alturaCabecera + alturaCarrousel + alturaNosotros + alturaIndustrial + alturaPostventa + alturaServicioTec + alturaEntrega + (alturaEntrega /2)
+
+                    console.log('ALTURA MATERIAL:')
+                    console.log(alturaMaterial)
+                    console.log('*************')
+                    console.log('ALTURA TERMINACION:')
+                    console.log(alturaTerminacion)
+                    console.log('*************')
+                    console.log('ALTURA RESULTADO:')
+                    console.log(alturaResultado)
+                    console.log('*************')
+                    console.log('SCROLL ACTUAL:')
+                    console.log(scrollActual)
+                    console.log('*************')
+
+                    // alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
+
+                }
+    
+                // let scrollActual = window.pageYOffset || document.documentElement.scrollTop
     
                 if (scrollActual >= alturaMaterial) {
     
@@ -120,7 +239,9 @@ export default function animaciones(elAncho, elElemento) {
 
             const alturaParaNosotros = alturaCabecera + alturaCarrousel / 40
     
-            const alturaParaClientes = alturaCabecera + alturaCarrousel + (alturaNosotrosH2 / 2)
+            // const alturaParaClientes = alturaCabecera + alturaCarrousel + (alturaNosotrosH2 / 2)
+
+            const alturaParaClientes = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas + alturaCualidades
     
             window.addEventListener('scroll', function () {
     

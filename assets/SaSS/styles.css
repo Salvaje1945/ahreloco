@@ -304,7 +304,7 @@ h3 {
 .btn_01 {
   display: block;
   width: 100%;
-  height: 9.5svh;
+  height: 6svh;
   background-color: #297240;
   color: #fff;
   font-family: "Antonio";
@@ -314,6 +314,8 @@ h3 {
   transition: 0.3s ease all;
   border-radius: 7px;
   letter-spacing: 0.3svw;
+  line-height: 1;
+  padding: 0 0 2.5px;
 }
 .btn_01:hover {
   background-color: #333;
@@ -365,7 +367,6 @@ h3 {
 }
 #contenedor #pie {
   grid-area: pie;
-  height: 20svh;
   background-color: #333;
 }
 
@@ -860,17 +861,20 @@ h3 {
   }
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box {
-  height: 77svh;
+  max-height: 77svh;
   overflow: hidden;
-  transition: 0.7s ease all;
+  transition: max-height 2s linear;
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div {
   position: relative;
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div p {
+  font-family: "Raleway", sans-serif;
   font-size: 5svw;
-  line-height: 1.2;
+  font-weight: 400;
+  color: #000;
   margin: 0 0 5svw;
+  text-align: justify;
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div .info__nosotros--txt_fx {
   position: absolute;
@@ -885,13 +889,14 @@ h3 {
   display: none;
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box.activo {
-  height: auto;
   overflow: auto;
-  transition: 0.7s ease all;
+  max-height: 500svh;
+  transition: max-height 2s linear;
 }
 #contenedor #contenido #contenido__info .contenido__info--clientes {
-  padding: 2.65svh 0 5svh;
+  padding: 0 0 5svh;
   overflow: hidden;
+  margin-top: 4svh;
 }
 #contenedor #contenido #contenido__info .contenido__info--clientes h2 {
   color: #000;
@@ -935,7 +940,7 @@ h3 {
   gap: 0;
   width: 1100svw;
   transition: 0.5s ease all;
-  margin: 10svh 0;
+  margin: 3svh 0;
 }
 #contenedor #contenido #contenido__info .contenido__info--clientes .contenido__clientes .contenido__clientes--slider .clientes__slider--slide {
   display: inline-block;
@@ -973,9 +978,9 @@ h3 {
 }
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box p {
   font-family: "Raleway", sans-serif;
-  color: #333;
-  font-weight: 300;
-  font-size: 4.7svw;
+  color: #000;
+  font-weight: 400;
+  font-size: 5svw;
 }
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box.animacion {
   visibility: visible;
@@ -1008,13 +1013,13 @@ h3 {
   align-items: flex-start;
   justify-content: space-evenly;
   gap: 0;
-  min-height: 400px;
+  min-height: 55svh;
   background-image: url("../img/fondo_grampas_verde.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 5svh 0 2.65svh;
+  padding: 5svh 0;
 }
 #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--box {
   margin: 0 0 10svh;
@@ -1026,16 +1031,17 @@ h3 {
 }
 #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--box h3 {
   color: #cacaca;
-  font-size: 7svw;
+  font-size: 7.5svw;
 }
 #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--box p {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 4.7svw;
+  font-size: 5svw;
   display: block;
-  line-height: 1.5;
-  font-weight: 250;
-  text-shadow: #000 3px 3px 2px;
+  font-weight: 300;
+}
+#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--box:last-child {
+  margin: 0;
 }
 #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--box.animacion {
   visibility: visible;
@@ -1061,6 +1067,9 @@ h3 {
     opacity: 1;
     margin-top: 0;
   }
+}
+#contenedor #pie {
+  height: 70svh;
 }
 
 @media only screen and (min-width: 452px) {
