@@ -241,9 +241,25 @@ export default function animaciones(elAncho, elElemento) {
     
             // const alturaParaClientes = alturaCabecera + alturaCarrousel + (alturaNosotrosH2 / 2)
 
-            const alturaParaClientes = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas + alturaCualidades
+            // const alturaParaClientes = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas + alturaCualidades
     
             window.addEventListener('scroll', function () {
+
+                const alturaInicio = $('#nosotros-leer-mas').classList.contains('no')
+
+                let alturaParaClientes
+
+                if(alturaInicio) {
+
+                    alturaParaClientes = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas + alturaCualidades
+
+                } else {
+
+                    alturaParaClientes = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas
+
+                }
+
+                
     
                 let scrollActual = window.pageYOffset || document.documentElement.scrollTop
     
