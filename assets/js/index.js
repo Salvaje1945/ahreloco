@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
             <li><a href="#">Insumos</a></li>
             <li><a href="#">Asesoramiento técnico</a></li>
             <li><a href="#">Catálogo</a></li>
-            <li><a href="#">Contáctenos</a></li>
+            <li><a href="#contacto" id="menu-mov-contacto">Contáctenos</a></li>
         </ul>
     </nav>
 <div class="cabecera__moviles--logo">

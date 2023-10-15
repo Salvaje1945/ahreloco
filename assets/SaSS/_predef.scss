@@ -115,7 +115,7 @@
 
 // BOTONES
 
-@mixin norm__btns ($norm_btn-wth: 100%, $norm_btn-hgt: 42px, $norm_btn-bgc: map-get($color, "azul_02"), $norm_btn-color: map-get($color, "gris_08"), $norm_btn-fntsiz: 1rem, $norm_btn-fntwght: 600, $norm_btn-brdrad: 7px, $norm_btn-hvr_bgc: map-get($color, "verde_01")) {
+@mixin norm__btns ($norm_btn-wth: 100%, $norm_btn-hgt: 42px, $norm_btn-bgc: map-get($color, "azul_02"), $norm_btn-color: map-get($color, "gris_08"), $norm_btn-fntsiz: 1rem, $norm_btn-fntwght: 600, $norm_btn-brdrad: 7px, $norm_btn-hvr_bgc: map-get($color, "verde_01"), $norm_btn-hvr_color: map-get($color, "blanco")) {
     width: $norm_btn-wth;
     height: $norm_btn-hgt;
     background-color: $norm_btn-bgc;
@@ -124,12 +124,13 @@
     font-size: $norm_btn-fntsiz;
     font-weight: $norm_btn-fntwght;
     text-align: center;
-    transition: .3s ease all;
+    transition: .2s ease all;
     border-radius: $norm_btn-brdrad;
 
     &:hover {
         background-color: $norm_btn-hvr_bgc;
-        transition: .3s linear all;
+        color: $norm_btn-hvr_color;
+        transition: .2s linear all;
     } 
 }
 

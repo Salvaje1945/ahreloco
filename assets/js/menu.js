@@ -21,4 +21,5 @@ export default function cabeceraAbrirMenu() {
 
     $('#menu-mov-nosotros').onclick = accionEnClicOpsMenu
     $('#menu-mov-clientes').onclick = accionEnClicOpsMenu
+    $('#menu-mov-contacto').onclick = accionEnClicOpsMenu
 }
