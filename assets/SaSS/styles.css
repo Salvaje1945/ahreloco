@@ -651,79 +651,6 @@ ul {
 #contenedor #cabecera .cabecera__contenido .cabecera__contenido--menu ul li:last-child {
   padding: 0 0 0 1.5px;
 }
-#contenedor #contenido {
-  /*
-  .contenido__nosotros {
-      padding: 2svh 0 5svh;
-      margin: 1px 0 0;
-
-      h2 {
-          // font-family: $fam_01;
-          text-align: center;
-          font-size: 3.5rem;
-          height: 3.5rem;
-          line-height: 1.1;
-          color: map-get($color, "gris_01");
-          margin: 0 0 2svh;
-      }
-
-      .contenido__nosotros--cont {
-          //@include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-between, $flx_bx_gap: 0);
-          //padding: 0 5vw;
-          background-color: chartreuse;
-
-          .nosotros__cont--cabecera {
-              @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: center, $flx_bx_juco: space-around, $flx_bx_gap: 0);
-              height: 45vw;
-              background-color: #000;
-              background-image: url(../img/fondo_cabecera_nosotros.jpg);
-              background-size: contain;
-              background-position: center 15%;
-              background-repeat: no-repeat;
-              background-attachment: fixed;
-              margin-bottom: 3svh;
-
-              h3 {
-                  display: inline-block;
-                  // font-family: $fam_05;
-                  font-size: 2rem;
-                  font-weight: 600;
-                  color: map-get($color, "blanco");
-                  position: relative;
-                  left: -100%;
-                  width: auto;
-              }
-          }
-
-          .nosotros__cont--cabecera.fijo {
-              background-attachment: scroll;
-          }
-
-          .nosotros__cont--texto {
-              @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-around, $flx_bx_gap: 0);
-              margin-bottom: 3svh;
-              overflow-x: hidden;
-
-              p {
-                  // font-family: $fam_03;
-                  font-size: 1rem;
-                  color: map-get($color, "blanco");
-                  display: inline-block;
-                  background-color: chocolate;
-                  border-radius: 11px;
-                  width: 90%;
-                  padding: 11px;
-                  text-align: left;
-                  position: relative;
-                  right: -100%;
-              }
-
-          }
-      }
-
-  }
-  */
-}
 #contenedor #contenido #contenido__carousel .contenido__carousel--slider .slider {
   position: relative;
   background: #297240;
@@ -1093,8 +1020,16 @@ ul {
   display: inline-block;
   margin: 0 0 5svh;
 }
+#contenedor #pie .pie__menu h2,
+#contenedor #pie .pie__catalogo h2,
+#contenedor #pie .pie__contacto h2 {
+  color: #aaa;
+  font-size: 7svw;
+  margin: 0 0 5svh;
+}
 #contenedor #pie .pie__contacto {
   padding: 0 3svw 0 0;
+  margin: 0 0 5svh;
 }
 #contenedor #pie .pie__contacto ul {
   font-family: "Raleway", sans-serif;
@@ -1129,6 +1064,7 @@ ul {
 }
 #contenedor #pie .pie__menu {
   padding: 0 3svw 0 0;
+  margin: 0 0 5svh;
 }
 #contenedor #pie .pie__menu ul {
   font-family: "Raleway", sans-serif;
