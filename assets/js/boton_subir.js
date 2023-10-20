@@ -8,4 +8,5 @@ export default function mostrarBotonSubir() {
     }
 
     $('#accion-subir').onclick = cerrarBotonSubir
+    $('#menu-pie-inicio').onclick = cerrarBotonSubir
 }

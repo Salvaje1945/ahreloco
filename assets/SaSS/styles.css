@@ -837,6 +837,8 @@ ul {
   align-items: flex-start;
   justify-content: space-evenly;
   gap: 0;
+  height: 765px;
+  overflow: hidden;
 }
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box {
   margin: 0 0 10svh;
@@ -892,7 +894,8 @@ ul {
   align-items: flex-start;
   justify-content: space-evenly;
   gap: 0;
-  min-height: 55svh;
+  height: 518px;
+  overflow: hidden;
   background-image: url("../img/fondo_grampas_verde.jpg");
   background-size: cover;
   background-position: center center;
@@ -1011,14 +1014,13 @@ ul {
   align-items: flex-start;
   justify-content: space-between;
   gap: 0;
-  padding: 3svh 5%;
+  padding: 0 5% 3svh;
 }
 #contenedor #pie .pie__menu,
 #contenedor #pie .pie__catalogo,
 #contenedor #pie .pie__contacto {
   min-width: 337.5px;
   display: inline-block;
-  margin: 0 0 5svh;
 }
 #contenedor #pie .pie__menu h2,
 #contenedor #pie .pie__catalogo h2,
@@ -1028,8 +1030,8 @@ ul {
   margin: 0 0 5svh;
 }
 #contenedor #pie .pie__contacto {
-  padding: 0 3svw 0 0;
-  margin: 0 0 5svh;
+  padding: 4.5svh 0 0;
+  margin: 1px 0 5svh;
 }
 #contenedor #pie .pie__contacto ul {
   font-family: "Raleway", sans-serif;
@@ -1064,7 +1066,6 @@ ul {
 }
 #contenedor #pie .pie__menu {
   padding: 0 3svw 0 0;
-  margin: 0 0 5svh;
 }
 #contenedor #pie .pie__menu ul {
   font-family: "Raleway", sans-serif;
@@ -1081,6 +1082,9 @@ ul {
 }
 #contenedor #pie .pie__menu ul li:first-child {
   margin: 0 0 2.5svh;
+}
+#contenedor #pie .pie__catalogo {
+  display: none;
 }
 #contenedor #pie .pie__catalogo img {
   width: 100%;

@@ -672,6 +672,8 @@
 
                 .info__caracteristicas--cont {
                     @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-evenly, $flx_bx_gap: 0);
+                    height: 765px;
+                    overflow: hidden;
 
                     .caracteristicas__cont--box {
                         //width: 90svw;
@@ -730,7 +732,8 @@
 
             .contenido__info--cualidades {
                 @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-evenly, $flx_bx_gap: 0);
-                min-height: 55svh;
+                height: 518px;
+                overflow: hidden;
                 background-image: url('../img/fondo_grampas_verde.jpg');
                 background-size: cover;
                 background-position: center center;
@@ -870,14 +873,14 @@
     #pie {
         // height: 70svh;
         @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-between, $flx_bx_gap: 0);
-        padding: 3svh 5%;
+        padding: 0 5% 3svh;
 
         .pie__menu,
         .pie__catalogo,
         .pie__contacto {
             min-width: 337.5px;
             display: inline-block;
-            margin: 0 0 5svh;
+            // margin: 0 0 5svh;
 
             h2 {
                 color: map-get($color, "gris_04");
@@ -887,8 +890,8 @@
         }
 
         .pie__contacto {
-            padding: 0 3svw 0 0;
-            margin: 0 0 5svh;
+            padding: 4.5svh 0 0;
+            margin: 1px 0 5svh;
 
             ul {
                 font-family: $fam_04;
@@ -927,7 +930,7 @@
 
         .pie__menu {
             padding: 0 3svw 0 0;
-            margin: 0 0 5svh;
+            // margin: 0 0 2svh;
 
             ul {
                 font-family: $fam_04;
@@ -954,6 +957,7 @@
         }
 
         .pie__catalogo {
+            display: none;
             
             img {
                 width: 100%;

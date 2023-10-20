@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
             <li><a href="#">Herramientas</a></li>
             <li><a href="#">Insumos</a></li>
             <li><a href="#">Asesoramiento técnico</a></li>
-            <li><a href="#">Catálogo</a></li>
+            <li><a href="#" id="menu-mov-catalogo">Catálogo</a></li>
             <li><a href="#contacto" id="menu-mov-contacto">Contáctenos</a></li>
         </ul>
     </nav>
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
             <li><a href="#">Insumos</a></li>
             <li><a href="#">Asesoramiento técnico</a></li>
             <li><a href="#">Catálogo</a></li>
-            <li><a href="#">Contáctenos</a></li>
+            <li><a href="#contacto" id="menu-dkp-contacto">Contáctenos</a></li>
         </ul>
     </nav>
 </div>`)

@@ -1,5 +1,6 @@
 import $ from './funciones_globales/elementos_por_id.js'
 import mostrarBotonSubir from './boton_subir.js'
+import alertas from './alertas.js'
 
 export default function cabeceraAbrirMenu() {
     $('#cabecera-menu-abrir').classList.remove('activo')
@@ -22,4 +23,9 @@ export default function cabeceraAbrirMenu() {
     $('#menu-mov-nosotros').onclick = accionEnClicOpsMenu
     $('#menu-mov-clientes').onclick = accionEnClicOpsMenu
     $('#menu-mov-contacto').onclick = accionEnClicOpsMenu
+    $('#menu-mov-catalogo').addEventListener('click', (evt)=>{
+        evt.preventDefault()
+        cabeceraCerrarMenu()
+        alertas('catalogo')
+    })
 }
