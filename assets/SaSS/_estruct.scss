@@ -672,7 +672,7 @@
 
                 .info__caracteristicas--cont {
                     @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-evenly, $flx_bx_gap: 0);
-                    height: 765px;
+                    height: 125svh;
                     overflow: hidden;
 
                     .caracteristicas__cont--box {
