@@ -338,12 +338,12 @@ ul {
   background-color: #333;
   color: #dbdadf;
   font-family: "Antonio";
-  font-size: 3.5svh;
+  font-size: 3.25svh;
   font-weight: 600;
   text-align: center;
   transition: 0.2s ease all;
   border-radius: 7px;
-  letter-spacing: 0.3svw;
+  letter-spacing: 0.25svw;
   padding: 0 0 2.5px;
 }
 .btn_02:hover {
@@ -894,7 +894,7 @@ ul {
   align-items: flex-start;
   justify-content: space-evenly;
   gap: 0;
-  height: 518px;
+  height: 75svh;
   overflow: hidden;
   background-image: url("../img/fondo_grampas_verde.jpg");
   background-size: cover;
@@ -951,9 +951,8 @@ ul {
   }
 }
 #contenedor #contenido #contenido__info .contenido__info--clientes {
-  padding: 0 0 5svh;
+  padding: 4svh 0 5svh;
   overflow: hidden;
-  margin-top: 4svh;
 }
 #contenedor #contenido #contenido__info .contenido__info--clientes h2 {
   color: #000;

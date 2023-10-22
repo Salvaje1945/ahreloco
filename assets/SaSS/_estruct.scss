@@ -732,7 +732,7 @@
 
             .contenido__info--cualidades {
                 @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-evenly, $flx_bx_gap: 0);
-                height: 518px;
+                height: 75svh;
                 overflow: hidden;
                 background-image: url('../img/fondo_grampas_verde.jpg');
                 background-size: cover;
@@ -789,9 +789,9 @@
             }
 
             .contenido__info--clientes {
-                padding: 0 0 5svh;
+                padding: 4svh 0 5svh;
                 overflow: hidden;
-                margin-top: 4svh;
+                // margin-top: 4svh;
                 //background-color: map-get($color, "gris_01");
 
                 h2 {
