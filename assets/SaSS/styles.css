@@ -352,6 +352,75 @@ ul {
   transition: 0.2s linear all;
 }
 
+.btn_03 {
+  display: inline-block;
+  width: 35svw;
+  height: auto;
+  background-color: #297240;
+  color: #fff;
+  font-family: "Antonio";
+  font-size: 3svh;
+  font-weight: 600;
+  text-align: center;
+  transition: 0.2s ease all;
+  border-radius: 7px;
+  line-height: 1;
+  padding: 2svh;
+  margin: 0 1.5svh 0 0;
+}
+.btn_03:hover {
+  background-color: #333;
+  color: #fff;
+  transition: 0.2s linear all;
+}
+
+.btn_04 {
+  display: inline-block;
+  width: 35svw;
+  height: auto;
+  background-color: #960101;
+  color: #fff;
+  font-family: "Antonio";
+  font-size: 3svh;
+  font-weight: 600;
+  text-align: center;
+  transition: 0.2s ease all;
+  border-radius: 7px;
+  line-height: 1;
+  padding: 2svh;
+  margin: 0 0 0 1.5svh;
+}
+.btn_04:hover {
+  background-color: #333;
+  color: #fff;
+  transition: 0.2s linear all;
+}
+
+.alertas__parrafo {
+  font-family: "Raleway", sans-serif;
+  font-size: 3svw;
+  color: #000 !important;
+  font-weight: 600;
+}
+
+.alertas__label {
+  font-family: "Raleway", sans-serif;
+  font-size: 5svw;
+  color: #000 !important;
+  font-weight: 600;
+}
+
+input, select {
+  width: 100%;
+  height: 5svh;
+  border: 1px solid #297240;
+  border-radius: 7px;
+  padding: 3px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  margin: 1svh 0;
+}
+
 #contenedor {
   display: grid;
   grid-template-columns: 100%;

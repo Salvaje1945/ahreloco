@@ -6,13 +6,13 @@ export default function alertas(tipo) {
 
     const form = document.createElement('form')
     form.innerHTML = `
-        <label for="nombre">Nombre:</label>
+        <label for="nombre" class="alertas__label">Nombre:</label>
         <input type="text" id="nombre" required><br>
         
-        <label for="correo">Correo electrónico:</label>
+        <label for="correo" class="alertas__label">Correo electrónico:</label>
         <input type="correo" id="correo" required><br>
         
-        <label for="provincia">Provincia:</label>
+        <label for="provincia" class="alertas__label">Provincia:</label>
         <select type="text" name="provincia" id="provincia" placeholder="Tu Provincia" value="">
 					<option value="" hidden=""> Seleccione su provincia </option>
           <option value="Capital Federal">Capital Federal</option>
@@ -42,23 +42,32 @@ export default function alertas(tipo) {
           <option value="Tucumán">Tucumán</option>
         </select><br>
         
-        <label for="localidad">Localidad:</label>
+        <label for="localidad" class="alertas__label">Localidad:</label>
         <input type="text" id="localidad" required><br>
         
-        <label for="codigoarea">Código de área:</label>
+        <label for="codigoarea" class="alertas__label">Código de área:</label>
         <input type="number" id="codigoarea" required><br>
         
-        <label for="telefono">Teléfono:</label>
+        <label for="telefono" class="alertas__label">Teléfono:</label>
         <input type="number" id="telefono" required><br>
         <input type="hidden" id="correoDestino" value="revista.insomnio@gmail.com">`
 
     Swal.fire({
       title: 'Formulario',
       html: form,
+      footer: '<p class="alertas__parrafo">* International Fasteners S.A. le garantiza que los datos aquí recopilados serán protegidos conforme a lo establecido por la Ley 25.326 de Protección de Datos Personales.</p>',
+      width: '90svw',
       showCancelButton: true,
       showConfirmButton: true,
       cancelButtonText: 'Cancelar',
       confirmButtonText: 'Confirmar',
+      allowOutsideClick: false,
+      allowEscapeKey: false,
+      customClass: {
+        confirmButton: 'btn_03',
+        cancelButton: 'btn_04'
+      },
+      buttonsStyling: false,
     }).then((result) => {
       if (result.isConfirmed) {
         // Aquí puedes agregar la lógica para abrir un archivo externo en otra pestaña
