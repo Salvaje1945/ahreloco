@@ -1180,8 +1180,14 @@ input, select {
   #contenedor #contenido #contenido__info .contenido__info--nosotros h2 {
     font-size: 50px;
   }
-  #contenedor #contenido #contenido__info .contenido__info--nosotros div p {
+  #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div p {
     font-size: 27px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box span {
+    font-size: 67.8px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box p {
+    font-size: 22.6px;
   }
 }
 @media only screen and (min-width: 481px) {
@@ -1235,6 +1241,25 @@ input, select {
   }
   #contenedor #contenido #contenido__carousel .contenido__carousel--slider .navigation {
     height: 92svh;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--nosotros h2 {
+    height: 10vh;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--nosotros #nosotros-leer-mas {
+    display: none;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box {
+    max-height: none;
+    height: 90vh;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div {
+    position: static;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div p {
+    font-size: 1.37rem;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div .info__nosotros--txt_fx {
+    display: none;
   }
 }
 @media only screen and (min-width: 1280px) {

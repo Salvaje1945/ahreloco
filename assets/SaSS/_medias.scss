@@ -73,11 +73,35 @@
                         font-size: 50px;
                     }
 
-                    div {
+                    .contenido__info--nosotros_txt-box {
+
+                        div {
                         
-                        p {
-                            // font-size: 6svw;
-                            font-size: 27px;
+                            p {
+                                // font-size: 6svw;
+                                font-size: 27px;
+                            }
+    
+                        }
+
+                    }
+
+                }
+
+                .contenido__info--caracteristicas {
+
+                    .info__caracteristicas--cont {
+
+                        .caracteristicas__cont--box {
+
+                            span {
+                                font-size: 67.8px;
+                            }
+
+                            p {
+                                font-size: 22.6px;
+                            }
+
                         }
 
                     }
@@ -314,6 +338,40 @@
                     }
 
                 }
+            }
+
+            #contenido__info {
+
+                .contenido__info--nosotros {
+
+                    h2 {
+                        height: 10vh;
+                    }
+
+                    #nosotros-leer-mas {
+                        display: none;
+                    }
+
+                    .contenido__info--nosotros_txt-box {
+                        max-height: none;
+                        height: 90vh;
+
+                        div {
+                            position: static;
+
+                            p {
+                                font-size: 1.37rem;
+                            }
+
+                            .info__nosotros--txt_fx {
+                                display: none;
+                            }
+                        }
+
+                    }
+
+                }
+
             }
 
         }
