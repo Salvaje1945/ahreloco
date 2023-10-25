@@ -361,7 +361,8 @@
 
                             p {
                                 // font-size: 1.37rem;
-                                font-size: 2.2svw;
+                                // font-size: 2.85vh;
+                                font-size: calc(1.5vh + 1svw);
                             }
 
                             .info__nosotros--txt_fx {
