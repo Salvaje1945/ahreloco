@@ -247,6 +247,46 @@
 
 }
 
+@media only screen and (min-width: map-get($wth_res, "tbl_01")) {
+
+    #contenedor {
+
+        #contenido {
+
+            #contenido__info {
+
+                .contenido__info--caracteristicas {
+                    padding: 11vh 0 9vh;
+
+                    .info__caracteristicas--cont {
+                        height: 23vh;
+
+                        .caracteristicas__cont--box {
+                            // width: 18.75%;
+                            width: 21.75%;
+
+                            span {
+                                font-size: 3rem;
+                            }
+
+                            p {
+                                font-size: 1rem;
+                            }
+
+                        }
+
+                    }
+                    
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
 @media only screen and (min-width: map-get($wth_res, "dkp_01")) {
 
     #contenedor {

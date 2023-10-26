@@ -1227,6 +1227,23 @@ input, select {
     font-size: 52.91px;
   }
 }
+@media only screen and (min-width: 768px) {
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas {
+    padding: 11vh 0 9vh;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont {
+    height: 23vh;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box {
+    width: 21.75%;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box span {
+    font-size: 3rem;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box p {
+    font-size: 1rem;
+  }
+}
 @media only screen and (min-width: 1024px) {
   #contenedor #cabecera {
     height: 7svw;
