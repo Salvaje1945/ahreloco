@@ -477,7 +477,7 @@ input, select {
 }
 #contenedor #cabecera {
   min-height: 50px;
-  height: 13.33svw;
+  height: 7.08svh;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -879,6 +879,30 @@ input, select {
   margin: 0 0 5svw;
   text-align: justify;
 }
+#contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div .nosotros__p {
+  visibility: visible;
+}
+#contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div .nosotros__p.animacion {
+  visibility: visible;
+  -webkit-animation: nosotros-p-fadein 2s forwards;
+          animation: nosotros-p-fadein 2s forwards;
+}
+@-webkit-keyframes nosotros-p-fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes nosotros-p-fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div .info__nosotros--txt_fx {
   position: absolute;
   display: block;
@@ -903,25 +927,31 @@ input, select {
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont {
   display: flex;
   flex-flow: row wrap;
-  align-items: flex-start;
+  align-items: top;
   justify-content: space-evenly;
-  gap: 0;
-  height: 125svh;
+  gap: 0px;
+  height: 125vh;
   overflow: hidden;
 }
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box {
-  margin: 0 0 10svh;
+  margin: 15vh 0 9vh;
   display: inline-block;
   width: 351px;
   text-align: center;
-  visibility: hidden;
+  opacity: 0;
 }
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box span {
   display: flex;
   justify-content: center;
   color: #297240;
-  font-size: 15svw;
-  margin: 0 0 1.5svh;
+  font-size: 12svw;
+  margin: 0 0 1.5vh;
+}
+#contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box h3 {
+  font-family: "Raleway", sans-serif;
+  color: #000;
+  font-size: 6svw;
+  margin: 0 0 1vh;
 }
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box p {
   font-family: "Raleway", sans-serif;
@@ -929,18 +959,14 @@ input, select {
   font-weight: 400;
   font-size: 5svw;
 }
-#contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box:last-child {
-  margin: 0;
-}
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box.animacion {
-  visibility: visible;
   -webkit-animation: animacioniconos 1.5s forwards;
           animation: animacioniconos 1.5s forwards;
 }
 @-webkit-keyframes animacioniconos {
   0% {
     opacity: 0;
-    margin-top: 15svh;
+    margin-top: 15vh;
   }
   100% {
     opacity: 1;
@@ -950,7 +976,7 @@ input, select {
 @keyframes animacioniconos {
   0% {
     opacity: 0;
-    margin-top: 15svh;
+    margin-top: 15vh;
   }
   100% {
     opacity: 1;
@@ -962,8 +988,8 @@ input, select {
   flex-flow: row wrap;
   align-items: flex-start;
   justify-content: space-evenly;
-  gap: 0;
-  height: 75svh;
+  gap: 0px;
+  height: 75vh;
   overflow: hidden;
   background-image: url("../img/fondo_grampas_verde.jpg");
   background-size: cover;
@@ -972,30 +998,33 @@ input, select {
   background-attachment: fixed;
   padding: 5svh 0;
 }
-#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--box {
-  margin: 0 0 10svh;
+#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0px;
+}
+#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box {
+  margin: 15vh 0 10vh;
   display: inline-block;
   width: 351px;
   text-align: center;
-  visibility: hidden;
-  color: #fff;
+  opacity: 0;
 }
-#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--box h3 {
+#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box h3 {
   color: #cacaca;
   font-size: 7.5svw;
+  margin: 0 0 1svh;
 }
-#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--box p {
+#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box p {
   font-family: "Raleway", sans-serif;
   color: #fff;
   font-size: 5svw;
   display: block;
   font-weight: 300;
 }
-#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--box:last-child {
-  margin: 0;
-}
-#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--box.animacion {
-  visibility: visible;
+#contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box.animacion {
   -webkit-animation: animacioncualidades 1.5s forwards;
           animation: animacioncualidades 1.5s forwards;
 }
@@ -1183,11 +1212,17 @@ input, select {
   #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div p {
     font-size: 27px;
   }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box {
+    width: 90svw;
+  }
   #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box span {
-    font-size: 67.8px;
+    font-size: 45.2px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box h3 {
+    font-size: 22.6px;
   }
   #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box p {
-    font-size: 22.6px;
+    font-size: 18.08px;
   }
 }
 @media only screen and (min-width: 481px) {
@@ -1228,20 +1263,57 @@ input, select {
   }
 }
 @media only screen and (min-width: 768px) {
+  #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box .nosotros__p {
+    visibility: hidden;
+  }
   #contenedor #contenido #contenido__info .contenido__info--caracteristicas {
-    padding: 11vh 0 9vh;
+    padding: 11vh 0 0;
   }
   #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont {
-    height: 23vh;
+    min-height: 23vh;
+    height: auto;
   }
   #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box {
     width: 21.75%;
   }
   #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box span {
-    font-size: 3rem;
+    font-size: 37px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 3vh;
   }
   #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box p {
-    font-size: 1rem;
+    font-size: 14px;
+    line-height: 1.35;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--cualidades {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    padding: 15vh 0;
+    min-height: 23vh;
+    height: auto;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 0px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box {
+    width: 30%;
+    margin-bottom: 0;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box h3 {
+    font-size: 22px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box p {
+    font-size: 16px;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -1278,10 +1350,51 @@ input, select {
   #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div .info__nosotros--txt_fx {
     display: none;
   }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box h3 {
+    font-size: 18px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box p {
+    font-size: 16px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box h3,
+#contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box p {
+    letter-spacing: 0.75px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box {
+    width: 27%;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box h3 {
+    font-size: 27px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box p {
+    font-size: 18px;
+  }
 }
 @media only screen and (min-width: 1280px) {
   #contenedor #contenido #contenido__carousel .contenido__carousel--slider .navigation {
     height: 88svh;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box span {
+    font-size: 40px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 3vh;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box p {
+    font-size: 18px;
+    line-height: 1.35;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box {
+    width: 27%;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box h3 {
+    font-size: 33px;
+    margin: 0 0 4vh;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box p {
+    font-size: 22px;
   }
 }
 /*

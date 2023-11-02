@@ -93,13 +93,19 @@
                     .info__caracteristicas--cont {
 
                         .caracteristicas__cont--box {
+                            width: 90svw;
 
                             span {
-                                font-size: 67.8px;
+                                // font-size: 67.8px;
+                                font-size: 45.2px;
+                            }
+
+                            h3 {
+                                font-size: 22.6px;
                             }
 
                             p {
-                                font-size: 22.6px;
+                                font-size: 18.08px;
                             }
 
                         }
@@ -255,28 +261,76 @@
 
             #contenido__info {
 
+                .contenido__info--nosotros {
+                    
+                    .contenido__info--nosotros_txt-box {
+
+                        .nosotros__p {
+                            // opacity: 0;
+                            visibility: hidden;
+                        }
+
+                    }
+
+                }
+
                 .contenido__info--caracteristicas {
-                    padding: 11vh 0 9vh;
+                    padding: 11vh 0 0;
 
                     .info__caracteristicas--cont {
-                        height: 23vh;
+                        min-height: 23vh;
+                        height: auto;
 
                         .caracteristicas__cont--box {
                             // width: 18.75%;
                             width: 21.75%;
 
                             span {
-                                font-size: 3rem;
+                                font-size: 37px;
+                            }
+
+                            h3 {
+                                font-size: 14px;
+                                font-weight: 600;
+                                margin: 0 0 3vh;
                             }
 
                             p {
-                                font-size: 1rem;
+                                font-size: 14px;
+                                line-height: 1.35;
                             }
 
                         }
 
                     }
                     
+                }
+
+                .contenido__info--cualidades {
+                    @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: center, $flx_bx_juco: center, $flx_bx_gap: 0px);
+                    padding: 15vh 0;
+                    min-height: 23vh;
+                    height: auto;
+
+                    .info__cualidades--cont {
+                        @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-evenly, $flx_bx_gap: 0px);
+
+                        .info__cualidades--box {
+                            width: 30%;
+                            margin-bottom: 0;
+    
+                            h3 {
+                                font-size: 22px;
+                            }
+    
+                            p {
+                                font-size: 16px;
+                            }
+    
+                        }
+
+                    }
+
                 }
 
             }
@@ -414,6 +468,52 @@
 
                 }
 
+                .contenido__info--caracteristicas {
+
+                    .info__caracteristicas--cont {
+
+                        .caracteristicas__cont--box {
+        
+                            h3 {
+                                font-size: 18px;
+                            }
+        
+                            p {
+                                font-size: 16px;
+                            }
+
+                            h3,
+                            p {
+                                letter-spacing: 0.75px;
+                            }
+        
+                        }
+
+                    }
+                    
+                }
+
+                .contenido__info--cualidades {
+
+                    .info__cualidades--cont {
+
+                        .info__cualidades--box {
+                            width: 27%;
+    
+                            h3 {
+                                font-size: 27px;
+                            }
+    
+                            p {
+                                font-size: 18px;
+                            }
+    
+                        }
+
+                    }
+
+                }
+
             }
 
         }
@@ -438,6 +538,59 @@
                     }
 
                 }
+            }
+
+            #contenido__info {
+
+                .contenido__info--caracteristicas {
+
+                    .info__caracteristicas--cont {
+
+                        .caracteristicas__cont--box {
+        
+                            span {
+                                font-size: 40px;
+                            }
+        
+                            h3 {
+                                font-size: 20px;
+                                font-weight: 600;
+                                margin: 0 0 3vh;
+                            }
+        
+                            p {
+                                font-size: 18px;
+                                line-height: 1.35;
+                            }
+        
+                        }
+
+                    }
+                    
+                }
+
+                .contenido__info--cualidades {
+
+                    .info__cualidades--cont {
+
+                        .info__cualidades--box {
+                            width: 27%;
+    
+                            h3 {
+                                font-size: 33px;
+                                margin: 0 0 4vh;
+                            }
+    
+                            p {
+                                font-size: 22px;
+                            }
+    
+                        }
+
+                    }
+
+                }
+
             }
 
         }

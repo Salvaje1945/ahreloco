@@ -72,7 +72,7 @@
 
     #cabecera {
         min-height: 50px;
-        height: 13.33svw;
+        height: 7.08svh;
         @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: center, $flx_bx_juco: center, $flx_bx_gap: 0);
         
         .cabecera__contenido,
@@ -633,6 +633,28 @@
                             text-align: justify;
                         }
 
+                        .nosotros__p {
+                            // opacity: 0;
+                            visibility: visible;
+                        }
+
+                        .nosotros__p.animacion {
+                            visibility: visible;
+                            animation: nosotros-p-fadein 2s forwards;
+        
+                            @keyframes nosotros-p-fadein {
+        
+                                0% {
+                                    opacity: 0;
+                                }
+        
+                                100% {
+                                    opacity: 1;
+                                }
+                                
+                            }
+                        }
+
                         .info__nosotros--txt_fx {
                             position: absolute;
                             display: block;
@@ -671,25 +693,33 @@
                 padding: 5svh 0;
 
                 .info__caracteristicas--cont {
-                    @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-evenly, $flx_bx_gap: 0);
-                    height: 125svh;
+                    @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: top, $flx_bx_juco: space-evenly, $flx_bx_gap: 0px);
+                    height: 125vh;
                     overflow: hidden;
 
                     .caracteristicas__cont--box {
                         //width: 90svw;
-                        margin: 0 0 10svh;
+                        margin: 15vh 0 9vh;
                         display: inline-block;
                         width: 351px;
                         text-align: center;
-                        visibility: hidden;
+                        opacity: 0;
+                        // visibility: hidden;
 
                         span {
                             display: flex;
                             justify-content: center;
+                            // text-align: center;
                             color: map-get($color, "verde_03");
-                            font-size: 15svw;
-                            margin: 0 0 1.5svh;
+                            font-size: 12svw;
+                            margin: 0 0 1.5vh;
+                        }
 
+                        h3 {
+                            font-family: $fam_04;
+                            color: map-get($color, "negro");
+                            font-size: 6svw;
+                            margin: 0 0 1vh;
                         }
 
                         p {
@@ -699,20 +729,20 @@
                             font-size: 5svw;
                         }
 
-                        &:last-child {
-                            margin: 0;
-                        }
+                        // &:last-child {
+                        //     margin: 0;
+                        // }
                     }
 
                     .caracteristicas__cont--box.animacion {
-                        visibility: visible;
+                        // visibility: visible;
                         animation: animacioniconos 1.5s forwards;
 
                         @keyframes animacioniconos {
 
                             0% {
                                 opacity: 0;
-                                margin-top: 15svh;
+                                margin-top: 15vh;
                             }
 
                             100% {
@@ -731,8 +761,8 @@
             }
 
             .contenido__info--cualidades {
-                @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-evenly, $flx_bx_gap: 0);
-                height: 75svh;
+                @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-evenly, $flx_bx_gap: 0px);
+                height: 75vh;
                 overflow: hidden;
                 background-image: url('../img/fondo_grampas_verde.jpg');
                 background-size: cover;
@@ -741,50 +771,57 @@
                 background-attachment: fixed;
                 padding: 5svh 0;
 
-                .info__cualidades--box {
-                    margin: 0 0 10svh;
-                    display: inline-block;
-                    width: 351px;
-                    text-align: center;
-                    visibility: hidden;
-                    color: map-get($color, "blanco");
+                .info__cualidades--cont {
+                    @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: center, $flx_bx_juco: space-around, $flx_bx_gap: 0px);                  
 
-                    h3 {
-                        color: map-get($color, "gris_08");
-                        font-size: 7.5svw;
-                    }
-
-                    p {
-                        font-family: $fam_04;
-                        color: map-get($color, "blanco");
-                        font-size: 5svw;
-                        display: block;
-                        // line-height: 1;
-                        font-weight: 300;
-                        // text-shadow: #000 3px 3px 2px;
-                    }
-
-                    &:last-child {
-                        margin: 0;
-                    }
-                }
-
-                .info__cualidades--box.animacion {
-                    visibility: visible;
-                    animation: animacioncualidades 1.5s forwards;
-
-                    @keyframes animacioncualidades {
-
-                        0% {
-                            opacity: 0;
-                            margin-top: 15svh;
+                    .info__cualidades--box {
+                        margin: 15vh 0 10vh;
+                        display: inline-block;
+                        width: 351px;
+                        text-align: center;
+                        // visibility: hidden;
+                        opacity: 0;
+                        // color: map-get($color, "blanco");
+    
+                        h3 {
+                            color: map-get($color, "gris_08");
+                            font-size: 7.5svw;
+                            margin: 0 0 1svh;
                         }
-
-                        100% {
-                            opacity: 1;
-                            margin-top: 0;
-                        }    
+    
+                        p {
+                            font-family: $fam_04;
+                            color: map-get($color, "blanco");
+                            font-size: 5svw;
+                            display: block;
+                            // line-height: 1;
+                            font-weight: 300;
+                            // text-shadow: #000 3px 3px 2px;
+                        }
+    
+                        // &:last-child {
+                        //     margin: 0;
+                        // }
                     }
+    
+                    .info__cualidades--box.animacion {
+                        // visibility: visible;
+                        animation: animacioncualidades 1.5s forwards;
+    
+                        @keyframes animacioncualidades {
+    
+                            0% {
+                                opacity: 0;
+                                margin-top: 15svh;
+                            }
+    
+                            100% {
+                                opacity: 1;
+                                margin-top: 0;
+                            }    
+                        }
+                    }
+
                 }
             }
 

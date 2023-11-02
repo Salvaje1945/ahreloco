@@ -36,116 +36,6 @@ export default function animaciones(elAncho, elElemento) {
 
     function animacionIconos() {
 
-        // const alturaIconoIndustrial = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /4)
-
-        // const alturaInicio = $('#nosotros-leer-mas').classList.contains('no')
-
-        // let alturaIconoIndustrial
-        // let alturaIconoPostventa
-        // let alturaIconoTecnico
-        // let alturaIconoEntrega
-
-        // if(alturaInicio) {
-
-        //     alturaIconoIndustrial = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientesH2
-
-        //     alturaIconoPostventa = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2)
-
-        //     alturaIconoTecnico = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2) + (alturaClientes /4)
-
-        //     alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
-
-        // } else {
-
-        //     alturaIconoIndustrial = alturaCabecera + alturaCarrousel + (alturaNosotrosH2 / 2)
-
-        //     alturaIconoPostventa = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2)
-
-        //     alturaIconoTecnico = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2) + (alturaClientes /4)
-
-        //     alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
-
-        // }
-
-
-
-        // const alturaIconoIndustrial = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientesH2
-
-        // const alturaIconoPostventa = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2)
-
-        // const alturaIconoTecnico = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2) + (alturaClientes /4)
-
-        // const alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
-
-        //const alturaParaClientes = alturaCabecera + alturaCarrousel + (alturaNosotrosH2 / 2)
-
-        // if(anchoPantalla < 768) {
-
-        //     window.addEventListener('scroll', function () {
-
-        //         const alturaInicio = $('#nosotros-leer-mas').classList.contains('no')
-
-        //         let alturaIconoIndustrial
-        //         let alturaIconoPostventa
-        //         let alturaIconoTecnico
-        //         let alturaIconoEntrega
-
-        //         if(alturaInicio) {
-
-        //             alturaIconoIndustrial = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientesH2
-        
-        //             alturaIconoPostventa = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2)
-        
-        //             alturaIconoTecnico = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2) + (alturaClientes /4)
-        
-        //             alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
-        
-        //         } else {
-        
-        //             alturaIconoIndustrial = alturaCabecera + alturaCarrousel + (alturaNosotrosH2 / 2)
-        
-        //             // alturaIconoPostventa = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2)
-
-        //             alturaIconoPostventa = alturaCabecera + alturaCarrousel + (alturaNosotros /2)
-        
-        //             // alturaIconoTecnico = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaClientes /2) + (alturaClientes /4)
-
-        //             alturaIconoTecnico = alturaCabecera + alturaCarrousel + alturaNosotros - (alturaNosotros /4)
-        
-        //             alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaIndustrial /2)
-        
-        //         }
-    
-        //         let scrollActual = window.pageYOffset || document.documentElement.scrollTop
-    
-        //         if (scrollActual >= alturaIconoIndustrial) {
-    
-        //             $('#industrial').classList.add('animacion')
-    
-        //         }
-
-        //         if (scrollActual >= alturaIconoPostventa) {
-    
-        //             $('#postventa').classList.add('animacion')
-    
-        //         }
-
-        //         if (scrollActual >= alturaIconoTecnico) {
-    
-        //             $('#serviciotecnico').classList.add('animacion')
-    
-        //         }
-
-        //         if (scrollActual >= alturaIconoEntrega) {
-    
-        //             $('#entrega').classList.add('animacion')
-    
-        //         }
-
-        //     })
-
-        // }
-
         window.addEventListener('scroll', function () {
 
             const alturaInicio = $('#nosotros-leer-mas').classList.contains('no')
@@ -212,7 +102,7 @@ export default function animaciones(elAncho, elElemento) {
 
             } else {
 
-                alturaIconosDkp = alturaCabecera + alturaCarrousel + (alturaNosotros / 6)
+                alturaIconosDkp = alturaCabecera + alturaCarrousel + (alturaNosotros / 4)
 
                 if (scrollActual >= alturaIconosDkp) {
 
@@ -241,36 +131,37 @@ export default function animaciones(elAncho, elElemento) {
 
         // const alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
 
-        if(anchoPantalla < 768) {
+        window.addEventListener('scroll', function () {
 
-            window.addEventListener('scroll', function () {
+            const alturaInicio = $('#nosotros-leer-mas').classList.contains('no')
 
-                const alturaInicio = $('#nosotros-leer-mas').classList.contains('no')
+            let alturaMaterial
+            let alturaTerminacion
+            let alturaResultado
+            let alturaCualidadesDkp
 
-                let alturaMaterial
-                let alturaTerminacion
-                let alturaResultado
+            let scrollActual = window.pageYOffset || document.documentElement.scrollTop
 
-                let scrollActual = window.pageYOffset || document.documentElement.scrollTop
+            if(anchoPantalla < 768) {
 
                 if(alturaInicio) {
 
                     alturaMaterial = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas + alturaBloqueMaterial
-
+    
                     alturaTerminacion = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas + alturaBloqueMaterial + alturaBloqueTerminacion
-
+    
                     alturaResultado = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas + alturaBloqueMaterial + (alturaBloqueTerminacion *3)
-
+    
                     // alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
-
+    
                 } else {
-
+    
                     alturaMaterial = alturaCabecera + alturaCarrousel + alturaNosotros + alturaIndustrial + alturaPostventa
-
+    
                     alturaTerminacion = alturaCabecera + alturaCarrousel + alturaNosotros + alturaIndustrial + alturaPostventa + alturaServicioTec + (alturaEntrega /2)
-
+    
                     alturaResultado = alturaCabecera + alturaCarrousel + alturaNosotros + alturaIndustrial + alturaPostventa + alturaServicioTec + alturaEntrega + (alturaEntrega /2)
-
+    
                     console.log('ALTURA MATERIAL:')
                     console.log(alturaMaterial)
                     console.log('*************')
@@ -283,9 +174,9 @@ export default function animaciones(elAncho, elElemento) {
                     console.log('SCROLL ACTUAL:')
                     console.log(scrollActual)
                     console.log('*************')
-
+    
                     // alturaIconoEntrega = alturaCabecera + alturaCarrousel + alturaNosotros + alturaClientes
-
+    
                 }
     
                 // let scrollActual = window.pageYOffset || document.documentElement.scrollTop
@@ -295,22 +186,42 @@ export default function animaciones(elAncho, elElemento) {
                     $('#material').classList.add('animacion')
     
                 }
-
+    
                 if (scrollActual >= alturaTerminacion) {
     
                     $('#terminacion').classList.add('animacion')
     
                 }
-
+    
                 if (scrollActual >= alturaResultado) {
     
                     $('#resultado').classList.add('animacion')
     
                 }
 
-            })
+            } else {
 
-        }
+                // alturaCualidadesDkp = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaCaracteristicas / 4)
+
+                // alturaCualidadesDkp = alturaCabecera + alturaCarrousel + (alturaNosotros / 2)
+
+                alturaCualidadesDkp = alturaCabecera + alturaCarrousel + alturaNosotros - (alturaNosotros / 3)
+
+                if (scrollActual >= alturaCualidadesDkp) {
+    
+                    $('#material').classList.add('animacion')
+                    $('#terminacion').classList.add('animacion')
+                    $('#resultado').classList.add('animacion')
+    
+                }
+
+
+            }
+            
+
+        })
+
+        
 
     }
 
@@ -347,6 +258,10 @@ export default function animaciones(elAncho, elElemento) {
                 if (scrollActual >= alturaParaNosotros) {
     
                     $('#contenido-nosotros-h2').classList.add('animacion')
+
+                    if(anchoPantalla > 768) {
+                        $('#nuestra-empresa-texto').classList.add('animacion')
+                    }
     
                 }
     
