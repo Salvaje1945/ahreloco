@@ -693,7 +693,7 @@
                 padding: 5svh 0;
 
                 .info__caracteristicas--cont {
-                    @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: top, $flx_bx_juco: space-evenly, $flx_bx_gap: 0px);
+                    @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-evenly, $flx_bx_gap: 0px);
                     height: 125vh;
                     overflow: hidden;
 
@@ -921,7 +921,7 @@
 
             h2 {
                 color: map-get($color, "gris_04");
-                font-size: 7svw;
+                font-size: 7.5svw;
                 margin: 0 0 5svh;
             }
         }
@@ -936,12 +936,13 @@
 
                 li {
                     @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: center, $flx_bx_juco: flex-start, $flx_bx_gap: 0);
-                    margin: 3svh 0;
+                    margin: 3.5svh 0;
 
                     span {
                         display: inline-block;
                         color: map-get($color, "verde_03");
                         margin: 0 3svh 0 0;
+                        font-size: 6.5svw;
                     }
 
                     p {
@@ -955,18 +956,24 @@
                     }
 
                     &:first-child {
-                        margin: 0 0 3svh;
+                        margin: 0 0 3.5svh;
                     }
 
                     &:last-child {
-                        margin: 3svh 0 0;
+                        margin: 3.5svh 0 0;
+                    }
+
+                    .pie__contacto--mapa {
+                        width: 100%;
+                        height: 35.5svh;
+                        border: 0;
                     }
                 }
             }
         }
 
         .pie__menu {
-            padding: 0 3svw 0 0;
+            padding: 0 7svw 0 0;
             // margin: 0 0 2svh;
 
             ul {

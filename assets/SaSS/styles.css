@@ -927,7 +927,7 @@ input, select {
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont {
   display: flex;
   flex-flow: row wrap;
-  align-items: top;
+  align-items: flex-start;
   justify-content: space-evenly;
   gap: 0px;
   height: 125vh;
@@ -1123,7 +1123,7 @@ input, select {
 #contenedor #pie .pie__catalogo h2,
 #contenedor #pie .pie__contacto h2 {
   color: #aaa;
-  font-size: 7svw;
+  font-size: 7.5svw;
   margin: 0 0 5svh;
 }
 #contenedor #pie .pie__contacto {
@@ -1140,12 +1140,13 @@ input, select {
   align-items: center;
   justify-content: flex-start;
   gap: 0;
-  margin: 3svh 0;
+  margin: 3.5svh 0;
 }
 #contenedor #pie .pie__contacto ul li span {
   display: inline-block;
   color: #297240;
   margin: 0 3svh 0 0;
+  font-size: 6.5svw;
 }
 #contenedor #pie .pie__contacto ul li p {
   display: inline-block;
@@ -1156,13 +1157,18 @@ input, select {
   color: #fff;
 }
 #contenedor #pie .pie__contacto ul li:first-child {
-  margin: 0 0 3svh;
+  margin: 0 0 3.5svh;
 }
 #contenedor #pie .pie__contacto ul li:last-child {
-  margin: 3svh 0 0;
+  margin: 3.5svh 0 0;
+}
+#contenedor #pie .pie__contacto ul li .pie__contacto--mapa {
+  width: 100%;
+  height: 35.5svh;
+  border: 0;
 }
 #contenedor #pie .pie__menu {
-  padding: 0 3svw 0 0;
+  padding: 0 7svw 0 0;
 }
 #contenedor #pie .pie__menu ul {
   font-family: "Raleway", sans-serif;
@@ -1206,7 +1212,8 @@ input, select {
     font-size: 39.24px;
     padding: 0 0 49.6px;
   }
-  #contenedor #contenido #contenido__info .contenido__info--nosotros h2 {
+  #contenedor #contenido #contenido__info .contenido__info--nosotros h2,
+#contenedor #contenido #contenido__info .contenido__info--clientes h2 {
     font-size: 50px;
   }
   #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div p {
@@ -1223,6 +1230,27 @@ input, select {
   }
   #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box p {
     font-size: 18.08px;
+  }
+  #contenedor #pie .pie__menu h2,
+#contenedor #pie .pie__catalogo h2,
+#contenedor #pie .pie__contacto h2 {
+    font-size: 33.9px;
+    margin: 0 0 5svh;
+  }
+  #contenedor #pie .pie__contacto ul {
+    font-size: 22.6px;
+  }
+  #contenedor #pie .pie__contacto ul li {
+    margin: 2.5svh 0;
+  }
+  #contenedor #pie .pie__contacto ul li span {
+    font-size: 27.12px;
+  }
+  #contenedor #pie .pie__menu ul {
+    font-size: 27.12px;
+  }
+  #contenedor #pie .pie__menu ul li {
+    padding: 0 0 0 3svh;
   }
 }
 @media only screen and (min-width: 481px) {
@@ -1267,11 +1295,10 @@ input, select {
     visibility: hidden;
   }
   #contenedor #contenido #contenido__info .contenido__info--caracteristicas {
-    padding: 11vh 0 0;
+    padding: 11svh 0 0;
   }
   #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont {
-    min-height: 23vh;
-    height: auto;
+    height: 37svh;
   }
   #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box {
     width: 21.75%;
@@ -1289,14 +1316,10 @@ input, select {
     line-height: 1.35;
   }
   #contenedor #contenido #contenido__info .contenido__info--cualidades {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 0px;
-    padding: 15vh 0;
-    min-height: 23vh;
+    display: block;
+    padding: 15svh 0;
     height: auto;
+    overflow: visible;
   }
   #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont {
     display: flex;
@@ -1304,6 +1327,8 @@ input, select {
     align-items: flex-start;
     justify-content: space-evenly;
     gap: 0px;
+    height: 13svh;
+    overflow: hidden;
   }
   #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box {
     width: 30%;
@@ -1314,6 +1339,20 @@ input, select {
   }
   #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box p {
     font-size: 16px;
+  }
+  #contenedor #pie .pie__contacto,
+#contenedor #pie .pie__menu,
+#contenedor #pie .pie__catalogo {
+    min-width: 327px;
+  }
+  #contenedor #pie .pie__contacto {
+    margin: 1px 0 0;
+  }
+  #contenedor #pie .pie__contacto ul li span {
+    margin: 0 1.5svh 0 0;
+  }
+  #contenedor #pie .pie__menu {
+    padding: 4.5svh 0 0;
   }
 }
 @media only screen and (min-width: 1024px) {
