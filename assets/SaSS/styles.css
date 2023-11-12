@@ -471,6 +471,29 @@ input, select {
   color: #297240;
   line-height: 5px !important;
 }
+#contenedor .boton__whatsapp,
+#contenedor .boton__instagram {
+  position: fixed;
+  width: calc(9svh + 3svw);
+  height: auto;
+  right: 1.5%;
+  z-index: 997;
+}
+#contenedor .boton__whatsapp img,
+#contenedor .boton__instagram img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+}
+#contenedor .boton__whatsapp {
+  bottom: 11svh;
+}
+#contenedor .boton__instagram {
+  bottom: calc(20svh + 5svw);
+}
 #contenedor .contenedor__subir.activo {
   right: 5%;
   transition: 0.3s linear all;
@@ -1006,7 +1029,7 @@ input, select {
   gap: 0px;
 }
 #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box {
-  margin: 15vh 0 10vh;
+  margin: 15svh 0 10svh;
   display: inline-block;
   width: 351px;
   text-align: center;
@@ -1230,6 +1253,12 @@ input, select {
   }
   #contenedor #contenido #contenido__info .contenido__info--caracteristicas .info__caracteristicas--cont .caracteristicas__cont--box p {
     font-size: 18.08px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box h3 {
+    font-size: 33.9px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box p {
+    font-size: 18px;
   }
   #contenedor #pie .pie__menu h2,
 #contenedor #pie .pie__catalogo h2,
