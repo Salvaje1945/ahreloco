@@ -10,6 +10,8 @@ export default function responsiveMedia(id, mq, mobileContent, desktopContent) {
         if(evt.matches){
             $(id).innerHTML = desktopContent
             $('#menu-dkp-nosotros').onclick = mostrarBotonSubir
+            $('#menu-dkp-clientes').onclick = mostrarBotonSubir
+            $('#menu-dkp-contacto').onclick = mostrarBotonSubir
         } else {
             $(id).innerHTML = mobileContent
             $('#cabecera-menu-abrir').onclick = cabeceraAbrirMenu

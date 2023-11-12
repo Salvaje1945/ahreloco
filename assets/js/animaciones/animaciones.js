@@ -241,13 +241,23 @@ export default function animaciones(elAncho, elElemento) {
 
                 let alturaParaClientes
 
-                if(alturaInicio) {
+                
 
-                    alturaParaClientes = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas + alturaCualidades
+                if(anchoPantalla > 768) {
+
+                    alturaParaClientes = alturaCabecera + alturaCarrousel + alturaNosotros + (alturaCaracteristicas / 4)
 
                 } else {
 
-                    alturaParaClientes = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas
+                    if(alturaInicio) {
+
+                        alturaParaClientes = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas + alturaCualidades
+    
+                    } else {
+    
+                        alturaParaClientes = alturaCabecera + alturaCarrousel + alturaNosotros + alturaCaracteristicas
+    
+                    }
 
                 }
 

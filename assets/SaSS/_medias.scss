@@ -630,6 +630,44 @@
 
         }
 
+        #pie {
+
+            .pie__contacto,
+            .pie__menu,
+            .pie__catalogo {
+                // min-width: 327px;
+                min-width: 0;
+                width: 30%;
+            }
+
+            .pie__contacto {
+                margin: 1px 0 0;
+
+                ul {
+
+                    li {
+
+                        span {
+                            margin: 0 1.5svh 0 0;
+                        }
+
+                    }
+
+                }
+
+            }
+
+            .pie__menu {
+                padding: 4.5svh 0 0;
+            }
+
+            .pie__catalogo {
+                display: inline-block;
+                padding: 4.5svh 0 0;
+            }
+
+        }
+
     }
 
 
@@ -681,27 +719,27 @@
                     
                 }
 
-                .contenido__info--cualidades {
+                // .contenido__info--cualidades {
 
-                    .info__cualidades--cont {
+                //     .info__cualidades--cont {
 
-                        .info__cualidades--box {
-                            width: 27%;
+                //         .info__cualidades--box {
+                //             width: 27%;
     
-                            h3 {
-                                font-size: 33px;
-                                margin: 0 0 4vh;
-                            }
+                //             h3 {
+                //                 font-size: 33px;
+                //                 margin: 0 0 4vh;
+                //             }
     
-                            p {
-                                font-size: 22px;
-                            }
+                //             p {
+                //                 font-size: 22px;
+                //             }
     
-                        }
+                //         }
 
-                    }
+                //     }
 
-                }
+                // }
 
             }
 
