@@ -53,7 +53,7 @@ export default function alertas(tipo) {
         <input type="hidden" id="correoDestino" value="revista.insomnio@gmail.com">`
 
     Swal.fire({
-      title: 'Formulario',
+      title: 'DESCARGAR CATÁLOGO',
       html: form,
       footer: '<p class="alertas__parrafo">* International Fasteners S.A. le garantiza que los datos aquí recopilados serán protegidos conforme a lo establecido por la Ley 25.326 de Protección de Datos Personales.</p>',
       width: '90svw',

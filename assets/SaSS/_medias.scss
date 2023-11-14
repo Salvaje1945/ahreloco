@@ -63,7 +63,8 @@
             #contenido__info {
 
                 .contenido__info--nosotros,
-                .contenido__info--clientes {
+                .contenido__info--clientes,
+                .contenido__info--herramientas {
                     // padding: 5svw;
                     //padding: 22.6px;
 
@@ -139,6 +140,15 @@
 
                     }
 
+                }
+
+                .contenido__info--herramientas {
+                    
+                    p {
+                        // font-size: 6svw;
+                        font-size: 27px;
+                    }
+                    
                 }
 
             }
@@ -319,6 +329,18 @@
                 }
             }
 
+            #contenido__info {
+
+                .contenido__herramientas--lista {
+
+                    ul {
+                        @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-evenly, $flx_bx_gap: 0px);
+                    }
+
+                }
+
+            }
+
         }
 
     }
@@ -327,6 +349,53 @@
 }
 
 @media only screen and (min-width: map-get($wth_res, "tbl_01")) {
+
+    .btn_03 {
+        display: inline-block;
+        // min-width: 15svw;
+        @include norm__btns($norm_btn-wth: 35svw, $norm_btn-hgt: auto, $norm_btn-bgc: map-get($color, "verde_03"), $norm_btn-color: map-get($color, "blanco"), $norm_btn-fntsiz: 3svh, $norm_btn-fntwght: 600, $norm_btn-brdrad: 7px, $norm_btn-hvr_bgc: map-get($color, "gris_01"), $norm_btn-hvr_color: map-get($color, "blanco"));
+        // letter-spacing: .3svw;
+        line-height: 1;
+        padding: 2svh;
+        margin: 0 1.5svh 0 0;
+    }
+      
+    .btn_04 {
+        display: inline-block;
+        // min-width: 15svw;
+        @include norm__btns($norm_btn-wth: 35svw, $norm_btn-hgt: auto, $norm_btn-bgc: map-get($color, "rojo_03"), $norm_btn-color: map-get($color, "blanco"), $norm_btn-fntsiz: 3svh, $norm_btn-fntwght: 600, $norm_btn-brdrad: 7px, $norm_btn-hvr_bgc: map-get($color, "gris_01"), $norm_btn-hvr_color: map-get($color, "blanco"));
+        // letter-spacing: .3svw;
+        line-height: 1;
+        padding: 2svh;
+        margin: 0 0 0 1.5svh;
+    }
+      
+      // *** ESTILOS PARA ALERTAS ***
+      
+    .alertas__parrafo {
+        font-family: $fam_04;
+        font-size: 15.36px;
+        color: map-get($color, "negro") !important;
+        font-weight: 600;
+    }
+      
+    .alertas__label {
+        font-family: $fam_04;
+        font-size: 19.2px;
+        color: map-get($color, "negro") !important;
+        font-weight: 600;
+    }
+      
+    input, select {
+        width: 100%;
+        height: 5svh;
+        border: 1px solid map-get($color, "verde_03");
+        border-radius: 7px;
+        padding: 3px;
+        font-family: $fam_04;
+        font-size: 1rem;
+        margin: 1svh 0;
+    }
 
     #contenedor {
 

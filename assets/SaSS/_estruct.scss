@@ -433,7 +433,8 @@
     }
 
     #contenido {
-        //padding: 0 0 0;
+        
+        // *** INICIO ***
 
         #contenido__carousel {
 
@@ -589,7 +590,8 @@
             .contenido__info--nosotros,
             .contenido__info--clientes,
             .contenido__info--caracteristicas,
-            .contenido__info--cualidades {
+            .contenido__info--cualidades,
+            .contenido__info--herramientas {
                 // padding: 2.65svh 5svw;
                 margin: 1px 0 0;
 
@@ -959,7 +961,63 @@
         
                 }
             }
+
+            // *** HERRAMIENTAS ***
+
+            .contenido__info--herramientas {
+                padding: 2.65svh 5svw;
+
+                h2 {
+                    color: map-get($color, "verde_03");
+                }
+
+                p {
+                    font-family: $fam_04;
+                    font-size: 5svw;
+                    font-weight: 400;
+                    color: map-get($color, "negro");
+                    // line-height: .99;
+                    margin: 0 0 5svw;
+                    text-align: justify;
+                }
+
+            }
+
+            .contenido__herramientas--lista {
+                padding: 5svh 5%;
+
+                ul {
+                    @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: center, $flx_bx_gap: 0px);
+
+                    li {
+                        display: inline-block;
+                        min-width: 250px;
+                        margin: 0 0 7svh;
+                        text-align: center;
+
+                        a {
+                            font-family: $fam_04;
+                            font-size: 33px;
+                            font-weight: 500;
+                            color: map-get($color, "verde_03");
+                            margin: 0 0 1svh;
+                            display: block;
+
+                            &:hover {
+                                color: map-get($color, "negro");
+                            }
+                        }
+
+                        img {
+                            border: 1px solid map-get($color, "verde_03");
+                            display: block;
+                        }
+                    }
+                }
+            }
         }
+
+        
 
     }
 

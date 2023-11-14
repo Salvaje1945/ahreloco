@@ -846,13 +846,15 @@ input, select {
 #contenedor #contenido #contenido__info .contenido__info--nosotros,
 #contenedor #contenido #contenido__info .contenido__info--clientes,
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas,
-#contenedor #contenido #contenido__info .contenido__info--cualidades {
+#contenedor #contenido #contenido__info .contenido__info--cualidades,
+#contenedor #contenido #contenido__info .contenido__info--herramientas {
   margin: 1px 0 0;
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros h2,
 #contenedor #contenido #contenido__info .contenido__info--clientes h2,
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas h2,
-#contenedor #contenido #contenido__info .contenido__info--cualidades h2 {
+#contenedor #contenido #contenido__info .contenido__info--cualidades h2,
+#contenedor #contenido #contenido__info .contenido__info--herramientas h2 {
   font-size: 11svw;
   height: 10svh;
 }
@@ -1153,6 +1155,51 @@ input, select {
      object-fit: contain;
   display: block;
 }
+#contenedor #contenido #contenido__info .contenido__info--herramientas {
+  padding: 2.65svh 5svw;
+}
+#contenedor #contenido #contenido__info .contenido__info--herramientas h2 {
+  color: #297240;
+}
+#contenedor #contenido #contenido__info .contenido__info--herramientas p {
+  font-family: "Raleway", sans-serif;
+  font-size: 5svw;
+  font-weight: 400;
+  color: #000;
+  margin: 0 0 5svw;
+  text-align: justify;
+}
+#contenedor #contenido #contenido__info .contenido__herramientas--lista {
+  padding: 5svh 5%;
+}
+#contenedor #contenido #contenido__info .contenido__herramientas--lista ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0px;
+}
+#contenedor #contenido #contenido__info .contenido__herramientas--lista ul li {
+  display: inline-block;
+  min-width: 250px;
+  margin: 0 0 7svh;
+  text-align: center;
+}
+#contenedor #contenido #contenido__info .contenido__herramientas--lista ul li a {
+  font-family: "Raleway", sans-serif;
+  font-size: 33px;
+  font-weight: 500;
+  color: #297240;
+  margin: 0 0 1svh;
+  display: block;
+}
+#contenedor #contenido #contenido__info .contenido__herramientas--lista ul li a:hover {
+  color: #000;
+}
+#contenedor #contenido #contenido__info .contenido__herramientas--lista ul li img {
+  border: 1px solid #297240;
+  display: block;
+}
 #contenedor #pie {
   display: flex;
   flex-flow: row wrap;
@@ -1261,7 +1308,8 @@ input, select {
     padding: 0 0 49.6px;
   }
   #contenedor #contenido #contenido__info .contenido__info--nosotros h2,
-#contenedor #contenido #contenido__info .contenido__info--clientes h2 {
+#contenedor #contenido #contenido__info .contenido__info--clientes h2,
+#contenedor #contenido #contenido__info .contenido__info--herramientas h2 {
     font-size: 50px;
   }
   #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div p {
@@ -1284,6 +1332,9 @@ input, select {
   }
   #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box p {
     font-size: 18px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--herramientas p {
+    font-size: 27px;
   }
   #contenedor #pie .pie__menu h2,
 #contenedor #pie .pie__catalogo h2,
@@ -1343,8 +1394,79 @@ input, select {
   #contenedor #contenido #contenido__carousel .contenido__carousel--slider .slider .slide .info p {
     font-size: 52.91px;
   }
+  #contenedor #contenido #contenido__info .contenido__herramientas--lista ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 0px;
+  }
 }
 @media only screen and (min-width: 768px) {
+  .btn_03 {
+    display: inline-block;
+    width: 35svw;
+    height: auto;
+    background-color: #297240;
+    color: #fff;
+    font-family: "Antonio";
+    font-size: 3svh;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.2s ease all;
+    border-radius: 7px;
+    line-height: 1;
+    padding: 2svh;
+    margin: 0 1.5svh 0 0;
+  }
+  .btn_03:hover {
+    background-color: #333;
+    color: #fff;
+    transition: 0.2s linear all;
+  }
+  .btn_04 {
+    display: inline-block;
+    width: 35svw;
+    height: auto;
+    background-color: #960101;
+    color: #fff;
+    font-family: "Antonio";
+    font-size: 3svh;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.2s ease all;
+    border-radius: 7px;
+    line-height: 1;
+    padding: 2svh;
+    margin: 0 0 0 1.5svh;
+  }
+  .btn_04:hover {
+    background-color: #333;
+    color: #fff;
+    transition: 0.2s linear all;
+  }
+  .alertas__parrafo {
+    font-family: "Raleway", sans-serif;
+    font-size: 15.36px;
+    color: #000 !important;
+    font-weight: 600;
+  }
+  .alertas__label {
+    font-family: "Raleway", sans-serif;
+    font-size: 19.2px;
+    color: #000 !important;
+    font-weight: 600;
+  }
+  input, select {
+    width: 100%;
+    height: 5svh;
+    border: 1px solid #297240;
+    border-radius: 7px;
+    padding: 3px;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    margin: 1svh 0;
+  }
   #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box .nosotros__p {
     visibility: hidden;
   }
