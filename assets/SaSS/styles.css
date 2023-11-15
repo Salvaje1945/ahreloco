@@ -847,14 +847,14 @@ input, select {
 #contenedor #contenido #contenido__info .contenido__info--clientes,
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas,
 #contenedor #contenido #contenido__info .contenido__info--cualidades,
-#contenedor #contenido #contenido__info .contenido__info--herramientas {
+#contenedor #contenido #contenido__info .contenido__info--secciones {
   margin: 1px 0 0;
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros h2,
 #contenedor #contenido #contenido__info .contenido__info--clientes h2,
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas h2,
 #contenedor #contenido #contenido__info .contenido__info--cualidades h2,
-#contenedor #contenido #contenido__info .contenido__info--herramientas h2 {
+#contenedor #contenido #contenido__info .contenido__info--secciones h2 {
   font-size: 11svw;
   height: 10svh;
 }
@@ -1155,13 +1155,13 @@ input, select {
      object-fit: contain;
   display: block;
 }
-#contenedor #contenido #contenido__info .contenido__info--herramientas {
+#contenedor #contenido #contenido__info .contenido__info--secciones {
   padding: 2.65svh 5svw;
 }
-#contenedor #contenido #contenido__info .contenido__info--herramientas h2 {
+#contenedor #contenido #contenido__info .contenido__info--secciones h2 {
   color: #297240;
 }
-#contenedor #contenido #contenido__info .contenido__info--herramientas p {
+#contenedor #contenido #contenido__info .contenido__info--secciones p {
   font-family: "Raleway", sans-serif;
   font-size: 5svw;
   font-weight: 400;
@@ -1169,23 +1169,23 @@ input, select {
   margin: 0 0 5svw;
   text-align: justify;
 }
-#contenedor #contenido #contenido__info .contenido__herramientas--lista {
+#contenedor #contenido #contenido__info .contenido__secciones--lista {
   padding: 5svh 5%;
 }
-#contenedor #contenido #contenido__info .contenido__herramientas--lista ul {
+#contenedor #contenido #contenido__info .contenido__secciones--lista ul {
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
   justify-content: center;
   gap: 0px;
 }
-#contenedor #contenido #contenido__info .contenido__herramientas--lista ul li {
+#contenedor #contenido #contenido__info .contenido__secciones--lista ul li {
   display: inline-block;
   min-width: 250px;
   margin: 0 0 7svh;
   text-align: center;
 }
-#contenedor #contenido #contenido__info .contenido__herramientas--lista ul li a {
+#contenedor #contenido #contenido__info .contenido__secciones--lista ul li a {
   font-family: "Raleway", sans-serif;
   font-size: 33px;
   font-weight: 500;
@@ -1193,12 +1193,41 @@ input, select {
   margin: 0 0 1svh;
   display: block;
 }
-#contenedor #contenido #contenido__info .contenido__herramientas--lista ul li a:hover {
+#contenedor #contenido #contenido__info .contenido__secciones--lista ul li a:hover {
   color: #000;
 }
-#contenedor #contenido #contenido__info .contenido__herramientas--lista ul li img {
+#contenedor #contenido #contenido__info .contenido__secciones--lista ul li img {
   border: 1px solid #297240;
   display: block;
+}
+#contenedor #contenido #contenido__breadcrumbs {
+  padding: 0 5% 5svh;
+  text-align: left;
+}
+#contenedor #contenido #contenido__breadcrumbs nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: left;
+  gap: 3svh;
+  color: #000;
+}
+#contenedor #contenido #contenido__breadcrumbs nav ul li {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #444;
+  list-style-type: "> ";
+}
+#contenedor #contenido #contenido__breadcrumbs nav ul li a {
+  color: #297240;
+  text-decoration: underline;
+}
+#contenedor #contenido #contenido__breadcrumbs nav ul li a:hover {
+  color: #000;
+}
+#contenedor #contenido #contenido__breadcrumbs nav ul li p {
+  color: #444;
+  font-family: "Raleway", sans-serif;
 }
 #contenedor #pie {
   display: flex;
@@ -1309,7 +1338,7 @@ input, select {
   }
   #contenedor #contenido #contenido__info .contenido__info--nosotros h2,
 #contenedor #contenido #contenido__info .contenido__info--clientes h2,
-#contenedor #contenido #contenido__info .contenido__info--herramientas h2 {
+#contenedor #contenido #contenido__info .contenido__info--secciones h2 {
     font-size: 50px;
   }
   #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div p {
@@ -1333,7 +1362,7 @@ input, select {
   #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box p {
     font-size: 18px;
   }
-  #contenedor #contenido #contenido__info .contenido__info--herramientas p {
+  #contenedor #contenido #contenido__info .contenido__info--secciones p {
     font-size: 27px;
   }
   #contenedor #pie .pie__menu h2,
@@ -1394,7 +1423,7 @@ input, select {
   #contenedor #contenido #contenido__carousel .contenido__carousel--slider .slider .slide .info p {
     font-size: 52.91px;
   }
-  #contenedor #contenido #contenido__info .contenido__herramientas--lista ul {
+  #contenedor #contenido #contenido__info .contenido__secciones--lista ul {
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;

@@ -591,7 +591,7 @@
             .contenido__info--clientes,
             .contenido__info--caracteristicas,
             .contenido__info--cualidades,
-            .contenido__info--herramientas {
+            .contenido__info--secciones {
                 // padding: 2.65svh 5svw;
                 margin: 1px 0 0;
 
@@ -964,7 +964,7 @@
 
             // *** HERRAMIENTAS ***
 
-            .contenido__info--herramientas {
+            .contenido__info--secciones {
                 padding: 2.65svh 5svw;
 
                 h2 {
@@ -983,7 +983,7 @@
 
             }
 
-            .contenido__herramientas--lista {
+            .contenido__secciones--lista {
                 padding: 5svh 5%;
 
                 ul {
@@ -1017,8 +1017,54 @@
             }
         }
 
-        
+        #contenido__breadcrumbs {
+            padding: 0 5% 5svh;
+            text-align: left;
 
+            nav {
+
+                ul {
+                    // list-style: url(../img/chevron-right-solid.svg);
+                    // list-style-image: url(../img/chevron-right-solid.svg);
+                    @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: flex-start, $flx_bx_juco: left, $flx_bx_gap: 3svh);
+                    color: map-get($color, "negro");
+
+                    li {
+                        // display: inline-block;
+                        font-family: $fam_04;
+                        font-weight: 600;
+                        color: map-get($color, "gris_02");
+                        // list-style-position: inside;
+                        list-style-type: '> ';
+
+                        a {
+                            color: map-get($color, "verde_03");
+                            text-decoration: underline;
+
+                            &:hover {
+                                color: map-get($color, "negro");
+                            }
+                        }
+
+                        p {
+                            color: map-get($color, "gris_02");
+                            font-family: $fam_04;
+                        }
+
+                        
+                        
+                    }
+
+                    // &::marker {
+                    //     content: url(../img/chevron-right-solid.svg);
+                    // }
+
+                }
+
+            }
+
+
+        }
     }
 
     #pie {
