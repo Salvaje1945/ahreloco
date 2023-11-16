@@ -144,11 +144,35 @@
 
                 .contenido__info--secciones {
                     
+                    h3 {
+                        font-size: 31.54px;
+                    }
+
                     p {
                         // font-size: 6svw;
                         font-size: 27px;
                     }
                     
+                }
+
+                .contenido__secciones--descargas {
+
+                    ul {
+
+                        li {
+
+                            span {
+                                font-size: 40.68px;
+                            }
+
+                            a {
+                                font-size: 22.6px;
+                            }
+
+                        }
+
+                    }
+
                 }
 
             }

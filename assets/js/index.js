@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
             <li><a href="#clientes" id="menu-mov-clientes">Quienes nos eligen</a></li>
             <li><a href="herramientas.html">Herramientas</a></li>
             <li><a href="insumos.html">Insumos</a></li>
-            <li><a href="#">Asesoramiento técnico</a></li>
+            <li><a href="asesoramiento_tecnico.html">Asesoramiento técnico</a></li>
             <li><a href="#" id="menu-mov-catalogo">Catálogo</a></li>
             <li><a href="#contacto" id="menu-mov-contacto">Contáctenos</a></li>
         </ul>
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
             <li><a href="#clientes" id="menu-dkp-clientes">Quienes nos eligen</a></li>
             <li><a href="herramientas.html">Herramientas</a></li>
             <li><a href="insumos.html">Insumos</a></li>
-            <li><a href="#">Asesoramiento técnico</a></li>
+            <li><a href="asesoramiento_tecnico.html">Asesoramiento técnico</a></li>
             <li><a href="#catalogo" id="menu-dkp-catalogo">Catálogo</a></li>
             <li><a href="#contacto" id="menu-dkp-contacto">Contáctenos</a></li>
         </ul>

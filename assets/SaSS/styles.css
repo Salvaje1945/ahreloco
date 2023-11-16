@@ -1161,6 +1161,11 @@ input, select {
 #contenedor #contenido #contenido__info .contenido__info--secciones h2 {
   color: #297240;
 }
+#contenedor #contenido #contenido__info .contenido__info--secciones h3 {
+  font-size: 7svw;
+  color: #333;
+  margin: 0 0 3svh;
+}
 #contenedor #contenido #contenido__info .contenido__info--secciones p {
   font-family: "Raleway", sans-serif;
   font-size: 5svw;
@@ -1199,6 +1204,36 @@ input, select {
 #contenedor #contenido #contenido__info .contenido__secciones--lista ul li img {
   border: 1px solid #297240;
   display: block;
+}
+#contenedor #contenido #contenido__info .contenido__secciones--descargas {
+  padding: 5svh 5%;
+}
+#contenedor #contenido #contenido__info .contenido__secciones--descargas ul {
+  text-align: left;
+}
+#contenedor #contenido #contenido__info .contenido__secciones--descargas ul li {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3svh;
+  text-align: left;
+  margin: 0 0 7svh;
+}
+#contenedor #contenido #contenido__info .contenido__secciones--descargas ul li span {
+  color: #297240;
+  display: inline-block;
+  font-size: 9svw;
+}
+#contenedor #contenido #contenido__info .contenido__secciones--descargas ul li a {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 5svw;
+  color: #297240;
+  text-align: left;
+}
+#contenedor #contenido #contenido__info .contenido__secciones--descargas ul li a:hover {
+  color: #000;
 }
 #contenedor #contenido #contenido__breadcrumbs {
   padding: 0 5% 5svh;
@@ -1362,8 +1397,17 @@ input, select {
   #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box p {
     font-size: 18px;
   }
+  #contenedor #contenido #contenido__info .contenido__info--secciones h3 {
+    font-size: 31.54px;
+  }
   #contenedor #contenido #contenido__info .contenido__info--secciones p {
     font-size: 27px;
+  }
+  #contenedor #contenido #contenido__info .contenido__secciones--descargas ul li span {
+    font-size: 40.68px;
+  }
+  #contenedor #contenido #contenido__info .contenido__secciones--descargas ul li a {
+    font-size: 22.6px;
   }
   #contenedor #pie .pie__menu h2,
 #contenedor #pie .pie__catalogo h2,
