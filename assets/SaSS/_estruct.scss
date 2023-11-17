@@ -1021,7 +1021,131 @@
                     }
                 }
 
-                
+                .secciones__elementos--cont {
+                    @include caja__flexible--edit ($flx_bx_ff: row wrap, $flx_bx_alit: flex-start, $flx_bx_juco: space-evenly, $flx_bx_gap: 2svh);
+
+                    .secciones__elementos--box {
+                        display: inline-block;
+                        width: 351px;
+                        margin: 0 0 5svh;
+
+                        h3 {
+                            font-size: 8svw;
+                            color: map-get($color, "gris_01");
+                            margin: 0 0 3svh;
+                        }
+
+                        div {
+                            margin: 0 0 3svh;
+
+                            div {
+                                display: inline-block;
+                                width: 100%;
+                                margin: 0 0 3svh;
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    overflow: hidden;
+                                    object-fit: contain;
+                                    display: block;
+                                }
+                            }
+
+                            p {
+                                display: inline-block;
+                                width: 100%;
+                                font-family: $fam_04;
+                                font-size: 4.5svw;
+                                font-weight: 400;
+                                color: map-get($color, "negro");
+                                // line-height: .99;
+                                // margin: 0 0 5svw;
+                                text-align: justify;
+                            }
+
+                        }
+
+                        .elementos__box--tbl_cont {
+                            display: inline-block;
+
+                            p {
+                                // display: inline-block;
+                                // width: 100%;
+                                font-family: $fam_04;
+                                font-size: 5svw;
+                                font-weight: 600;
+                                color: map-get($color, "negro");
+                                text-decoration: underline;
+                                // line-height: .99;
+                                margin: 0 0 2svh;
+                                text-align: left;
+                                display: block;
+                            }
+
+                            // .elementos__box--tbl_tbl {
+                            //     background-color: map-get($color, "blanco");
+                            //     text-align: left;
+                            //     width: 100%;
+                            // }
+
+                            table {
+                                background-color: map-get($color, "blanco");
+                                text-align: left;
+                                width: 100%;
+                                border-collapse: collapse;
+                                font-family: $fam_04;
+                            }
+
+                            th, td {
+                                // border: 1px solid map-get($color, "negro");
+                                padding: 7px;
+                            }
+
+                            thead {
+                                background-color: map-get($color, "verde_03");
+                                color: map-get($color, "blanco");
+                                border-bottom: 3px solid map-get($color, "negro");
+                                font-weight: 900;
+                            }
+
+                            tr:nth-child(even) {
+                                background-color: map-get($color, "gris_04");
+                            }
+
+                            tr:hover td {
+                                background-color: map-get($color, "verde_04");
+                            }
+
+                            td {
+                                font-weight: 600;
+                                
+                                a {
+                                    color: map-get($color, "negro");
+                                    font-weight: 900;
+                                    text-decoration: underline;
+                                }
+
+                            }
+                        }
+
+                        // .elementos__box--cont {
+                        //     display: grid;
+                        //     grid-template-columns: 100%;
+                        //     grid-template-rows: repeat(3, auto);
+                        //     grid-template-areas:
+
+                        //         "cabecera"
+                        //         "contenido"
+                        //         "pie"
+
+                        //     ;
+                        // }
+
+                    }
+
+                }
+
             }
 
             .contenido__secciones--descargas {
