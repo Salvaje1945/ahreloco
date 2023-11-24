@@ -1190,7 +1190,8 @@ input, select {
   margin: 0 0 7svh;
   text-align: center;
 }
-#contenedor #contenido #contenido__info .contenido__secciones--lista ul li a {
+#contenedor #contenido #contenido__info .contenido__secciones--lista ul li a,
+#contenedor #contenido #contenido__info .contenido__secciones--lista ul li .subcat_lista {
   font-family: "Raleway", sans-serif;
   font-size: 33px;
   font-weight: 500;
@@ -1198,8 +1199,12 @@ input, select {
   margin: 0 0 1svh;
   display: block;
 }
-#contenedor #contenido #contenido__info .contenido__secciones--lista ul li a:hover {
+#contenedor #contenido #contenido__info .contenido__secciones--lista ul li a:hover,
+#contenedor #contenido #contenido__info .contenido__secciones--lista ul li .subcat_lista:hover {
   color: #000;
+}
+#contenedor #contenido #contenido__info .contenido__secciones--lista ul li .subcat_lista {
+  padding: 2svh;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista ul li img {
   border: 1px solid #297240;
@@ -1229,6 +1234,19 @@ input, select {
   display: inline-block;
   width: 100%;
   margin: 0 0 3svh;
+  /*
+  img,
+  .elementos__box--img {
+      width: 100%;
+      overflow: hidden;
+      object-fit: contain;
+      display: block;
+  }
+
+  img {
+      height: 100%;
+  }
+  */
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box div div img {
   width: 100%;
@@ -1249,6 +1267,7 @@ input, select {
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box .elementos__box--tbl_cont {
   display: inline-block;
+  width: 100%;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box .elementos__box--tbl_cont p {
   font-family: "Raleway", sans-serif;
@@ -1275,6 +1294,11 @@ input, select {
   color: #fff;
   border-bottom: 3px solid #000;
   font-weight: 900;
+}
+#contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box .elementos__box--tbl_cont thead a {
+  color: #000;
+  font-weight: 900;
+  text-decoration: underline;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box .elementos__box--tbl_cont tr:nth-child(even) {
   background-color: #aaa;
