@@ -1174,6 +1174,55 @@ input, select {
   margin: 0 0 5svw;
   text-align: justify;
 }
+#contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont {
+  display: inline-block;
+  width: 100%;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont p {
+  font-family: "Raleway", sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: underline;
+  margin: 0 0 2svh;
+  text-align: left;
+  display: block;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont div table {
+  background-color: #fff;
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Raleway", sans-serif;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont div th, #contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont div td {
+  padding: 7px;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont div thead {
+  background-color: #297240;
+  color: #fff;
+  border-bottom: 3px solid #000;
+  font-weight: 900;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont div thead a {
+  color: #000;
+  font-weight: 900;
+  text-decoration: underline;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont div tr:nth-child(even) {
+  background-color: #aaa;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont div tr:hover td {
+  background-color: #14a341;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont div td {
+  font-weight: 600;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont div td a {
+  color: #000;
+  font-weight: 900;
+  text-decoration: underline;
+}
 #contenedor #contenido #contenido__info .contenido__secciones--lista {
   padding: 5svh 5%;
 }
@@ -1223,9 +1272,18 @@ input, select {
   margin: 0 0 5svh;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box h3 {
-  font-size: 8svw;
+  font-family: "Raleway", sans-serif;
+  font-size: 33px;
+  font-weight: 500;
   color: #333;
   margin: 0 0 3svh;
+}
+#contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box a {
+  color: #297240;
+  display: block;
+}
+#contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box a:hover {
+  color: #000;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box div {
   margin: 0 0 3svh;
@@ -1255,6 +1313,7 @@ input, select {
   -o-object-fit: contain;
      object-fit: contain;
   display: block;
+  border: 1px solid #297240;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box div p {
   display: inline-block;

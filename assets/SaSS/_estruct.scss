@@ -987,6 +987,80 @@
                     text-align: justify;
                 }
 
+                .contenido__info--tbl_cont {
+                    display: inline-block;
+                    width: 100%;
+
+                    p {
+                        // display: inline-block;
+                        // width: 100%;
+                        font-family: $fam_04;
+                        font-size: 27px;
+                        font-weight: 600;
+                        color: map-get($color, "negro");
+                        text-decoration: underline;
+                        // line-height: .99;
+                        margin: 0 0 2svh;
+                        text-align: left;
+                        display: block;
+                    }
+
+                    // .elementos__box--tbl_tbl {
+                    //     background-color: map-get($color, "blanco");
+                    //     text-align: left;
+                    //     width: 100%;
+                    // }
+
+                    div {
+
+                        table {
+                            background-color: map-get($color, "blanco");
+                            text-align: left;
+                            width: 100%;
+                            border-collapse: collapse;
+                            font-family: $fam_04;
+                        }
+    
+                        th, td {
+                            // border: 1px solid map-get($color, "negro");
+                            padding: 7px;
+                        }
+    
+                        thead {
+                            background-color: map-get($color, "verde_03");
+                            color: map-get($color, "blanco");
+                            border-bottom: 3px solid map-get($color, "negro");
+                            font-weight: 900;
+    
+                            a {
+                                color: map-get($color, "negro");
+                                font-weight: 900;
+                                text-decoration: underline;
+                            }
+                        }
+    
+                        tr:nth-child(even) {
+                            background-color: map-get($color, "gris_04");
+                        }
+    
+                        tr:hover td {
+                            background-color: map-get($color, "verde_04");
+                        }
+    
+                        td {
+                            font-weight: 600;
+                            
+                            a {
+                                color: map-get($color, "negro");
+                                font-weight: 900;
+                                text-decoration: underline;
+                            }
+    
+                        }
+
+                    }
+                }
+
             }
 
             .contenido__secciones--lista {
@@ -1035,9 +1109,22 @@
                         margin: 0 0 5svh;
 
                         h3 {
-                            font-size: 8svw;
+                            font-family: $fam_04;
+                            font-size: 33px;
+                            font-weight: 500;
                             color: map-get($color, "gris_01");
                             margin: 0 0 3svh;
+                        }
+
+                        a {
+                            
+                            color: map-get($color, "verde_03");
+                            // margin: 0 0 1svh;
+                            display: block;
+
+                            &:hover {
+                                color: map-get($color, "negro");
+                            }
                         }
 
                         div {
@@ -1054,6 +1141,7 @@
                                     overflow: hidden;
                                     object-fit: contain;
                                     display: block;
+                                    border: 1px solid map-get($color, "verde_03");
                                 }
                                 
                                 /*
