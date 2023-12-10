@@ -1109,31 +1109,31 @@
                         margin: 0 0 5svh;
 
                         h3 {
-                            font-family: $fam_04;
-                            font-size: 33px;
+                            // font-family: $fam_04;
+                            font-size: 11svw;
                             font-weight: 500;
-                            color: map-get($color, "gris_01");
-                            margin: 0 0 3svh;
+                            //color: map-get($color, "gris_01");
+                            margin: 0 0 2svh;
+                            text-align: center;
+                            text-transform: uppercase;
                         }
 
                         a {
-                            
-                            color: map-get($color, "verde_03");
-                            // margin: 0 0 1svh;
+                            color: map-get($color, "gris_01");
                             display: block;
 
                             &:hover {
-                                color: map-get($color, "negro");
+                                color: map-get($color, "verde_03");
                             }
                         }
 
                         div {
-                            margin: 0 0 3svh;
+                            //margin: 0 0 3svh;
 
                             div {
                                 display: inline-block;
                                 width: 100%;
-                                margin: 0 0 3svh;
+                                // margin: 0 0 3svh;
 
                                 img {
                                     width: 100%;
@@ -1141,7 +1141,11 @@
                                     overflow: hidden;
                                     object-fit: contain;
                                     display: block;
-                                    border: 1px solid map-get($color, "verde_03");
+                                    border: 1px solid map-get($color, "gris_03");
+
+                                    &:hover {
+                                        border: 1px solid map-get($color, "verde_03");
+                                    }
                                 }
                                 
                                 /*
@@ -1342,7 +1346,9 @@
                             font-family: $fam_04;
                         }
 
-                        
+                        &:first-child {
+                            list-style-type: none;
+                        }
                         
                     }
 

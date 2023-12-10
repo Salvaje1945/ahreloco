@@ -1272,26 +1272,22 @@ input, select {
   margin: 0 0 5svh;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box h3 {
-  font-family: "Raleway", sans-serif;
-  font-size: 33px;
+  font-size: 11svw;
   font-weight: 500;
-  color: #333;
-  margin: 0 0 3svh;
+  margin: 0 0 2svh;
+  text-align: center;
+  text-transform: uppercase;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box a {
-  color: #297240;
+  color: #333;
   display: block;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box a:hover {
-  color: #000;
-}
-#contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box div {
-  margin: 0 0 3svh;
+  color: #297240;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box div div {
   display: inline-block;
   width: 100%;
-  margin: 0 0 3svh;
   /*
   img,
   .elementos__box--img {
@@ -1313,6 +1309,9 @@ input, select {
   -o-object-fit: contain;
      object-fit: contain;
   display: block;
+  border: 1px solid #666;
+}
+#contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box div div img:hover {
   border: 1px solid #297240;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box div p {
@@ -1431,6 +1430,9 @@ input, select {
 #contenedor #contenido #contenido__breadcrumbs nav ul li p {
   color: #444;
   font-family: "Raleway", sans-serif;
+}
+#contenedor #contenido #contenido__breadcrumbs nav ul li:first-child {
+  list-style-type: none;
 }
 #contenedor #pie {
   display: flex;

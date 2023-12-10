@@ -26,11 +26,30 @@ export default function detallesProducto(prod) {
 
     console.log(elProducto)
 
+    const breadCrumbs = `<nav>
+                            <ul>
+                                <li>
+                                    <a href="index.html">Inicio</a>
+                                </li>
+                                <li>
+                                    <a href="${elProducto[0].categ}.html">${elProducto[0].categ}</a>
+                                </li>
+                                <li>
+                                    <a href="${elProducto[0].subcateg}.html">${elProducto[0].subcateg}</a>
+                                </li>
+                                <li>
+                                    <p>${elProducto[0].nombre}</p>
+                                </li>
+                            </ul>
+                        </nav>`
+
     $('#prod-nombre').textContent = elProducto[0].nombre
 
     $('#prod-desc').textContent = elProducto[0].desc
 
     $('#prod-tbl').innerHTML = elProducto[0].tbl
+
+    $('#contenido__breadcrumbs').innerHTML = breadCrumbs
 
     // function prodsFilter(losProductos) {
     //     const filtrados = losProductos.filter(subCategoria => subCategoria.url === proDuct)
