@@ -1177,7 +1177,7 @@ input, select {
 #contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont {
   display: inline-block;
   width: 100%;
-  margin: 0 0 5svh;
+  margin: 0 0 5svw;
 }
 #contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont p {
   font-family: "Raleway", sans-serif;
@@ -1234,7 +1234,7 @@ input, select {
 #contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal .prod__gal--img_box {
   display: inline-block;
   width: 351px;
-  margin: 0 0 5svw;
+  margin: 0 0 5svh;
 }
 #contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal .prod__gal--img_box img {
   width: 100%;
