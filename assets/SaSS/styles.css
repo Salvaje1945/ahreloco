@@ -1234,7 +1234,7 @@ input, select {
 #contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal .prod__gal--img_box {
   display: inline-block;
   width: 351px;
-  margin: 0 0 5svh;
+  margin: 0 0 5svw;
 }
 #contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal .prod__gal--img_box img {
   width: 100%;
