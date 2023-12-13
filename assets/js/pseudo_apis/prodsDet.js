@@ -1,5 +1,6 @@
 import productos from './productos.js'
 import $ from '../funciones_globales/elementos_por_id.js'
+import mostrarImg from '../galeriaImg.js'
 
 export default function detallesProducto(prod) {
 
@@ -43,13 +44,21 @@ export default function detallesProducto(prod) {
                             </ul>
                         </nav>`
 
+    const laGaleria = `<div class="prod__gal--img_box"><img src="${elProducto[0].img1}" alt="${elProducto[0].alt}" /></div>
+    <div class="prod__gal--img_box"><img src="${elProducto[0].img2}" alt="${elProducto[0].alt}" /></div>
+    <div class="prod__gal--img_box"><img src="${elProducto[0].img3}" alt="${elProducto[0].alt}" /></div>`
+
     $('#prod-nombre').textContent = elProducto[0].nombre
 
     $('#prod-desc').textContent = elProducto[0].desc
 
     $('#prod-tbl').innerHTML = elProducto[0].tbl
 
+    $('#prod-gal').innerHTML = laGaleria
+
     $('#contenido__breadcrumbs').innerHTML = breadCrumbs
+
+    mostrarImg()
 
     // function prodsFilter(losProductos) {
     //     const filtrados = losProductos.filter(subCategoria => subCategoria.url === proDuct)

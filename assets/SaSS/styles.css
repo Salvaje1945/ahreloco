@@ -1177,6 +1177,7 @@ input, select {
 #contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont {
   display: inline-block;
   width: 100%;
+  margin: 0 0 5svh;
 }
 #contenedor #contenido #contenido__info .contenido__info--secciones .contenido__info--tbl_cont p {
   font-family: "Raleway", sans-serif;
@@ -1222,6 +1223,85 @@ input, select {
   color: #000;
   font-weight: 900;
   text-decoration: underline;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 2svh;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal .prod__gal--img_box {
+  display: inline-block;
+  width: 351px;
+  margin: 0 0 5svh;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal .prod__gal--img_box img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+  cursor: pointer;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal-cont {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal-cont #prod-gal-cont-int {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  max-height: 450px;
+  display: flex;
+  padding: 2px;
+  border: 2px solid #fff;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal-cont #prod-gal-cont-int #img-act {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: block;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal-cont #prod-gal-cont-int button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal-cont #prod-gal-cont-int #btn-cierra {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal-cont #prod-gal-cont-int #btn-retro {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal-cont #prod-gal-cont-int #btn-avz {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal-cont.prod-gal-cont_no {
+  display: none;
+}
+#contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal-cont.prod-gal-cont_si {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista {
   padding: 5svh 5%;
@@ -1767,6 +1847,9 @@ input, select {
   }
   #contenedor #contenido #contenido__info .contenido__info--cualidades .info__cualidades--cont .info__cualidades--box p {
     font-size: 16px;
+  }
+  #contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal .prod__gal--img_box {
+    width: 311px;
   }
   #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box {
     width: 311px;
