@@ -1,5 +1,7 @@
 export default function productos() {
 
+    // 14-12-2023: ARREGLAR LOS ENLACES DE LAS TABLAS 
+
     const listaProductos = [
         {
             id: 1,
@@ -23,19 +25,19 @@ export default function productos() {
                 <td>0,60 X 0,75</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-a">A</a></td>
+                <td><a href="producto.html?prod=grampas-a">A</a></td>
                 <td>12,8</td>
                 <td>04, 06, 08, 10, 12, 14, 16, 22, 25</td>
                 <td>0,65 X 1,00</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-ad">AD</a></td>
+                <td><a href="producto.html?prod=grampas-ad">AD</a></td>
                 <td>12,1</td>
                 <td>04, 06, 08, 10, 12, 14, 16</td>
                 <td>0,55 X 0,90</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-o">O</a></td>
+                <td><a href="producto.html?prod=grampas-o">O</a></td>
                 <td>4,5</td>
                 <td>06, 10, 14, 18, 22, 25</td>
                 <td>0,65 X 0,95</td>
@@ -70,19 +72,19 @@ export default function productos() {
                 <td>0,65 X 1,00</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-o">O</a></td>
+                <td><a href="producto.html?prod=grampas-o">O</a></td>
                 <td>4,5</td>
                 <td>06, 10, 14, 18, 22, 25</td>
                 <td>0,65 X 0,95</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-ad">AD</a></td>
+                <td><a href="producto.html?prod=grampas-ad">AD</a></td>
                 <td>12,1</td>
                 <td>04, 06, 08, 10, 12, 14, 16</td>
                 <td>0,55 X 0,90</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-v">V</a></td>
+                <td><a href="producto.html?prod=grampas-v">V</a></td>
                 <td>9,0</td>
                 <td>08, 14</td>
                 <td>0,60 X 0,75</td>
@@ -117,19 +119,19 @@ export default function productos() {
                 <td>0,55 X 0,90</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-a">A</a></td>
+                <td><a href="producto.html?prod=grampas-a">A</a></td>
                 <td>12,8</td>
                 <td>04, 06, 08, 10, 12, 14, 16, 22, 25</td>
                 <td>0,65 X 1,00</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-v">V</a></td>
+                <td><a href="producto.html?prod=grampas-v">V</a></td>
                 <td>9,0</td>
                 <td>08, 14</td>
                 <td>0,60 X 0,75</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-o">O</a></td>
+                <td><a href="producto.html?prod=grampas-o">O</a></td>
                 <td>4,5</td>
                 <td>06, 10, 14, 18, 22, 25</td>
                 <td>0,65 X 0,95</td>
@@ -164,19 +166,19 @@ export default function productos() {
                 <td>0,65 X 0,95</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-ad">AD</a></td>
+                <td><a href="producto.html?prod=grampas-ad">AD</a></td>
                 <td>12,1</td>
                 <td>04, 06, 08, 10, 12, 14, 16</td>
                 <td>0,55 X 0,90</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-a">A</a></td>
+                <td><a href="producto.html?prod=grampas-a">A</a></td>
                 <td>12,8</td>
                 <td>04, 06, 08, 10, 12, 14, 16, 22, 25</td>
                 <td>0,65 X 1,00</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-v">V</a></td>
+                <td><a href="producto.html?prod=grampas-v">V</a></td>
                 <td>9,0</td>
                 <td>08, 14</td>
                 <td>0,60 X 0,75</td>
@@ -211,19 +213,19 @@ export default function productos() {
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-h">H</a></td>
+                <td><a href="producto.html?prod=grampas-h">H</a></td>
                 <td>8,6</td>
                 <td>21, 25, 30, 35, 40</td>
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-l">L</a></td>
+                <td><a href="producto.html?prod=grampas-l">L</a></td>
                 <td>10,7</td>
                 <td>16, 19, 25, 30, 35, 40, 50</td>
                 <td>1,40 X 1,60</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-b">B</a></td>
+                <td><a href="producto.html?prod=grampas-b">B</a></td>
                 <td>35</td>
                 <td>16, 19, 22</td>
                 <td>1,40 X 1,60</td>
@@ -258,19 +260,19 @@ export default function productos() {
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-e">E</a></td>
+                <td><a href="producto.html?prod=grampas-e">E</a></td>
                 <td>5,7</td>
                 <td>16, 20, 25, 30, 35, 40, 45, 50</td>
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-l">L</a></td>
+                <td><a href="producto.html?prod=grampas-l">L</a></td>
                 <td>10,7</td>
                 <td>16, 19, 25, 30, 35, 40, 50</td>
                 <td>1,40 X 1,60</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-b">B</a></td>
+                <td><a href="producto.html?prod=grampas-b">B</a></td>
                 <td>35</td>
                 <td>16, 19, 22</td>
                 <td>1,40 X 1,60</td>
@@ -305,19 +307,19 @@ export default function productos() {
                 <td>1,40 X 1,60</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-b">B</a></td>
+                <td><a href="producto.html?prod=grampas-b">B</a></td>
                 <td>35</td>
                 <td>16, 19, 22</td>
                 <td>1,40 X 1,60</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-e">E</a></td>
+                <td><a href="producto.html?prod=grampas-e">E</a></td>
                 <td>5,7</td>
                 <td>16, 20, 25, 30, 35, 40, 45, 50</td>
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-h">H</a></td>
+                <td><a href="producto.html?prod=grampas-h">H</a></td>
                 <td>8,6</td>
                 <td>21, 25, 30, 35, 40</td>
                 <td>1,00 X 1,25</td>
@@ -352,19 +354,19 @@ export default function productos() {
                 <td>1,40 X 1,60</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-e">E</a></td>
+                <td><a href="producto.html?prod=grampas-e">E</a></td>
                 <td>5,7</td>
                 <td>16, 20, 25, 30, 35, 40, 45, 50</td>
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-h">H</a></td>
+                <td><a href="producto.html?prod=grampas-h">H</a></td>
                 <td>8,6</td>
                 <td>21, 25, 30, 35, 40</td>
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="grampas.html#grampas-l">L</a></td>
+                <td><a href="producto.html?prod=grampas-l">L</a></td>
                 <td>10,7</td>
                 <td>16, 19, 25, 30, 35, 40, 50</td>
                 <td>1,40 X 1,60</td>
@@ -402,19 +404,19 @@ export default function productos() {
                 <td>1 x 1,25</td>
             </tr>
             <tr>
-                <td><a href="clavos.html#clavos-n">N</a></td>
+                <td><a href="producto.html?prod=clavos-n">N</a></td>
                 <td>1,57</td>
                 <td>19, 25, 30, 35, 40, 45, 50, 56, 63</td>
                 <td>1,40 X 1,60</td>
             </tr>
             <tr>
-                <td><a href="clavos.html#clavos-t">T</a></td>
+                <td><a href="producto.html?prod=clavos-t">T</a></td>
                 <td>7X2</td>
                 <td>32, 38, 50, 60, 64</td>
                 <td>2,2</td>
             </tr>
             <tr>
-                <td><a href="clavos.html#clavos-rk">RK</a></td>
+                <td><a href="producto.html?prod=clavos-rk">RK</a></td>
                 <td>7</td>
                 <td>65, 70, 90, 100</td>
                 <td>3,1 A 3,4</td>
@@ -449,19 +451,19 @@ export default function productos() {
                 <td>1,40 X 1,60</td>
             </tr>
             <tr>
-                <td><a href="clavos.html#clavos-t">T</a></td>
+                <td><a href="producto.html?prod=clavos-t">T</a></td>
                 <td>7X2</td>
                 <td>32, 38, 50, 60, 64</td>
                 <td>2,2</td>
             </tr>
             <tr>
-                <td><a href="clavos.html#clavos-rk">RK</a></td>
+                <td><a href="producto.html?prod=clavos-rk">RK</a></td>
                 <td>7</td>
                 <td>65, 70, 90, 100</td>
                 <td>3,1 A 3,4</td>
             </tr>
             <tr>
-                <td><a href="clavos.html#clavos-j">J</a></td>
+                <td><a href="producto.html?prod=clavos-j">J</a></td>
                 <td>S/ cabeza</td>
                 <td>16, 19, 25, 30, 35, 40, 45, 50</td>
                 <td>1 x 1,25</td>
@@ -496,19 +498,19 @@ export default function productos() {
                 <td>2,2</td>
             </tr>
             <tr>
-                <td><a href="clavos.html#clavos-rk">RK</a></td>
+                <td><a href="producto.html?prod=clavos-rk">RK</a></td>
                 <td>7</td>
                 <td>65, 70, 90, 100</td>
                 <td>3,1 A 3,4</td>
             </tr>
             <tr>
-                <td><a href="clavos.html#clavos-j">J</a></td>
+                <td><a href="producto.html?prod=clavos-j">J</a></td>
                 <td>S/ cabeza</td>
                 <td>16, 19, 25, 30, 35, 40, 45, 50</td>
                 <td>1 x 1,25</td>
             </tr>
             <tr>
-                <td><a href="clavos.html#clavos-n">N</a></td>
+                <td><a href="producto.html?prod=clavos-n">N</a></td>
                 <td>1,57</td>
                 <td>19, 25, 30, 35, 40, 45, 50, 56, 63</td>
                 <td>1,40 X 1,60</td>
@@ -543,7 +545,7 @@ export default function productos() {
                 <td>3,1</td>
             </tr>
             <tr>
-                <td><a href="clavos.html#clavos-cn">CN</a></td>
+                <td><a href="producto.html?prod=clavos-cn">CN</a></td>
                 <td>5</td>
                 <td>29, 40, 45, 50, 65, 80</td>
                 <td>2,1 A 2,9</td>
@@ -578,7 +580,7 @@ export default function productos() {
                 <td>2,1 A 2,9</td>
             </tr>
             <tr>
-                <td><a href="clavos.html#clavos-cnr">CNR</a></td>
+                <td><a href="producto.html?prod=clavos-cnr">CNR</a></td>
                 <td>10</td>
                 <td>25, 32, 38, 45</td>
                 <td>3,1</td>
@@ -613,19 +615,19 @@ export default function productos() {
                 <td>3,1 A 3,4</td>
             </tr>
             <tr>
-                <td><a href="clavos.html#clavos-j">J</a></td>
+                <td><a href="producto.html?prod=clavos-j">J</a></td>
                 <td>S/ cabeza</td>
                 <td>16, 19, 25, 30, 35, 40, 45, 50</td>
                 <td>1 x 1,25</td>
             </tr>
             <tr>
-                <td><a href="clavos.html#clavos-n">N</a></td>
+                <td><a href="producto.html?prod=clavos-n">N</a></td>
                 <td>1,57</td>
                 <td>19, 25, 30, 35, 40, 45, 50, 56, 63</td>
                 <td>1,40 X 1,60</td>
             </tr>
             <tr>
-                <td><a href="clavos.html#clavos-t">T</a></td>
+                <td><a href="producto.html?prod=clavos-t">T</a></td>
                 <td>7X2</td>
                 <td>32, 38, 50, 60, 64</td>
                 <td>2,2</td>
@@ -691,7 +693,7 @@ export default function productos() {
                 <td>0,60</td>
             </tr>
             <tr>
-                <td><a href="espinas.html#espinas-ga">GA</a></td>
+                <td><a href="producto.html?prod=espinas-ga">GA</a></td>
                 <td>Clavadora GA 30</td>
                 <td>16, 19, 25, 30</td>
                 <td>1,00 X 1,25</td>
@@ -726,7 +728,7 @@ export default function productos() {
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="espinas.html#espinas-al">AL</a></td>
+                <td><a href="producto.html?prod=espinas-al">AL</a></td>
                 <td>Clavadora AL 20</td>
                 <td>12, 15, 17, 20</td>
                 <td>0,60</td>
@@ -764,13 +766,13 @@ export default function productos() {
                 <td>0,50 X 0,70</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-a16ln50">A 16 LN 50</a></td>
+                <td><a href="producto.html?prod=engrampadora-a16ln50">A 16 LN 50</a></td>
                 <td>12,8</td>
                 <td>04 a 16</td>
                 <td>0,65 X 1,00</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-a16">A 16</a></td>
+                <td><a href="producto.html?prod=engrampadora-a16">A 16</a></td>
                 <td>12,8</td>
                 <td>04 a 16</td>
                 <td>0,65 X 1,00</td>
@@ -805,13 +807,13 @@ export default function productos() {
                 <td>0,65 X 1,00</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-a16ln50">A 16 LN 50</a></td>
+                <td><a href="producto.html?prod=engrampadora-a16ln50">A 16 LN 50</a></td>
                 <td>12,8</td>
                 <td>04 a 16</td>
                 <td>0,65 X 1,00</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-v16">V 16</a></td>
+                <td><a href="producto.html?prod=engrampadora-v16">V 16</a></td>
                 <td>9,1</td>
                 <td>04 a 14</td>
                 <td>0,50 X 0,70</td>
@@ -846,13 +848,13 @@ export default function productos() {
                 <td>0,65 X 1,00</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-v16">V 16</a></td>
+                <td><a href="producto.html?prod=engrampadora-v16">V 16</a></td>
                 <td>9,1</td>
                 <td>04 a 14</td>
                 <td>0,50 X 0,70</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-a16">A 16</a></td>
+                <td><a href="producto.html?prod=engrampadora-a16">A 16</a></td>
                 <td>12,8</td>
                 <td>04 a 16</td>
                 <td>0,65 X 1,00</td>
@@ -887,13 +889,13 @@ export default function productos() {
                 <td>0,65 X 1,00</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-o25">O 25</a></td>
+                <td><a href="producto.html?prod=engrampadora-o25">O 25</a></td>
                 <td>4,5</td>
                 <td>06 a 16</td>
                 <td>0,65 X 0,95</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-ad16">AD 16</a></td>
+                <td><a href="producto.html?prod=engrampadora-ad16">AD 16</a></td>
                 <td>12,1</td>
                 <td>04 a 16</td>
                 <td>0,55 X 0,90</td>
@@ -928,13 +930,13 @@ export default function productos() {
                 <td>0,55 X 0,90</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-o25">O 25</a></td>
+                <td><a href="producto.html?prod=engrampadora-o25">O 25</a></td>
                 <td>4,5</td>
                 <td>06 a 16</td>
                 <td>0,65 X 0,95</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-a25">A 25</a></td>
+                <td><a href="producto.html?prod=engrampadora-a25">A 25</a></td>
                 <td>12,8</td>
                 <td>04 a 25</td>
                 <td>0,65 X 1,00</td>
@@ -969,13 +971,13 @@ export default function productos() {
                 <td>0,65 X 0,95</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-a25">A 25</a></td>
+                <td><a href="producto.html?prod=engrampadora-a25">A 25</a></td>
                 <td>12,8</td>
                 <td>04 a 25</td>
                 <td>0,65 X 1,00</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-ad16">AD 16</a></td>
+                <td><a href="producto.html?prod=engrampadora-ad16">AD 16</a></td>
                 <td>12,1</td>
                 <td>04 a 16</td>
                 <td>0,55 X 0,90</td>
@@ -1057,19 +1059,19 @@ export default function productos() {
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-h40">H 40</a></td>
+                <td><a href="producto.html?prod=engrampadora-h40">H 40</a></td>
                 <td>8,6</td>
                 <td>20 a 40</td>
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-l65">L 65</a></td>
+                <td><a href="producto.html?prod=engrampadora-l65">L 65</a></td>
                 <td>10,7</td>
                 <td>16 A 65</td>
                 <td>1,40 X 1,60</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-l50">L 50</a></td>
+                <td><a href="producto.html?prod=engrampadora-l50">L 50</a></td>
                 <td>10,7</td>
                 <td>16 a 50</td>
                 <td>1,40 X 1,60</td>
@@ -1104,19 +1106,19 @@ export default function productos() {
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-l65">L 65</a></td>
+                <td><a href="producto.html?prod=engrampadora-l65">L 65</a></td>
                 <td>10,7</td>
                 <td>16 A 65</td>
                 <td>1,40 X 1,60</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-e40">E 40</a></td>
+                <td><a href="producto.html?prod=engrampadora-e40">E 40</a></td>
                 <td>5,7</td>
                 <td>16 a 40</td>
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-l50">L 50</a></td>
+                <td><a href="producto.html?prod=engrampadora-l50">L 50</a></td>
                 <td>10,7</td>
                 <td>16 a 50</td>
                 <td>1,40 X 1,60</td>
@@ -1151,19 +1153,19 @@ export default function productos() {
                 <td>1,40 X 1,60</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-l65">L 65</a></td>
+                <td><a href="producto.html?prod=engrampadora-l65">L 65</a></td>
                 <td>10,7</td>
                 <td>16 A 65</td>
                 <td>1,40 X 1,60</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-e40">E 40</a></td>
+                <td><a href="producto.html?prod=engrampadora-e40">E 40</a></td>
                 <td>5,7</td>
                 <td>16 a 40</td>
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-h40">H 40</a></td>
+                <td><a href="producto.html?prod=engrampadora-h40">H 40</a></td>
                 <td>8,6</td>
                 <td>20 a 40</td>
                 <td>1,00 X 1,25</td>
@@ -1198,19 +1200,19 @@ export default function productos() {
                 <td>1,40 X 1,60</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-e40">E 40</a></td>
+                <td><a href="producto.html?prod=engrampadora-e40">E 40</a></td>
                 <td>5,7</td>
                 <td>16 a 40</td>
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-h40">H 40</a></td>
+                <td><a href="producto.html?prod=engrampadora-h40">H 40</a></td>
                 <td>8,6</td>
                 <td>20 a 40</td>
                 <td>1,00 X 1,25</td>
             </tr>
             <tr>
-                <td><a href="engrampadoras.html#engrampadora-l50">L 50</a></td>
+                <td><a href="producto.html?prod=engrampadora-l50">L 50</a></td>
                 <td>10,7</td>
                 <td>16 a 50</td>
                 <td>1,40 X 1,60</td>
@@ -1251,10 +1253,1991 @@ export default function productos() {
             img1: 'assets/img/herramientas/engrampadora-b19_img1.jpg',
             img2: 'assets/img/herramientas/engrampadora-b19_img2.jpg',
             img3: 'assets/img/herramientas/engrampadora-b19_img3.jpg'
-        }
+        },
 
 
         // CLAVADORAS
+
+        {
+            id: 30,
+            categ: 'Herramientas',
+            subcateg: 'Clavadoras',
+            nombre: 'Clavadora GA-30 (*I Pin)',
+            desc: 'La clavadora neumática industrial modelo GA 30 (Código Internacional: I Pin) sirve para la colocación de espinas, que son similares a los clavillos cabeza perdida con la única diferencia que no tienen cabeza. Por ello, son específicas para efectuar fijaciones de terminación en muebles, hasta 30 mm de profundidad, sin dejar marcas a la vista.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Insumo</th>
+                    <th>Longitud insumo</th>
+                    <th>Diámetro alambre</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>GA 30</td>
+                <td><a href="espinas.html">Espinas</a></td>
+                <td>15 a 30</td>
+                <td>1,00 X 1,25</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-jes32combi">COMBI / J ES 32</a></td>
+                <td><a href="grampas.html">Clavillos / Grampas</a></td>
+                <td>16 a 32</td>
+                <td>1,00 X 1,25</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-al20">AL 20</a></td>
+                <td><a href="espinas.html">Micro - espinas</a></td>
+                <td>12 a 20</td>
+                <td>0,60</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-j50">J 50</a></td>
+                <td><a href="clavos.html">Clavillos</a></td>
+                <td>16 a 50</td>
+                <td>1,00 X 1,25</td>
+            </tr>
+            </table>`,
+            url: 'clavadora-ga30',
+            alt: 'clavadora GA-30.',
+            thumb: 'assets/img/herramientas/clavadora-ga30.jpg',
+            img1: 'assets/img/herramientas/clavadora-ga30_img1.jpg',
+            img2: 'assets/img/herramientas/clavadora-ga30_img2.jpg',
+            img3: 'assets/img/herramientas/clavadora-ga30_img3.jpg'
+        },
+        {
+            id: 31,
+            categ: 'Herramientas',
+            subcateg: 'Clavadoras',
+            nombre: 'Clavadora AL-20 (*Mini-Pin 6)',
+            desc: 'La clavadora neumática industrial modelo AL 20 (Código Internacional: Mini-Pin 6), fabricado en Alemania, trabaja con micro-espinas invisibles en un rango de 12 a 20 mm de longitud. Le permite al usuario dar terminaciones perfectas y que estéticamente no interfieran con el resultado final. Estas espinas son usadas en muebles de melamina, exhibidores, así como en la fabricación de aberturas en madera (ventanas, puertas, ventanales), entre otras aplicaciones.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Insumo</th>
+                    <th>Longitud insumo</th>
+                    <th>Diámetro alambre</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>AL 20</td>
+                <td><a href="espinas.html">Micro - espinas</a></td>
+                <td>12 a 20</td>
+                <td>0,60</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-jes32combi">COMBI / J ES 32</a></td>
+                <td><a href="grampas.html">Clavillos / Grampas</a></td>
+                <td>16 a 32</td>
+                <td>1,00 X 1,25</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-ga30">GA 30</a></td>
+                <td><a href="espinas.html">Espinas</a></td>
+                <td>15 a 30</td>
+                <td>1,00 X 1,25</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-j50">J 50</a></td>
+                <td><a href="clavos.html">Clavillos</a></td>
+                <td>16 a 50</td>
+                <td>1,00 X 1,25</td>
+            </tr>
+            </table>`,
+            url: 'clavadora-al20',
+            alt: 'clavadora AL-20.',
+            thumb: 'assets/img/herramientas/clavadora-al20.jpg',
+            img1: 'assets/img/herramientas/clavadora-al20_img1.jpg',
+            img2: 'assets/img/herramientas/clavadora-al20_img2.jpg',
+            img3: 'assets/img/herramientas/clavadora-al20_img3.jpg'
+        },
+        {
+            id: 32,
+            categ: 'Herramientas',
+            subcateg: 'Clavadoras',
+            nombre: 'Clavadora J ES-32 COMBI (*Tipin/90 32)',
+            desc: 'Este modelo de clavadora neumática industrial Combi J ES32 se denomina combinada, puesto que es capaz de efectuar fijaciones con grampas de 5,7 mm de ancho de corona (línea 90), y clavillos cabeza perdida (línea Tipin/SK 300). Se la puede encontrar como protagonista en distintos trabajos de carpintería en general.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Insumo</th>
+                    <th>Longitud insumo</th>
+                    <th>Diámetro alambre</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>COMBI / J ES 32</td>
+                <td><a href="grampas.html">Clavillos / Grampas</a></td>
+                <td>16 a 32</td>
+                <td>1,00 X 1,25</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-al20">AL 20</a></td>
+                <td><a href="espinas.html">Micro - espinas</a></td>
+                <td>12 a 20</td>
+                <td>0,60</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-ga30">GA 30</a></td>
+                <td><a href="espinas.html">Espinas</a></td>
+                <td>15 a 30</td>
+                <td>1,00 X 1,25</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-j50">J 50</a></td>
+                <td><a href="clavos.html">Clavillos</a></td>
+                <td>16 a 50</td>
+                <td>1,00 X 1,25</td>
+            </tr>
+            </table>`,
+            url: 'clavadora-jes32combi',
+            alt: 'Clavadora / Engrampadora J ES-32 COMBI.',
+            thumb: 'assets/img/herramientas/engrampadora-jes32combi.jpg',
+            img1: 'assets/img/herramientas/engrampadora-jes32combi_img1.jpg',
+            img2: 'assets/img/herramientas/engrampadora-jes32combi_img2.jpg',
+            img3: 'assets/img/herramientas/engrampadora-jes32combi_img3.jpg'
+        },
+        {
+            id: 33,
+            categ: 'Herramientas',
+            subcateg: 'Clavadoras',
+            nombre: 'Clavadora J-50 (*TiPin-SK300)',
+            desc: 'La clavadora neumática industrial modelo J 50 (Código Internacional: TiPin-SK300) es el modelo más popular en carpintería, y se emplea para darle finas terminaciones en muebles. Al efectuar fijaciones con clavos cabeza perdida, la clavadora J 50 es utilizada para la colocación de molduras, así como para el montaje de muebles en melanina, ya que su insumo no interfiere con la estética general del producto final.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Insumo</th>
+                    <th>Longitud insumo</th>
+                    <th>Diámetro alambre</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>J 50</td>
+                <td><a href="clavos.html">Clavillos</a></td>
+                <td>16 a 50</td>
+                <td>1,00 X 1,25</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-jes32combi">COMBI / J ES 32</a></td>
+                <td><a href="grampas.html">Clavillos / Grampas</a></td>
+                <td>16 a 32</td>
+                <td>1,00 X 1,25</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-al20">AL 20</a></td>
+                <td><a href="espinas.html">Micro - espinas</a></td>
+                <td>12 a 20</td>
+                <td>0,60</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-ga30">GA 30</a></td>
+                <td><a href="espinas.html">Espinas</a></td>
+                <td>15 a 30</td>
+                <td>1,00 X 1,25</td>
+            </tr>
+            </table>`,
+            url: 'clavadora-j50',
+            alt: 'Clavadora J-50.',
+            thumb: 'assets/img/herramientas/clavadora-j50.jpg',
+            img1: 'assets/img/herramientas/clavadora-j50_img1.jpg',
+            img2: 'assets/img/herramientas/clavadora-j50_img2.jpg',
+            img3: 'assets/img/herramientas/clavadora-j50_img3.jpg'
+        },
+        {
+            id: 34,
+            categ: 'Herramientas',
+            subcateg: 'Clavadoras',
+            nombre: 'Clavadora N-50 (*Tip 50 - SK400)',
+            desc: 'El modelo de clavadora neumática industrial N 50 (Código Internacional: Tip 50/SK 400) es uno sumamente versátil en nuestro universo de clavadoras neumáticas. Al trabajar con clavos que van de los 19 a los 50 mm, se la emplea para la colocación de pisos en maderas de alta dureza como el roble o algarrobo, para la fabricación de ataúdes, aberturas en madera, y mobiliario en general.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Cabeza clavo</th>
+                    <th>Longitud clavo</th>
+                    <th>Diámetro alambre</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>N 50</td>
+                <td>1,75 x 2,80</td>
+                <td>19 a 50</td>
+                <td>1,40 x 1,60</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-rk100">RK 100</a></td>
+                <td>7,4</td>
+                <td>65 a 100</td>
+                <td>3,1 - 3,4</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-n65">N 65</a></td>
+                <td>1,75 x 2,80</td>
+                <td>19 a 63</td>
+                <td>1,40 x 1,60</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-t65">T 65</a></td>
+                <td>2,2 x 7</td>
+                <td>32 a 64</td>
+                <td>2,20</td>
+            </tr>
+            </table>`,
+            url: 'clavadora-n50',
+            alt: 'clavadora N-50.',
+            thumb: 'assets/img/herramientas/clavadora-n50.jpg',
+            img1: 'assets/img/herramientas/clavadora-n50_img1.jpg',
+            img2: 'assets/img/herramientas/clavadora-n50_img2.jpg',
+            img3: 'assets/img/herramientas/clavadora-n50_img3.jpg'
+        },
+        {
+            id: 35,
+            categ: 'Herramientas',
+            subcateg: 'Clavadoras',
+            nombre: 'Clavadora N-65 (*Tip 65 - SK400)',
+            desc: 'A los beneficios que le brinda al usuario su homóloga, la N 50, la clavadora neumática industrial modelo N 65 (Tip 65/SK 400) le suma un rango aún más amplio de trabajo. La N 65 es capaz de efectuar fijaciones con clavos de 56 y 63 mm de longitud, lo que la convierte en una solución perfecta para la instalación de pisos, decks, pérgolas y distintas superficies de madera y materiales alternativos como el WPC.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Cabeza clavo</th>
+                    <th>Longitud clavo</th>
+                    <th>Diámetro alambre</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>N 65</td>
+                <td>1,75 x 2,80</td>
+                <td>19 a 63</td>
+                <td>1,40 x 1,60</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-t65">T 65</a></td>
+                <td>2,2 x 7</td>
+                <td>32 a 64</td>
+                <td>2,20</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-rk100">RK 100</a></td>
+                <td>7,4</td>
+                <td>65 a 100</td>
+                <td>3,1 - 3,4</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-n50">N 50</a></td>
+                <td>1,75 x 2,80</td>
+                <td>19 a 50</td>
+                <td>1,40 x 1,60</td>
+            </tr>
+            </table>`,
+            url: 'clavadora-n65',
+            alt: 'clavadora N-65.',
+            thumb: 'assets/img/herramientas/clavadora-n65.jpg',
+            img1: 'assets/img/herramientas/clavadora-n65_img1.jpg',
+            img2: 'assets/img/herramientas/clavadora-n65_img2.jpg',
+            img3: 'assets/img/herramientas/clavadora-n65_img3.jpg'
+        },
+        {
+            id: 36,
+            categ: 'Herramientas',
+            subcateg: 'Clavadoras',
+            nombre: 'Clavadora T-65 (*ST 65 - SK500)',
+            desc: 'La clavadora neumática industrial modelo T 65 (Código Internacional: ST 65 - SK500) es una clavadora íntimamente relacionada con la industria de la construcción. Tanto en métodos edilicios tradicionales como en los más innovadores, esta herramienta neumática es capaz de penetrar madera y concreto. Por eso, es elegida para la fijación de zócalos, así como en la construcción de cabañas e instalación de decks.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Cabeza clavo</th>
+                    <th>Longitud clavo</th>
+                    <th>Diámetro alambre</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>T 65</td>
+                <td>2,2 x 7</td>
+                <td>32 a 64</td>
+                <td>2,20</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-rk100">RK 100</a></td>
+                <td>7,4</td>
+                <td>65 a 100</td>
+                <td>3,1 - 3,4</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-n50">N 50</a></td>
+                <td>1,75 x 2,80</td>
+                <td>19 a 50</td>
+                <td>1,40 x 1,60</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-n65">N 65</a></td>
+                <td>1,75 x 2,80</td>
+                <td>19 a 63</td>
+                <td>1,40 x 1,60</td>
+            </tr>
+            </table>`,
+            url: 'clavadora-t65',
+            alt: 'clavadora T-65.',
+            thumb: 'assets/img/herramientas/clavadora-t65.jpg',
+            img1: 'assets/img/herramientas/clavadora-t65_img1.jpg',
+            img2: 'assets/img/herramientas/clavadora-t65_img2.jpg',
+            img3: 'assets/img/herramientas/clavadora-t65_img3.jpg'
+        },
+        {
+            id: 37,
+            categ: 'Herramientas',
+            subcateg: 'Clavadoras',
+            nombre: 'Clavadora WN-15 (*CF 15)',
+            desc: 'La clavadora neumática industrial modelo WN 15 (Código Internacional: CF 15) efectúa fijaciones con laminillas corrugadas (chapitas) hasta 15 mm de longitud. Es específica para trabajar sobre maderas de gran dureza como el algarrobo o el quebracho, ya que cuenta con un cilindro de gran diámetro para imprimir un golpe capaz de penetrar dos tablas puestas en paralelo.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Insumo</th>
+                    <th>Longitud insumo</th>
+                    <th>Caract. insumo</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>WN 15</td>
+                <td><a href="laminillas.html">Laminilla corrugada</a></td>
+                <td>10 a 12</td>
+                <td>Ancho de 25mm</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=sacaclavos-sc57">Saca clavos SC 57</a></td>
+                <td><a href="clavos.html">Clavo en rollo</a></td>
+                <td>29 a 80</td>
+                <td>Diámetro de 2,1 a 2,9</td>
+            </tr>
+            </table>`,
+            url: 'clavadora-wn15',
+            alt: 'clavadora WN-15.',
+            thumb: 'assets/img/herramientas/clavadora-wn15.jpg',
+            img1: 'assets/img/herramientas/clavadora-wn15_img1.jpg',
+            img2: 'assets/img/herramientas/clavadora-wn15_img2.jpg',
+            img3: 'assets/img/herramientas/clavadora-wn15_img3.jpg'
+        },
+        {
+            id: 38,
+            categ: 'Herramientas',
+            subcateg: 'Clavadoras',
+            nombre: 'Saca clavos SC-57 (*Nail Puncher 57)',
+            desc: 'El modelo sacaclavos SC 57 es ideal para trabajos de reciclado de pallets, dado que viene equipada con una boquilla que permite la extracción de clavos de hasta 2,9 mm sin lastimar la madera. Su accionamiento es muy sencillo y le permite al operario aumentar su productividad, liberando tablones a una mayor velocidad que manualmente.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Insumo</th>
+                    <th>Longitud insumo</th>
+                    <th>Caract. insumo</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Saca clavos SC 57</td>
+                <td><a href="clavos.html">Clavo en rollo</a></td>
+                <td>29 a 80</td>
+                <td>Diámetro de 2,1 a 2,9</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-wn15">WN 15</a></td>
+                <td><a href="laminillas.html">Laminilla corrugada</a></td>
+                <td>10 a 12</td>
+                <td>Ancho de 25mm</td>
+            </tr>
+            </table>`,
+            url: 'clavadora-sacaclavos-sc57',
+            alt: 'Saca clavos SC-57.',
+            thumb: 'assets/img/herramientas/clavadora-sacaclavos-sc57.jpg',
+            img1: 'assets/img/herramientas/clavadora-sacaclavos-sc57_img1.jpg',
+            img2: 'assets/img/herramientas/clavadora-sacaclavos-sc57_img2.jpg',
+            img3: 'assets/img/herramientas/clavadora-sacaclavos-sc57_img3.jpg'
+        },
+        {
+            id: 39,
+            categ: 'Herramientas',
+            subcateg: 'Clavadoras',
+            nombre: 'Clavadora CNR-45 (*Roofing Coil Nailer 45)',
+            desc: 'La clavadora neumática industrial CNR 45 es una clavadora roofing: ello implica que está pensada para la colocación de pizarra asfáltica, colocación de zinguería y otras labores relacionadas con la instalación de techos. Sin embargo, sus bondades no acaban allí, dado que por trabajar con clavos de 1 pulgada también es elegida para fijaciones de poco espesor en embalajes y otras superficies de madera.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Cabeza clavo</th>
+                    <th>Longitud clavo</th>
+                    <th>Diámetro clavo</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>CNR 45</td>
+                <td>10</td>
+                <td>22 a 45</td>
+                <td>3,1</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-cn90">CN 90</a></td>
+                <td>7</td>
+                <td>50 a 90</td>
+                <td>2,5 a 2,9</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-cn55">CN 55</a></td>
+                <td>5</td>
+                <td>29 a 55</td>
+                <td>2,1 a 2,3</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-cn70">CN 70</a></td>
+                <td>6</td>
+                <td>40 a 70</td>
+                <td>2,3 a 2,5</td>
+            </tr>
+            </table>`,
+            url: 'clavadora-cnr45',
+            alt: 'Clavadora CNR-45.',
+            thumb: 'assets/img/herramientas/clavadora-cnr45.jpg',
+            img1: 'assets/img/herramientas/clavadora-cnr45_img1.jpg',
+            img2: 'assets/img/herramientas/clavadora-cnr45_img2.jpg',
+            img3: 'assets/img/herramientas/clavadora-cnr45_img3.jpg'
+        },
+        {
+            id: 40,
+            categ: 'Herramientas',
+            subcateg: 'Clavadoras',
+            nombre: 'Clavadora CN-55 (*Coil Nailer 55)',
+            desc: 'La clavadora neumática industrial modelo CN 55 es el modelo más pequeño del segmento de clavadoras en rollo. Generalmente, se utiliza para la fijación con clavos en rollo electrosoldados de hasta 2 pulgadas en labores de embalaje que involucran madera y cartón. Cuenta con un peso reducido y un diseño que la hace muy fácil de maniobrar.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Cabeza clavo</th>
+                    <th>Longitud clavo</th>
+                    <th>Diámetro clavo</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>CN 55</td>
+                <td>5</td>
+                <td>29 a 55</td>
+                <td>2,1 a 2,3</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-cn90">CN 90</a></td>
+                <td>7</td>
+                <td>50 a 90</td>
+                <td>2,5 a 2,9</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-cnr45">CNR 45</a></td>
+                <td>10</td>
+                <td>22 a 45</td>
+                <td>3,1</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-cn70">CN 70</a></td>
+                <td>6</td>
+                <td>40 a 70</td>
+                <td>2,3 a 2,5</td>
+            </tr>
+            </table>`,
+            url: 'clavadora-cn55',
+            alt: 'Clavadora CN-55.',
+            thumb: 'assets/img/herramientas/clavadora-cn55.jpg',
+            img1: 'assets/img/herramientas/clavadora-cn55_img1.jpg',
+            img2: 'assets/img/herramientas/clavadora-cn55_img2.jpg',
+            img3: 'assets/img/herramientas/clavadora-cn55_img3.jpg'
+        },
+        {
+            id: 41,
+            categ: 'Herramientas',
+            subcateg: 'Clavadoras',
+            nombre: 'Clavadora CN-70 (*Coil Nailer 70)',
+            desc: 'La clavadora neumática industrial modelo CN 70 es la opción segura para la fabricación de pallets, pero también para labores de emplacado, en construcción de viviendas en madera y prefabricadas, ya que trabaja con clavos electrosoldados hasta 65 mm (2 ½ pulgadas). Ha sido desarrollada para uso industrial, lo cual le otorga una mayor resistencia y durabilidad en jornadas prolongadas de trabajo.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Cabeza clavo</th>
+                    <th>Longitud clavo</th>
+                    <th>Diámetro clavo</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>CN 70</td>
+                <td>6</td>
+                <td>40 a 70</td>
+                <td>2,3 a 2,5</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-cn90">CN 90</a></td>
+                <td>7</td>
+                <td>50 a 90</td>
+                <td>2,5 a 2,9</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-cnr45">CNR 45</a></td>
+                <td>10</td>
+                <td>22 a 45</td>
+                <td>3,1</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-cn55">CN 55</a></td>
+                <td>5</td>
+                <td>29 a 55</td>
+                <td>2,1 a 2,3</td>
+            </tr>
+            </table>`,
+            url: 'clavadora-cn70',
+            alt: 'Clavadora CN-70.',
+            thumb: 'assets/img/herramientas/clavadora-cn70.jpg',
+            img1: 'assets/img/herramientas/clavadora-cn70_img1.jpg',
+            img2: 'assets/img/herramientas/clavadora-cn70_img2.jpg',
+            img3: 'assets/img/herramientas/clavadora-cn70_img3.jpg'
+        },
+        {
+            id: 42,
+            categ: 'Herramientas',
+            subcateg: 'Clavadoras',
+            nombre: 'Clavadora CN-90 (*Coil Nailer 90)',
+            desc: 'La clavadora neumática industrial modelo CN 90 es la opción más potente en el segmento de clavadoras neumáticas en rollo. Es capaz de trabajar con clavos electrosoldados espiralados de hasta 90 mm de largo (3 ½ pulgadas). Es empleada tanto en la fabricación de pallets como en la industria de la construcción en madera.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Cabeza clavo</th>
+                    <th>Longitud clavo</th>
+                    <th>Diámetro clavo</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>CN 90</td>
+                <td>7</td>
+                <td>50 a 90</td>
+                <td>2,5 a 2,9</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-cnr45">CNR 45</a></td>
+                <td>10</td>
+                <td>22 a 45</td>
+                <td>3,1</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-cn55">CN 55</a></td>
+                <td>5</td>
+                <td>29 a 55</td>
+                <td>2,1 a 2,3</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-cn70">CN 70</a></td>
+                <td>6</td>
+                <td>40 a 70</td>
+                <td>2,3 a 2,5</td>
+            </tr>
+            </table>`,
+            url: 'clavadora-cn90',
+            alt: 'Clavadora CN-90.',
+            thumb: 'assets/img/herramientas/clavadora-cn90.jpg',
+            img1: 'assets/img/herramientas/clavadora-cn90_img1.jpg',
+            img2: 'assets/img/herramientas/clavadora-cn90_img2.jpg',
+            img3: 'assets/img/herramientas/clavadora-cn90_img3.jpg'
+        },
+        {
+            id: 43,
+            categ: 'Herramientas',
+            subcateg: 'Clavadoras',
+            nombre: 'Clavadora RK-100 (*FN 100)',
+            desc: 'La clavadora neumática industrial modelo RK 100 (Código internacional: FN 100) está especialmente pensada para la construcción en madera. Trabaja con clavos en peine unidos por plástico, con una inclinación de 21°, conforme las normativas establecidas por el reglamento INTI-CIRSOC. Su amplio rango de clavado -de dos pulgadas y media a cuatro- la convierte en la opción perfecta para trabajos de emplacado y fijación de bastidores en obra.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Cabeza clavo</th>
+                    <th>Longitud clavo</th>
+                    <th>Diámetro alambre</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>RK 100</td>
+                <td>7,4</td>
+                <td>65 a 100</td>
+                <td>3,1 - 3,4</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-n50">N 50</a></td>
+                <td>1,75 x 2,80</td>
+                <td>19 a 50</td>
+                <td>1,40 x 1,60</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-n65">N 65</a></td>
+                <td>1,75 x 2,80</td>
+                <td>19 a 63</td>
+                <td>1,40 x 1,60</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=clavadora-t65">T 65</a></td>
+                <td>2,2 x 7</td>
+                <td>32 a 64</td>
+                <td>2,20</td>
+            </tr>
+            </table>`,
+            url: 'clavadora-rk100',
+            alt: 'Clavadora RK-100.',
+            thumb: 'assets/img/herramientas/clavadora-rk100.jpg',
+            img1: 'assets/img/herramientas/clavadora-rk100_img1.jpg',
+            img2: 'assets/img/herramientas/clavadora-rk100_img2.jpg',
+            img3: 'assets/img/herramientas/clavadora-rk100_img3.jpg'
+        },
+
+        // AGUJEREADORAS
+
+        {
+            id: 44,
+            categ: 'Herramientas',
+            subcateg: 'Agujereadoras',
+            nombre: 'Agujereadora 4444',
+            desc: 'La agujereadora neumática industrial modelo 4444 se encuentra equipada con un mandrill de 13 mm, lo que le permite efectuar orificios con mechas de un mayor tamaño. Por lo general suele ser empleada para el trabajo sobre metales ferrosos así como metales no ferrosos, debido a sus bajas revoluciones y a su alto torque. Ello le otorga un alto nivel de precisión y de potencia.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>4444</th>
+                    <th><a href="producto.html?prod=agujereadora-4434">4434</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Mandrill</td>
+                <td>13</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>800</td>
+                <td>1800</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>1/2"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>170</td>
+                <td>170</td>
+            </tr>
+            </table>`,
+            url: 'agujereadora-4444',
+            alt: 'Agujereadora 4444.',
+            thumb: 'assets/img/herramientas/agujereadora-4444.jpg',
+            img1: 'assets/img/herramientas/agujereadora-4444_img1.jpg',
+            img2: 'assets/img/herramientas/agujereadora-4444_img2.jpg',
+            img3: 'assets/img/herramientas/agujereadora-4444_img3.jpg'
+        },
+        {
+            id: 45,
+            categ: 'Herramientas',
+            subcateg: 'Agujereadoras',
+            nombre: 'Agujereadora 4434',
+            desc: 'La agujereadora neumática industrial modelo 4434 se encuentra equipada con un mandrill de 10 mm, que resulta ideal para llevar a cabo tareas sobre superficies blandas tales como la madera, el PVC, el aluminio, la melamina, el MDF y los metales no ferrosos. Esta agujereadora es la más indicada para efectuar aquellos trabajos que requieren la realización de múltiples perforaciones debido a su alta velocidad.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>4434</th>
+                    <th><a href="producto.html?prod=agujereadora-4444">4444</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Mandrill</td>
+                <td>10</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>1800</td>
+                <td>800</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>1/2"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>170</td>
+                <td>170</td>
+            </tr>
+            </table>`,
+            url: 'agujereadora-4434',
+            alt: 'Agujereadora 4434.',
+            thumb: 'assets/img/herramientas/agujereadora-4434.jpg',
+            img1: 'assets/img/herramientas/agujereadora-4434_img1.jpg',
+            img2: 'assets/img/herramientas/agujereadora-4434_img2.jpg',
+            img3: 'assets/img/herramientas/agujereadora-4434_img3.jpg'
+        },
+        {
+            id: 46,
+            categ: 'Herramientas',
+            subcateg: 'Agujereadoras',
+            nombre: 'Atornilladora C-58 (3 en 1)',
+            desc: 'La atornilladora neumática industrial C-58 tres en uno es una línea de herramientas sumamente versátil, diseñada especialmente para la industria. Cumple tres funciones: es capaz de agujerear, atornillar y hacer roscas. Está equipada con un mandrill automático que no requiere llave para efectuar el cambio de accesorios. Tiene regulación de torque externa. Su cuerpo ergonómico está recubierto de elastómero. El C-58 es el más potente del segmento.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>C 58</th>
+                    <th><a href="producto.html?prod=agujereadora-c48">C 48</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Mandrill</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>750</td>
+                <td>1700</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>550</td>
+                <td>550</td>
+            </tr>
+            <tr>
+                <td>Regulación torque</td>
+                <td>Externa</td>
+                <td>Externa</td>
+            </tr>
+            <tr>
+                <td>Torque máximo</td>
+                <td>13nm</td>
+                <td>7nm</td>
+            </tr>
+            </table>`,
+            url: 'agujereadora-c58',
+            alt: 'Atornilladora C-58.',
+            thumb: 'assets/img/herramientas/atornilladora-c58.jpg',
+            img1: 'assets/img/herramientas/atornilladora-c58_img1.jpg',
+            img2: 'assets/img/herramientas/atornilladora-c58_img2.jpg',
+            img3: 'assets/img/herramientas/atornilladora-c58_img3.jpg'
+        },
+        {
+            id: 47,
+            categ: 'Herramientas',
+            subcateg: 'Agujereadoras',
+            nombre: 'Atornilladora C-48 (3 en 1)',
+            desc: 'La atornilladora neumática industrial C-48 tres en uno es una línea de herramientas sumamente versátil, diseñada especialmente para la industria. Cumple tres funciones: es capaz de agujerear, atornillar y hacer roscas. Está equipada con un mandrill automático que no requiere llave para efectuar el cambio de accesorios. Tiene regulación de torque externa. Su cuerpo ergonómico está recubierto de elastómero. El C-48 es el más veloz en este segmento.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>C 48</th>
+                    <th><a href="producto.html?prod=agujereadora-c58">C 58</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Mandrill</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>1700</td>
+                <td>750</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>550</td>
+                <td>550</td>
+            </tr>
+            <tr>
+                <td>Regulación torque</td>
+                <td>Externa</td>
+                <td>Externa</td>
+            </tr>
+            <tr>
+                <td>Torque máximo</td>
+                <td>7nm</td>
+                <td>13nm</td>
+            </tr>
+            </table>`,
+            url: 'agujereadora-c48',
+            alt: 'Atornilladora C-48.',
+            thumb: 'assets/img/herramientas/atornilladora-c48.jpg',
+            img1: 'assets/img/herramientas/atornilladora-c48_img1.jpg',
+            img2: 'assets/img/herramientas/atornilladora-c48_img2.jpg',
+            img3: 'assets/img/herramientas/atornilladora-c48_img3.jpg'
+        },
+
+        // ATORNILLADORAS
+
+        {
+            id: 48,
+            categ: 'Herramientas',
+            subcateg: 'Atornilladoras',
+            nombre: 'Atornilladora CD-48',
+            desc: 'La atornilladora neumática industrial CD 48 ha sido diseñada con el formato de pistola, y con un tamaño pequeño, para poder realizar fijaciones en lugares de tamaño reducido como los interiores de los muebles, placards, y otros tantos espacios. Es muy cómoda, liviana y silenciosa, por lo que resulta sumamente requerida para las tareas de carpintería.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>CD 48</th>
+                    <th><a href="producto.html?prod=atornilladora-cd58">CD 58</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Mandrill</td>
+                <td>6,35</td>
+                <td>6,35</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>1700</td>
+                <td>750</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>550</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>Regulación torque</td>
+                <td>S/ regul.</td>
+                <td>S/ regul.</td>
+            </tr>
+            <tr>
+                <td>Torque máximo</td>
+                <td>6nm</td>
+                <td>13nm</td>
+            </tr>
+            </table>`,
+            url: 'atornilladora-cd48',
+            alt: 'Atornilladora CD-48.',
+            thumb: 'assets/img/herramientas/atornilladora-cd48.jpg',
+            img1: 'assets/img/herramientas/atornilladora-cd48_img1.jpg',
+            img2: 'assets/img/herramientas/atornilladora-cd48_img2.jpg',
+            img3: 'assets/img/herramientas/atornilladora-cd48_img3.jpg'
+        },
+        {
+            id: 49,
+            categ: 'Herramientas',
+            subcateg: 'Atornilladoras',
+            nombre: 'Atornilladora CD-58',
+            desc: 'La atornilladora neumática industrial CD 58 ha sido diseñada con el formato de pistola, y con un tamaño pequeño, para poder realizar fijaciones en lugares de tamaño reducido como los interiores de los muebles, placards, y otros tantos espacios. Es muy cómoda, liviana y silenciosa, por lo que resulta sumamente requerida para las tareas de carpintería.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>CD 58</th>
+                    <th><a href="producto.html?prod=atornilladora-cd48">CD 48</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Mandrill</td>
+                <td>6,35</td>
+                <td>6,35</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>750</td>
+                <td>1700</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>500</td>
+                <td>550</td>
+            </tr>
+            <tr>
+                <td>Regulación torque</td>
+                <td>S/ regul.</td>
+                <td>S/ regul.</td>
+            </tr>
+            <tr>
+                <td>Torque máximo</td>
+                <td>13nm</td>
+                <td>6nm</td>
+            </tr>
+            </table>`,
+            url: 'atornilladora-cd58',
+            alt: 'Atornilladora CD-58.',
+            thumb: 'assets/img/herramientas/atornilladora-cd58.jpg',
+            img1: 'assets/img/herramientas/atornilladora-cd58_img1.jpg',
+            img2: 'assets/img/herramientas/atornilladora-cd58_img2.jpg',
+            img3: 'assets/img/herramientas/atornilladora-cd58_img3.jpg'
+        },
+        {
+            id: 50,
+            categ: 'Herramientas',
+            subcateg: 'Atornilladoras',
+            nombre: 'Atornilladora C-48 (3 en 1)',
+            desc: 'La atornilladora neumática industrial C-48 tres en uno es una línea de herramientas sumamente versátil, diseñada especialmente para la industria. Cumple tres funciones: es capaz de agujerear, atornillar y hacer roscas. Está equipada con un mandrill automático que no requiere llave para efectuar el cambio de accesorios. Tiene regulación de torque externa. Su cuerpo ergonómico está recubierto de elastómero. El C-48 es el más veloz en este segmento.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>C 48</th>
+                    <th><a href="producto.html?prod=agujereadora-c58">C 58</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Mandrill</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>1700</td>
+                <td>750</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>550</td>
+                <td>550</td>
+            </tr>
+            <tr>
+                <td>Regulación torque</td>
+                <td>Externa</td>
+                <td>Externa</td>
+            </tr>
+            <tr>
+                <td>Torque máximo</td>
+                <td>7nm</td>
+                <td>13nm</td>
+            </tr>
+            </table>`,
+            url: 'atornilladora-c48',
+            alt: 'Atornilladora C-48.',
+            thumb: 'assets/img/herramientas/atornilladora-c48.jpg',
+            img1: 'assets/img/herramientas/atornilladora-c48_img1.jpg',
+            img2: 'assets/img/herramientas/atornilladora-c48_img2.jpg',
+            img3: 'assets/img/herramientas/atornilladora-c48_img3.jpg'
+        },
+        {
+            id: 51,
+            categ: 'Herramientas',
+            subcateg: 'Atornilladoras',
+            nombre: 'Atornilladora C-58 (3 en 1)',
+            desc: 'La atornilladora neumática industrial C-58 tres en uno es una línea de herramientas sumamente versátil, diseñada especialmente para la industria. Cumple tres funciones: es capaz de agujerear, atornillar y hacer roscas. Está equipada con un mandrill automático que no requiere llave para efectuar el cambio de accesorios. Tiene regulación de torque externa. Su cuerpo ergonómico está recubierto de elastómero. El C-58 es el más potente del segmento.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>C 58</th>
+                    <th><a href="producto.html?prod=agujereadora-c48">C 48</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Mandrill</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>750</td>
+                <td>1700</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>550</td>
+                <td>550</td>
+            </tr>
+            <tr>
+                <td>Regulación torque</td>
+                <td>Externa</td>
+                <td>Externa</td>
+            </tr>
+            <tr>
+                <td>Torque máximo</td>
+                <td>13nm</td>
+                <td>7nm</td>
+            </tr>
+            </table>`,
+            url: 'atornilladora-c58',
+            alt: 'Atornilladora C-58.',
+            thumb: 'assets/img/herramientas/atornilladora-c58.jpg',
+            img1: 'assets/img/herramientas/atornilladora-c58_img1.jpg',
+            img2: 'assets/img/herramientas/atornilladora-c58_img2.jpg',
+            img3: 'assets/img/herramientas/atornilladora-c58_img3.jpg'
+        },
+        {
+            id: 52,
+            categ: 'Herramientas',
+            subcateg: 'Atornilladoras',
+            nombre: 'Atornilladora 4460',
+            desc: 'La atornilladora neumática industrial 4460 es la que inaugura el segmento de atornilladoras neumáticas tubulares. Su cuerpo fabricado en aluminio de alta dureza le brinda una mayor resistencia que otras alternativas del mercado, ya que es de uso industrial. Puede ser utilizada incluso en la fabricación de tonners, y para cerrar envases de tapas plásticas, además de carpintería general.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>4460</th>
+                    <th><a href="producto.html?prod=atornilladora-4487">4487</a></th>
+                    <th><a href="producto.html?prod=atornilladora-4480">4480</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Encastre</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>8000</td>
+                <td>800</td>
+                <td>1800</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>170</td>
+                <td>113</td>
+                <td>142</td>
+            </tr>
+            <tr>
+                <td>Regulación torque</td>
+                <td>S/ regul.</td>
+                <td>Interna x embrag.</td>
+                <td>Interna x embrag.</td>
+            </tr>
+            <tr>
+                <td>Torque máximo</td>
+                <td>13nm</td>
+                <td>6 a 16nm</td>
+                <td>6 a 13nm</td>
+            </tr>
+            </table>`,
+            url: 'atornilladora-4460',
+            alt: 'Atornilladora 4460.',
+            thumb: 'assets/img/herramientas/atornilladora-4460.jpg',
+            img1: 'assets/img/herramientas/atornilladora-4460_img1.jpg',
+            img2: 'assets/img/herramientas/atornilladora-4460_img2.jpg',
+            img3: 'assets/img/herramientas/atornilladora-4460_img3.jpg'
+        },
+        {
+            id: 53,
+            categ: 'Herramientas',
+            subcateg: 'Atornilladoras',
+            nombre: 'Atornilladora 4480',
+            desc: 'La atornilladora neumática industrial 4480 es la opción base de nuestra línea industrial. Se trata de un modelo bastante sencillo, con posibilidad de regular el torque de manera interna. Trabaja en un rango de torque amplio, lo que lo convierte en una opción válida para trabajos tanto en carpintería de madera como metálica, para la fabricación de aberturas en distintos materiales.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>4480</th>
+                    <th><a href="producto.html?prod=atornilladora-4460">4460</a></th>
+                    <th><a href="producto.html?prod=atornilladora-4487">4487</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Encastre</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>1800</td>
+                <td>8000</td>
+                <td>800</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>142</td>
+                <td>170</td>
+                <td>113</td>
+            </tr>
+            <tr>
+                <td>Regulación torque</td>
+                <td>Interna x embrag.</td>
+                <td>S/ regul.</td>
+                <td>Interna x embrag.</td>
+            </tr>
+            <tr>
+                <td>Torque máximo</td>
+                <td>6 a 13nm</td>
+                <td>13nm</td>
+                <td>6 a 16nm</td>
+            </tr>
+            </table>`,
+            url: 'atornilladora-4480',
+            alt: 'Atornilladora 4480.',
+            thumb: 'assets/img/herramientas/atornilladora-4480.jpg',
+            img1: 'assets/img/herramientas/atornilladora-4480_img1.jpg',
+            img2: 'assets/img/herramientas/atornilladora-4480_img2.jpg',
+            img3: 'assets/img/herramientas/atornilladora-4480_img3.jpg'
+        },
+        {
+            id: 54,
+            categ: 'Herramientas',
+            subcateg: 'Atornilladoras',
+            nombre: 'Atornilladora 4487',
+            desc: 'La atornilladora neumática industrial 4487 cuenta con doble reducción de engranajes, lo que le otorga al usuario la posibilidad de lograr mayor potencia en la colocación con tornillos sobre superficies diversas (madera, aluminio, PVC). Su torque puede ser regulado internamente de manera muy sencilla, de acuerdo a los requerimientos del trabajo a realizar.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>4487</th>
+                    <th><a href="producto.html?prod=atornilladora-4460">4460</a></th>
+                    <th><a href="producto.html?prod=atornilladora-4480">4480</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Encastre</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>800</td>
+                <td>8000</td>
+                <td>1800</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>113</td>
+                <td>170</td>
+                <td>142</td>
+            </tr>
+            <tr>
+                <td>Regulación torque</td>
+                <td>Interna x embrag.</td>
+                <td>S/ regul.</td>
+                <td>Interna x embrag.</td>
+            </tr>
+            <tr>
+                <td>Torque máximo</td>
+                <td>6 a 16nm</td>
+                <td>13nm</td>
+                <td>6 a 13nm</td>
+            </tr>
+            </table>`,
+            url: 'atornilladora-4487',
+            alt: 'Atornilladora 4487.',
+            thumb: 'assets/img/herramientas/atornilladora-4487.jpg',
+            img1: 'assets/img/herramientas/atornilladora-4487_img1.jpg',
+            img2: 'assets/img/herramientas/atornilladora-4487_img2.jpg',
+            img3: 'assets/img/herramientas/atornilladora-4487_img3.jpg'
+        },
+        {
+            id: 55,
+            categ: 'Herramientas',
+            subcateg: 'Atornilladoras',
+            nombre: 'Atornilladora 4488',
+            desc: 'La atornilladora neumática industrial 4488 es la más específica de nuestra línea industrial. Es de una extrema sensibilidad, y cuenta con un dispositivo de regulación de torque externo que cómodamente puede ser ajustado en el lugar de trabajo. Es la más potente de la línea, llegando a 16 Nm.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>4488</th>
+                    <th><a href="producto.html?prod=atornilladora-4491">4491</a></th>
+                    <th><a href="producto.html?prod=atornilladora-4494">4494</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Mandrill</td>
+                <td>6nm</td>
+                <td>6nm</td>
+                <td>6nm</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>1800</td>
+                <td>1800</td>
+                <td>800</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>113</td>
+                <td>130</td>
+                <td>113</td>
+            </tr>
+            <tr>
+                <td>Regulación torque</td>
+                <td>Externa</td>
+                <td>S/ regul.</td>
+                <td>Externa</td>
+            </tr>
+            <tr>
+                <td>Torque máximo</td>
+                <td>6 a 16nm</td>
+                <td>5 a 13nm</td>
+                <td>6 a 16nm</td>
+            </tr>
+            </table>`,
+            url: 'atornilladora-4488',
+            alt: 'Atornilladora 4488.',
+            thumb: 'assets/img/herramientas/atornilladora-4488.jpg',
+            img1: 'assets/img/herramientas/atornilladora-4488_img1.jpg',
+            img2: 'assets/img/herramientas/atornilladora-4488_img2.jpg',
+            img3: 'assets/img/herramientas/atornilladora-4488_img3.jpg'
+        },
+        {
+            id: 56,
+            categ: 'Herramientas',
+            subcateg: 'Atornilladoras',
+            nombre: 'Atornilladora 4491',
+            desc: 'La atornilladora neumática industrial 4491 ha sido diseñada con una boquilla reducida, lo cual le permite al usuario emplearla en espacios de poca maniobra. Tiene un rango de torque amplio, lo cual le permite imprimir la fuerza suficiente como para agilizar la labor de fijación.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>4491</th>
+                    <th><a href="producto.html?prod=atornilladora-4488">4488</a></th>
+                    <th><a href="producto.html?prod=atornilladora-4494">4494</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Mandrill</td>
+                <td>6nm</td>
+                <td>6nm</td>
+                <td>6nm</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>1800</td>
+                <td>1800</td>
+                <td>800</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>130</td>
+                <td>113</td>
+                <td>113</td>
+            </tr>
+            <tr>
+                <td>Regulación torque</td>
+                <td>S/ regul.</td>
+                <td>Externa</td>
+                <td>Externa</td>
+            </tr>
+            <tr>
+                <td>Torque máximo</td>
+                <td>5 a 13nm</td>
+                <td>6 a 16nm</td>
+                <td>6 a 16nm</td>
+            </tr>
+            </table>`,
+            url: 'atornilladora-4491',
+            alt: 'Atornilladora 4491.',
+            thumb: 'assets/img/herramientas/atornilladora-4491.jpg',
+            img1: 'assets/img/herramientas/atornilladora-4491_img1.jpg',
+            img2: 'assets/img/herramientas/atornilladora-4491_img2.jpg',
+            img3: 'assets/img/herramientas/atornilladora-4491_img3.jpg'
+        },
+        {
+            id: 57,
+            categ: 'Herramientas',
+            subcateg: 'Atornilladoras',
+            nombre: 'Atornilladora 4494',
+            desc: 'La atornilladora neumática industrial 4494 pertenece al segmento con torque de regulación externa. Ello le permite al usuario controlar la fuerza que ejerce sobre el material en el que desea hacer la fijación con tornillos, de manera muy cómoda y sencilla mediante un dispositivo cercano a la boquilla de la herramienta.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>4494</th>
+                    <th><a href="producto.html?prod=atornilladora-4488">4488</a></th>
+                    <th><a href="producto.html?prod=atornilladora-4491">4491</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Mandrill</td>
+                <td>6nm</td>
+                <td>6nm</td>
+                <td>6nm</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>800</td>
+                <td>1800</td>
+                <td>1800</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>113</td>
+                <td>113</td>
+                <td>130</td>
+            </tr>
+            <tr>
+                <td>Regulación torque</td>
+                <td>Externa</td>
+                <td>Externa</td>
+                <td>S/ regul.</td>
+            </tr>
+            <tr>
+                <td>Torque máximo</td>
+                <td>6 a 16nm</td>
+                <td>6 a 16nm</td>
+                <td>5 a 13nm</td>
+            </tr>
+            </table>`,
+            url: 'atornilladora-4494',
+            alt: 'Atornilladora 4494.',
+            thumb: 'assets/img/herramientas/atornilladora-4494.jpg',
+            img1: 'assets/img/herramientas/atornilladora-4494_img1.jpg',
+            img2: 'assets/img/herramientas/atornilladora-4494_img2.jpg',
+            img3: 'assets/img/herramientas/atornilladora-4494_img3.jpg'
+        },
+
+        // LIJADORAS
+
+        {
+            id: 58,
+            categ: 'Herramientas',
+            subcateg: 'Lijadoras',
+            nombre: 'Lijadora 7114',
+            desc: 'La lijadora neumática industrial modelo 7114 ha sido diseñada con una base de forma triangular, para poder acceder a esquinas dentro de muebles u otros lugares donde lijadoras de mayor tamaño no entran. Es una lijadora de palma ideal para acabados finos, que cuenta con una base de velcro para un cómodo recambio de lijas. Todas nuestras lijadoras de palma son para uso industrial.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>7114</th>
+                    <th><a href="producto.html?prod=lijadora-77171">77171</a></th>
+                    <th><a href="producto.html?prod=lijadora-7717">7717</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Superficie de lijado</td>
+                <td>75 x 100</td>
+                <td>57 x 140</td>
+                <td>127</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>10000</td>
+                <td>20000</td>
+                <td>13000</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>255</td>
+                <td>110</td>
+                <td>142</td>
+            </tr>
+            <tr>
+                <td>Tipo de lijas</td>
+                <td>Abrojo velcro</td>
+                <td>Abrojo velcro</td>
+                <td>Común</td>
+            </tr>
+            </table>`,
+            url: 'lijadora-7114',
+            alt: 'Lijadora 7114.',
+            thumb: 'assets/img/herramientas/lijadora-7114.jpg',
+            img1: 'assets/img/herramientas/lijadora-7114_img1.jpg',
+            img2: 'assets/img/herramientas/lijadora-7114_img2.jpg',
+            img3: 'assets/img/herramientas/lijadora-7114_img3.jpg'
+        },
+        {
+            id: 59,
+            categ: 'Herramientas',
+            subcateg: 'Lijadoras',
+            nombre: 'Lijadora 7717',
+            desc: 'La lijadora neumática industrial modelo 7717 tiene una base de forma cuadrada, lo que hace que la colocación de lijas sea muy sencilla, dado que este modelo tiene un sistema de sujeción especial. Consta de trabas a ambos costados que aseguran una sujeción perfecta a lijas sin velcro. Todas nuestras lijadoras de palma son para uso industrial.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>7717</th>
+                    <th><a href="producto.html?prod=lijadora-77171">77171</a></th>
+                    <th><a href="producto.html?prod=lijadora-7114">7114</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Superficie de lijado</td>
+                <td>127</td>
+                <td>57 x 140</td>
+                <td>75 x 100</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>13000</td>
+                <td>20000</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>142</td>
+                <td>110</td>
+                <td>255</td>
+            </tr>
+            <tr>
+                <td>Tipo de lijas</td>
+                <td>Común</td>
+                <td>Abrojo velcro</td>
+                <td>Abrojo velcro</td>
+            </tr>
+            </table>`,
+            url: 'lijadora-7717',
+            alt: 'Lijadora 7717.',
+            thumb: 'assets/img/herramientas/lijadora-7717.jpg',
+            img1: 'assets/img/herramientas/lijadora-7717_img1.jpg',
+            img2: 'assets/img/herramientas/lijadora-7717_img2.jpg',
+            img3: 'assets/img/herramientas/lijadora-7717_img3.jpg'
+        },
+        {
+            id: 60,
+            categ: 'Herramientas',
+            subcateg: 'Lijadoras',
+            nombre: 'Lijadora 77171',
+            desc: 'La lijadora neumática industrial modelo 77171 es una de las lijadoras más específicas de nuestro catálogo. Viene equipada con un kit de seis bases lijadoras, con distintas formas, lo cual le posibilita al usuario lijar dándole distintas formas a la superficie. Es utilizada para trabajos de terminación en patas torneadas de sillas y mesas, para molduras y otros detalles en muebles de estilo.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>77171</th>
+                    <th><a href="producto.html?prod=lijadora-7114">7114</a></th>
+                    <th><a href="producto.html?prod=lijadora-7717">7717</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Superficie de lijado</td>
+                <td>57 x 140</td>
+                <td>75 x 100</td>
+                <td>127</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>20000</td>
+                <td>10000</td>
+                <td>13000</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>110</td>
+                <td>255</td>
+                <td>142</td>
+            </tr>
+            <tr>
+                <td>Tipo de lijas</td>
+                <td>Abrojo velcro</td>
+                <td>Abrojo velcro</td>
+                <td>Común</td>
+            </tr>
+            </table>`,
+            url: 'lijadora-77171',
+            alt: 'Lijadora 77171.',
+            thumb: 'assets/img/herramientas/lijadora-77171.jpg',
+            img1: 'assets/img/herramientas/lijadora-77171_img1.jpg',
+            img2: 'assets/img/herramientas/lijadora-77171_img2.jpg',
+            img3: 'assets/img/herramientas/lijadora-77171_img3.jpg'
+        },
+        {
+            id: 61,
+            categ: 'Herramientas',
+            subcateg: 'Lijadoras',
+            nombre: 'Lijadora 7108 VC-6"',
+            desc: 'La lijadora neumática industrial 7108 VC 6” es un modelo roto-orbital que está equipado con manguera de succión, bolsa recolectora, empuñadura recubierta en goma anti-deslizamiento, y base de velcro para un veloz cambio de lijas. También cuenta con regulador de potencia, y sus componentes internos son de fabricación japonesa. Su base de lijado es de 6”.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>7108 VC 6"</th>
+                    <th><a href="producto.html?prod=lijadora-7117vc5">7117 VC 5"</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Diámetro lijado</td>
+                <td>152</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>10000</td>
+                <td>15000</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>255</td>
+                <td>255</td>
+            </tr>
+            <tr>
+                <td>Tipo de lijas</td>
+                <td>Abrojo velcro</td>
+                <td>Abrojo velcro</td>
+            </tr>
+            </table>`,
+            url: 'lijadora-7108vc6',
+            alt: 'Lijadora 7108 VC-6".',
+            thumb: 'assets/img/herramientas/lijadora-7108vc6.jpg',
+            img1: 'assets/img/herramientas/lijadora-7108vc6_img1.jpg',
+            img2: 'assets/img/herramientas/lijadora-7108vc6_img2.jpg',
+            img3: 'assets/img/herramientas/lijadora-7108vc6_img3.jpg'
+        },
+        {
+            id: 62,
+            categ: 'Herramientas',
+            subcateg: 'Lijadoras',
+            nombre: 'Lijadora 7117 VC-5"',
+            desc: 'La lijadora neumática industrial 7117 VC 5” es un modelo roto-orbital que está equipado con manguera de succión, bolsa recolectora, empuñadura recubierta en goma anti-deslizamiento, y base de velcro para un veloz cambio de lijas. También cuenta con regulador de potencia, y sus componentes internos son de fabricación japonesa. Su base de lijado es de 5”.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>7117 VC 5"</th>
+                    <th><a href="producto.html?prod=lijadora-7108vc6">7108 VC 6"</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Diámetro lijado</td>
+                <td>100</td>
+                <td>152</td>
+            </tr>
+            <tr>
+                <td>R.P.M</td>
+                <td>15000</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>Entrada aire</td>
+                <td>1/4"</td>
+                <td>1/4"</td>
+            </tr>
+            <tr>
+                <td>Caudal aire</td>
+                <td>3/8"</td>
+                <td>3/8"</td>
+            </tr>
+            <tr>
+                <td>Consumo aire</td>
+                <td>255</td>
+                <td>255</td>
+            </tr>
+            <tr>
+                <td>Tipo de lijas</td>
+                <td>Abrojo velcro</td>
+                <td>Abrojo velcro</td>
+            </tr>
+            </table>`,
+            url: 'lijadora-7117vc5',
+            alt: 'Lijadora 7117 VC-5".',
+            thumb: 'assets/img/herramientas/lijadora-7117vc5.jpg',
+            img1: 'assets/img/herramientas/lijadora-7117vc5_img1.jpg',
+            img2: 'assets/img/herramientas/lijadora-7117vc5_img2.jpg',
+            img3: 'assets/img/herramientas/lijadora-7117vc5_img3.jpg'
+        },
+
+        // COMPRESORES
+
+        {
+            id: 63,
+            categ: 'Herramientas',
+            subcateg: 'Compresores',
+            nombre: 'Compresor Polaris 200',
+            desc: 'El compresor industrial Polaris 200 es un equipo con un tamaño reducido, especialmente diseñado para ser trasladado a distintas locaciones. Ello permite a sus usuarios el poder efectuar fijaciones finales en domicilios u obras, de manera cómoda, rápida y efectiva.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>Polaris 200</th>
+                    <th><a href="producto.html?prod=compresor-pioneer340">Pioneer 340</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Volts</td>
+                <td>220</td>
+                <td>220</td>
+            </tr>
+            <tr>
+                <td>HP</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Carga por minuto</td>
+                <td>210</td>
+                <td>210</td>
+            </tr>
+            <tr>
+                <td>Tanque</td>
+                <td>25</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Presión</td>
+                <td>90 / 130</td>
+                <td>90 / 130</td>
+            </tr>
+            </table>`,
+            url: 'compresor-polaris200',
+            alt: 'Compresor Polaris 200.',
+            thumb: 'assets/img/herramientas/compresor-polaris200.jpg',
+            img1: 'assets/img/herramientas/compresor-polaris200_img1.jpg',
+            img2: 'assets/img/herramientas/compresor-polaris200_img2.jpg',
+            img3: 'assets/img/herramientas/compresor-polaris200_img3.jpg'
+        },
+        {
+            id: 64,
+            categ: 'Herramientas',
+            subcateg: 'Compresores',
+            nombre: 'Compresor Pioneer 340',
+            desc: 'El compresor industrial Pioneer 340 pertenece a la familia de equipamiento industrial de Prebena. Por ende, la totalidad de sus componentes internos han sido fabricados en Alemania, en cumplimiento con los standards de calidad de la Comunidad Europea. Su diseño, que incluye un caño envolvente, lo convierte en una opción sumamente cómoda para movilizarse en las obras.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th> </th>
+                    <th>Pioneer 340</th>
+                    <th><a href="producto.html?prod=compresor-polaris200">Polaris 200</a></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Volts</td>
+                <td>220</td>
+                <td>220</td>
+            </tr>
+            <tr>
+                <td>HP</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Carga por minuto</td>
+                <td>210</td>
+                <td>210</td>
+            </tr>
+            <tr>
+                <td>Tanque</td>
+                <td>20</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Presión</td>
+                <td>90 / 130</td>
+                <td>90 / 130</td>
+            </tr>
+            </table>`,
+            url: 'compresor-pioneer340',
+            alt: 'Compresor Pioneer 340.',
+            thumb: 'assets/img/herramientas/compresor-pioneer340.jpg',
+            img1: 'assets/img/herramientas/compresor-pioneer340_img1.jpg',
+            img2: 'assets/img/herramientas/compresor-pioneer340_img2.jpg',
+            img3: 'assets/img/herramientas/compresor-pioneer340_img3.jpg'
+        },
+
+        // ACCESORIOS
+
+        {
+            id: 65,
+            categ: 'Herramientas',
+            subcateg: 'Accesorios',
+            nombre: 'Pistola Selladora ST-66413',
+            desc: 'El modelo de pistola selladora ST 66413 es una herramienta diseñada con tres tipos de funciones: rociador, aplicador de espuma y sellador. Ello le permite al usuario la aplicación continua y de suma comodidad de distintos tipos de adhesivos y selladores de latex, vinílicos, acrílicos y siliconados. La pistola aplicadora es apta tanto para su uso en fábrica como en obra, al momento de efectuar colocación de aberturas. Está equipada con una válvula roja reguladora de la aplicación de espuma, y una válvula azul para un mayor control sobre el caudal de sellador a aplicar sobre la superficie.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Capacidad de cartucho</th>
+                    <th>Capacidad de sachet</th>
+                    <th>Presión operativa</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>500ml</td>
+                <td>310 - 600ml</td>
+                <td>60 - 90 PSI</td>
+            </tr>
+            </table>`,
+            url: 'accesorios-pistola_sellador-st66413',
+            alt: 'Pistola Selladora ST-66413.',
+            thumb: 'assets/img/herramientas/accesorios-pistola_sellador-st66413.jpg',
+            img1: 'assets/img/herramientas/accesorios-pistola_sellador-st66413_img1.jpg',
+            img2: 'assets/img/herramientas/accesorios-pistola_sellador-st66413_img2.jpg',
+            img3: 'assets/img/herramientas/accesorios-pistola_sellador-st66413_img3.jpg'
+        },
+        {
+            id: 66,
+            categ: 'Herramientas',
+            subcateg: 'Accesorios',
+            nombre: 'Balanceador SA-2207',
+            desc: 'El Balanceador industrial modelo SA-2207 ha sido diseñado para aumentar la comodidad de los trabajadores en el área de trabajo, así como para evitar que ocurran accidentes y los daños ocasionados por la caída de las herramientas neumáticas. Las mismas se mantienen suspendidas al tiempo que el operario lleva a cabo su labor. Es capaz de soportar hasta 3 kilos de peso.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Balanceador</th>
+                    <th>Peso soport.</th>
+                    <th>Long. del cable</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>SA 2207</td>
+                <td>De 3,5 a 5 Kgs.</td>
+                <td>1,6 metros</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=balanceador-sa2204">SA 2204</a></td>
+                <td>De 1,5 a 3 Kgs.</td>
+                <td>1,6 metros</td>
+            </tr>
+            </table>`,
+            url: 'balanceador-sa2207',
+            alt: 'Balanceador SA-2207.',
+            thumb: 'assets/img/herramientas/accesorios-balanceador-sa2207.jpg',
+            img1: 'assets/img/herramientas/accesorios-balanceador-sa2207_img1.jpg',
+            img2: 'assets/img/herramientas/accesorios-balanceador-sa2207_img2.jpg',
+            img3: 'assets/img/herramientas/accesorios-balanceador-sa2207_img3.jpg'
+        },
+        {
+            id: 67,
+            categ: 'Herramientas',
+            subcateg: 'Accesorios',
+            nombre: 'Balanceador SA-2204',
+            desc: 'El Balanceador industrial modelo SA-2204 ha sido diseñado para aumentar la comodidad de los trabajadores en el área de trabajo, así como para evitar que ocurran accidentes y los daños ocasionados por la caída de las herramientas neumáticas. Las mismas se mantienen suspendidas al tiempo que el operario lleva a cabo su labor. Es capaz de soportar hasta 3 kilos de peso.',
+            tbl: `<table>
+            <thead>
+                <tr>
+                    <th>Balanceador</th>
+                    <th>Peso soport.</th>
+                    <th>Long. del cable</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>SA 2204</td>
+                <td>De 1,5 a 3 Kgs.</td>
+                <td>1,6 metros</td>
+            </tr>
+            <tr>
+                <td><a href="producto.html?prod=balanceador-sa2207">SA 2207</a></td>
+                <td>De 3,5 a 5 Kgs.</td>
+                <td>1,6 metros</td>
+            </tr>
+            </table>`,
+            url: 'balanceador-sa2204',
+            alt: 'Balanceador SA-2204.',
+            thumb: 'assets/img/herramientas/accesorios-balanceador-sa2204.jpg',
+            img1: 'assets/img/herramientas/accesorios-balanceador-sa2204_img1.jpg',
+            img2: 'assets/img/herramientas/accesorios-balanceador-sa2204_img2.jpg',
+            img3: 'assets/img/herramientas/accesorios-balanceador-sa2204_img3.jpg'
+        },
+        {
+            id: 68,
+            categ: 'Herramientas',
+            subcateg: 'Accesorios',
+            nombre: 'Equipo Combinado - Regufiltro',
+            desc: 'El Equipo Combinado (regufiltro) SA 2324 es un accesorio fundamental en la instalación de toda línea de aire. Es capaz de cumplir múltiples funciones. Por un lado, cuenta con un vaso deshumectizador, que filtra y retiene la humedad producto de la condensación del aire. Luego, tiene un segundo vaso que se ocupa de la lubricación de las herramientas. Está equipado con manómetro y regulador de presión. Este Equipo Combinado (regufiltro) es apto para montar sobre compresores y otras superficies.',
+            tbl: `<table>
+            <tr>
+                <td>Entrada y salida de aire</td>
+                <td>1/2"</td>
+            </tr>
+            <tr>
+                <td>Rango de ajuste de presión</td>
+                <td>0,5 a 9,9</td>
+            </tr>
+            <tr>
+                <td>Máximo servicio de presión</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Capacidad de drenaje</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Capacidad de lubricación</td>
+                <td>125</td>
+            </tr>
+            <tr>
+                <td>Lubricante recomendado</td>
+                <td>VG - 32</td>
+            </tr>
+            </table>`,
+            url: 'accesorios-equipo_combinado-regufiltro',
+            alt: 'Equipo Combinado - Regufiltro.',
+            thumb: 'assets/img/herramientas/accesorios-equipo_combinado-regufiltro.jpg',
+            img1: 'assets/img/herramientas/accesorios-equipo_combinado-regufiltro_img1.jpg',
+            img2: 'assets/img/herramientas/accesorios-equipo_combinado-regufiltro_img2.jpg',
+            img3: 'assets/img/herramientas/accesorios-equipo_combinado-regufiltro_img3.jpg'
+        }
 
     ]
 

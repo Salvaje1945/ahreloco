@@ -1352,7 +1352,7 @@ input, select {
   margin: 0 0 5svh;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box h3 {
-  font-size: 11svw;
+  font-size: 10svw;
   font-weight: 500;
   margin: 0 0 2svh;
   text-align: center;
@@ -1654,7 +1654,7 @@ input, select {
     font-size: 27px;
   }
   #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box h3 {
-    font-size: 36.16px;
+    font-size: 27px;
   }
   #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont .secciones__elementos--box div p {
     font-size: 20.34px;
