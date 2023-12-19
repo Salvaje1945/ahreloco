@@ -1,6 +1,8 @@
 import $ from './funciones_globales/elementos_por_id.js'
 
-export default function mostrarImg() {
+export default function mostrarImg(ancho) {
+
+    const pantallaRes = ancho
 
     const btnCierra = $('#btn-cierra')
 
@@ -10,11 +12,15 @@ export default function mostrarImg() {
 
     const imagenesGal = document.querySelectorAll('#prod-gal div img')
 
+    const imagenesGalMov = document.querySelectorAll('#galeria-slider div img')
+
     const lightBox = $('#prod-gal-cont')
 
     const imgAct = $('#img-act')
 
     let indiceImg = 0
+
+    
 
     const abreLightBox = (evt) => {
         
@@ -23,11 +29,25 @@ export default function mostrarImg() {
 
         imgAct.src = evt.target.src
 
-        indiceImg = Array.from(imagenesGal).indexOf(evt.target)
+        if(pantallaRes >= 1024){
+
+            indiceImg = Array.from(imagenesGal).indexOf(evt.target)
+
+        } else {
+    
+            indiceImg = Array.from(imagenesGalMov).indexOf(evt.target)
+    
+        }
+
+        
 
     }
 
     imagenesGal.forEach((imagen) => {
+        imagen.addEventListener('click', abreLightBox)
+    })
+
+    imagenesGalMov.forEach((imagen) => {
         imagen.addEventListener('click', abreLightBox)
     })
 
@@ -37,25 +57,63 @@ export default function mostrarImg() {
     })
 
     const adelantar = ()=> {
-        if(indiceImg === imagenesGal.length -1) {
-            indiceImg = -1
+
+        if(pantallaRes >= 1024){
+
+            if(indiceImg === imagenesGal.length -1) {
+                indiceImg = -1
+            }
+    
+    
+            imgAct.src = imagenesGal[indiceImg + 1].src
+            indiceImg++
+
+        } else {
+
+            if(indiceImg === imagenesGalMov.length -1) {
+                indiceImg = -1
+            }
+    
+    
+            imgAct.src = imagenesGalMov[indiceImg + 1].src
+            indiceImg++
+
         }
 
 
-        imgAct.src = imagenesGal[indiceImg + 1].src
-        indiceImg++
+        
     }
 
     btnAvz.addEventListener('click', adelantar)
 
     const retroceder = ()=> {
 
-        if(indiceImg === 0) {
-            indiceImg = imagenesGal.length
+        if(pantallaRes >= 1024){
+
+            if(indiceImg === 0) {
+                indiceImg = imagenesGal.length
+            }
+    
+            imgAct.src = imagenesGal[indiceImg -1].src
+            indiceImg--
+
+        } else {
+
+            if(indiceImg === 0) {
+                indiceImg = imagenesGalMov.length
+            }
+    
+            imgAct.src = imagenesGalMov[indiceImg -1].src
+            indiceImg--            
+
         }
 
-        imgAct.src = imagenesGal[indiceImg -1].src
-        indiceImg--
+        // if(indiceImg === 0) {
+        //     indiceImg = imagenesGal.length
+        // }
+
+        // imgAct.src = imagenesGal[indiceImg -1].src
+        // indiceImg--
 
     }
 

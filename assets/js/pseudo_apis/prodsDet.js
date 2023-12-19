@@ -1,10 +1,14 @@
 import productos from './productos.js'
 import $ from '../funciones_globales/elementos_por_id.js'
 import mostrarImg from '../galeriaImg.js'
+import productosSlider from '../prods_carrousel.js'
+import productosSliderDkp from '../prods_carrousel_dkp.js'
 
-export default function detallesProducto(prod) {
+export default function detallesProducto(prod, res) {
 
     const proDuct = prod
+
+    const anchoPantalla = res
 
     const losProductos = productos()
 
@@ -44,9 +48,52 @@ export default function detallesProducto(prod) {
                             </ul>
                         </nav>`
 
-    const laGaleria = `<div class="prod__gal--img_box"><img src="${elProducto[0].img1}" alt="${elProducto[0].alt}" /></div>
-    <div class="prod__gal--img_box"><img src="${elProducto[0].img2}" alt="${elProducto[0].alt}" /></div>
-    <div class="prod__gal--img_box"><img src="${elProducto[0].img3}" alt="${elProducto[0].alt}" /></div>`
+    // const laGaleriaDkp = `<div id="prod-gal">
+    //                         <div class="prod__gal--img_box"><img src="${elProducto[0].img1}" alt="${elProducto[0].alt}" /></div>
+    //                         <div class="prod__gal--img_box"><img src="${elProducto[0].img2}" alt="${elProducto[0].alt}" /></div>
+    //                         <div class="prod__gal--img_box"><img src="${elProducto[0].img3}" alt="${elProducto[0].alt}" /></div>
+    //                     </div>`
+
+    const laGaleriaDkp = `<div id="prod-gal_dkp">
+                            <div class="prod__gal--dkp_img-gde-cont">
+                                <div class="gal__dkp--btn">
+                                    <button id="btn-dkp-retro" type="button"><i class="fa-solid fa-chevron-left"></i></button>
+                                </div>
+                                <div class="gal__dkp--img_gde-slider_cont">
+                                    <div id="galeria-dkp">
+                                        <div class="gal-dkp_slider--slide"><img src="${elProducto[0].img1}" alt="${elProducto[0].alt}" /></div>
+                                        <div class="gal-dkp_slider--slide"><img src="${elProducto[0].img2}" alt="${elProducto[0].alt}" /></div>
+                                        <div class="gal-dkp_slider--slide"><img src="${elProducto[0].img3}" alt="${elProducto[0].alt}" /></div>
+                                    </div>
+                                </div>
+                                <div class="gal__dkp--btn">
+                                    <button id="btn-dkp-avz" type="button"><i class="fa-solid fa-chevron-right"></i></button>
+                                </div>
+                            </div>
+                            <div class="prod__gal--dkp_img-thumb-cont">
+                                <div class="prod__gal--dkp_thumbs-cont">
+                                    <div class="prod__gal--dkp_thumbs-img" id="gal-dkp-thumb1"><img src="${elProducto[0].img1}" alt="${elProducto[0].alt}" /></div>
+                                    <div class="prod__gal--dkp_thumbs-img" id="gal-dkp-thumb2"><img src="${elProducto[0].img2}" alt="${elProducto[0].alt}" /></div>
+                                    <div class="prod__gal--dkp_thumbs-img" id="gal-dkp-thumb3"><img src="${elProducto[0].img3}" alt="${elProducto[0].alt}" /></div>
+                                </div>
+                            </div>
+                        </div>`
+
+    const laGaleriaMov = `<div id="prod-gal_movil">
+                            <div class="prod-gal_movil--cont" id="gal_mov-contenedor">
+                                <div class="prod-gal_movil--slider" id="galeria-slider">
+                                    <div class="gal-movil_slider--slide">
+                                        <img src="${elProducto[0].img1}" alt="${elProducto[0].alt}" />
+                                    </div>
+                                    <div class="gal-movil_slider--slide">
+                                        <img src="${elProducto[0].img2}" alt="${elProducto[0].alt}" />
+                                    </div>
+                                    <div class="gal-movil_slider--slide">
+                                        <img src="${elProducto[0].img3}" alt="${elProducto[0].alt}" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>`
 
     $('#prod-nombre').textContent = elProducto[0].nombre
 
@@ -54,11 +101,25 @@ export default function detallesProducto(prod) {
 
     $('#prod-tbl').innerHTML = elProducto[0].tbl
 
-    $('#prod-gal').innerHTML = laGaleria
+    if(anchoPantalla >= 1024){
+
+        $('#carrousel-productos').innerHTML = laGaleriaDkp
+
+        productosSliderDkp()
+
+    } else {
+
+        $('#carrousel-productos').innerHTML = laGaleriaMov
+
+        productosSlider()
+
+    }
+
+    
 
     $('#contenido__breadcrumbs').innerHTML = breadCrumbs
 
-    mostrarImg()
+    mostrarImg(anchoPantalla)
 
     // function prodsFilter(losProductos) {
     //     const filtrados = losProductos.filter(subCategoria => subCategoria.url === proDuct)

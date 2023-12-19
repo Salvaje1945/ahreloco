@@ -1,6 +1,6 @@
-//import $ from './funciones_globales/elementos_por_id.js'
-//import dameElAltoDePantalla from './funciones_globales/alto_pantalla.js'
-// import dameElAnchoDePantalla from './funciones_globales/ancho_pantalla.js'
+// import $ from './funciones_globales/elementos_por_id.js'
+// import dameElAltoDePantalla from './funciones_globales/alto_pantalla.js'
+import dameElAnchoDePantalla from './funciones_globales/ancho_pantalla.js'
 // import clientesSlider from './clientes.js'
 // import cabeceraAbrirMenu from './menu.js'
 // import animacionNosotros from './animaciones/animacion_nosotros.js'
@@ -14,6 +14,7 @@ import responsiveMedia from './objeto_responsive.js'
 import obtenerParametrosUrl from './funciones_globales/obtener_parametro_url.js'
 // import listarProds from './pseudo_apis/mostrarProds.js'
 import detallesProducto from './pseudo_apis/prodsDet.js'
+// import productosSliderDkp from './prods_carrousel_dkp.js'
 
 document.addEventListener('DOMContentLoaded', ()=> {
 
@@ -21,9 +22,11 @@ document.addEventListener('DOMContentLoaded', ()=> {
     let valorParametro = params["prod"] 
     console.log("El parámetro es: " + valorParametro)
 
-    detallesProducto(valorParametro)
+    const anchoDePantallaInicial = dameElAnchoDePantalla()
 
-    // const anchoDePantallaInicial = dameElAnchoDePantalla()
+    detallesProducto(valorParametro, anchoDePantallaInicial)
+
+    
     
     // animaciones(anchoDePantallaInicial, 'encabezados')
     // animaciones(anchoDePantallaInicial, 'iconos')
@@ -77,6 +80,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     </div>`)
 
     // listarProds('Grampas')
+    // productosSliderDkp()
 
 })
 
