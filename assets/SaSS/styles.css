@@ -1275,6 +1275,7 @@ input, select {
   display: inline-block;
   width: 33.33%;
   height: 100%;
+  cursor: pointer;
 }
 #contenedor #contenido #contenido__info .contenido__info--secciones .info__secciones--prods_info-cont #carrousel-productos #prod-gal_dkp .prod__gal--dkp_img-gde-cont .gal__dkp--img_gde-slider_cont #galeria-dkp .gal-dkp_slider--slide img {
   width: 100%;
@@ -2033,7 +2034,7 @@ input, select {
     width: 50%;
   }
   #contenedor #contenido #contenido__info .contenido__info--secciones .info__secciones--prods_info-cont #carrousel-productos {
-    width: 45%;
+    width: 48%;
   }
   #contenedor #pie .pie__contacto,
 #contenedor #pie .pie__menu,
