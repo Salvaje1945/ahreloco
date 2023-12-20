@@ -855,7 +855,7 @@ input, select {
 #contenedor #contenido #contenido__info .contenido__info--caracteristicas h2,
 #contenedor #contenido #contenido__info .contenido__info--cualidades h2,
 #contenedor #contenido #contenido__info .contenido__info--secciones h2 {
-  font-size: 11svw;
+  font-size: 8svw;
   height: 10svh;
 }
 #contenedor #contenido #contenido__info .contenido__info--nosotros {
@@ -1226,7 +1226,8 @@ input, select {
 }
 #contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal_dkp {
   background-color: #297240;
-  width: 100%;
+  width: 80%;
+  min-width: 900px;
   padding: 5svh 0;
 }
 #contenedor #contenido #contenido__info .contenido__info--secciones #prod-gal_dkp .prod__gal--dkp_img-gde-cont {
@@ -1730,7 +1731,7 @@ input, select {
   #contenedor #contenido #contenido__info .contenido__info--nosotros h2,
 #contenedor #contenido #contenido__info .contenido__info--clientes h2,
 #contenedor #contenido #contenido__info .contenido__info--secciones h2 {
-    font-size: 50px;
+    font-size: 39px;
   }
   #contenedor #contenido #contenido__info .contenido__info--nosotros .contenido__info--nosotros_txt-box div p {
     font-size: 27px;

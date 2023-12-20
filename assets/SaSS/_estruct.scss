@@ -596,7 +596,7 @@
                 margin: 1px 0 0;
 
                 h2 {
-                    font-size: 11svw;
+                    font-size: 8svw;
                     //margin: 0 0 7svw;
                     // width: auto;
                     height: 10svh;
@@ -1064,7 +1064,8 @@
 
                 #prod-gal_dkp {
                     background-color: map-get($color, "verde_03");
-                    width: 100%;
+                    width: 80%;
+                    min-width: 900px;
                     padding: 5svh 0;
                     .prod__gal--dkp_img-gde-cont {
                         @include caja__flexible--edit ($flx_bx_ff: row nowrap, $flx_bx_alit: center, $flx_bx_juco: space-between, $flx_bx_gap: 0px);
