@@ -10,7 +10,9 @@ export default function mostrarImg(ancho) {
 
     const btnAvz = $('#btn-avz')
 
-    const imagenesGal = document.querySelectorAll('#prod-gal div img')
+    // const imagenesGal = document.querySelectorAll('#prod-gal div img')
+
+    const imagenesGal = document.querySelectorAll('#galeria-dkp div img')
 
     const imagenesGalMov = document.querySelectorAll('#galeria-slider div img')
 
