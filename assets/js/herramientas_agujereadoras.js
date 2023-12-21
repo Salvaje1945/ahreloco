@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', ()=> {
     `<div class="cabecera__contenido--moviles" id="cabecera-contenido">
         <nav class="cabecera__desplegable--menu" id="cabecera-menu-desp">
             <ul>
-                <li><a href="#nosotros" id="menu-mov-nosotros">Nuestra empresa</a></li>
-                <li><a href="#clientes" id="menu-mov-clientes">Quienes nos eligen</a></li>
+                <li><a href="index.html#nosotros" id="menu-mov-nosotros">Nuestra empresa</a></li>
+                <li><a href="index.html#clientes" id="menu-mov-clientes">Quienes nos eligen</a></li>
                 <li><a href="herramientas.html">Herramientas</a></li>
                 <li><a href="insumos.html">Insumos</a></li>
                 <li><a href="asesoramiento_tecnico.html">Asesoramiento técnico</a></li>
@@ -57,8 +57,8 @@ document.addEventListener('DOMContentLoaded', ()=> {
         </div>
         <nav class="cabecera__contenido--menu">
             <ul>
-                <li><a href="#nosotros" id="menu-dkp-nosotros">Nuestra empresa</a></li>
-                <li><a href="#clientes" id="menu-dkp-clientes">Quienes nos eligen</a></li>
+                <li><a href="index.html#nosotros" id="menu-dkp-nosotros">Nuestra empresa</a></li>
+                <li><a href="index.html#clientes" id="menu-dkp-clientes">Quienes nos eligen</a></li>
                 <li><a href="herramientas.html">Herramientas</a></li>
                 <li><a href="insumos.html">Insumos</a></li>
                 <li><a href="asesoramiento_tecnico.html">Asesoramiento técnico</a></li>
