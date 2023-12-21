@@ -37,10 +37,10 @@ export default function detallesProducto(prod, res) {
                                     <a href="index.html">Inicio</a>
                                 </li>
                                 <li>
-                                    <a href="${elProducto[0].categ}.html">${elProducto[0].categ}</a>
+                                    <a href="${elProducto[0].categ.toLowerCase()}.html">${elProducto[0].categ}</a>
                                 </li>
                                 <li>
-                                    <a href="${elProducto[0].subcateg}.html">${elProducto[0].subcateg}</a>
+                                    <a href="${elProducto[0].subcateg.toLowerCase()}.html">${elProducto[0].subcateg}</a>
                                 </li>
                                 <li>
                                     <p>${elProducto[0].nombre}</p>
