@@ -1434,7 +1434,9 @@ input, select {
   padding: 2svh;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista ul li img {
-  border: 1px solid #297240;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
   display: block;
 }
 #contenedor #contenido #contenido__info .contenido__secciones--lista .secciones__elementos--cont {

@@ -1549,7 +1549,9 @@
                         }
 
                         img {
-                            border: 1px solid map-get($color, "verde_03");
+                            // border: 1px solid map-get($color, "verde_03");
+                            width: 100%;
+                            object-fit: contain;
                             display: block;
                         }
                     }
