@@ -67,119 +67,230 @@ document.addEventListener('DOMContentLoaded', ()=> {
     </nav>
 </div>`)
 
-    responsiveSlider('#contenido-clientes-contenedor', '(min-width: 1024px)', `<div class="contenido__clientes--slider" id="clientes-slider">
-    <div class="clientes__slider--slide">
-        <a href="https://www.expoyerweb.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_expoyer_logo_01.jpg" />
-        </a>
-    </div>
-    <div class="clientes__slider--slide">
-        <a href="https://fabrilmadererasa.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_fabril_logo_01.jpg" />
-        </a>
-    </div>
-    <div class="clientes__slider--slide">
-        <a href="https://www.kanjitech.com/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_kanji_logo_01.jpg" />
-        </a>
-    </div>
-    <div class="clientes__slider--slide">
-        <a href="https://www.moraspuertas.com/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_moras_logo_01.jpg" />
-        </a>
-    </div>
-    <div class="clientes__slider--slide">
-        <a href="https://novakasaviviendas.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_novakasa_logo_01.jpg" />
-        </a>
-    </div>
-    <div class="clientes__slider--slide">
-        <a href="https://www.oblak.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_oblak_logo_01.jpg" />
-        </a>
-    </div>
-    <div class="clientes__slider--slide">
-        <a href="https://www.orbis.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_orbis_logo_01.jpg" />
-        </a>
-    </div>
-    <div class="clientes__slider--slide">
-        <a href="https://www.pinceleseltucan.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_pincelestucan_logo_01.jpg" />
-        </a>
-    </div>
-    <div class="clientes__slider--slide">
-        <a href="https://www.rheem.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_rheem_logo_01.jpg" />
-        </a>
-    </div>
-    <div class="clientes__slider--slide">
-        <a href="https://simet.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_simet_logo_01.jpg" />
-        </a>
-    </div>
-    <div class="clientes__slider--slide">
-        <a href="https://www.viamo.com/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_viamo_logo_01.jpg" />
-        </a>
-    </div>
+//     responsiveSlider('#contenido-clientes-contenedor', '(min-width: 1024px)', `<div class="contenido__clientes--slider" id="clientes-slider">
+//     <div class="clientes__slider--slide">
+//         <a href="https://www.expoyerweb.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_expoyer_logo_01.jpg" />
+//         </a>
+//     </div>
+//     <div class="clientes__slider--slide">
+//         <a href="https://fabrilmadererasa.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_fabril_logo_01.jpg" />
+//         </a>
+//     </div>
+//     <div class="clientes__slider--slide">
+//         <a href="https://www.kanjitech.com/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_kanji_logo_01.jpg" />
+//         </a>
+//     </div>
+//     <div class="clientes__slider--slide">
+//         <a href="https://www.moraspuertas.com/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_moras_logo_01.jpg" />
+//         </a>
+//     </div>
+//     <div class="clientes__slider--slide">
+//         <a href="https://novakasaviviendas.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_novakasa_logo_01.jpg" />
+//         </a>
+//     </div>
+//     <div class="clientes__slider--slide">
+//         <a href="https://www.oblak.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_oblak_logo_01.jpg" />
+//         </a>
+//     </div>
+//     <div class="clientes__slider--slide">
+//         <a href="https://www.orbis.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_orbis_logo_01.jpg" />
+//         </a>
+//     </div>
+//     <div class="clientes__slider--slide">
+//         <a href="https://www.pinceleseltucan.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_pincelestucan_logo_01.jpg" />
+//         </a>
+//     </div>
+//     <div class="clientes__slider--slide">
+//         <a href="https://www.rheem.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_rheem_logo_01.jpg" />
+//         </a>
+//     </div>
+//     <div class="clientes__slider--slide">
+//         <a href="https://simet.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_simet_logo_01.jpg" />
+//         </a>
+//     </div>
+//     <div class="clientes__slider--slide">
+//         <a href="https://www.viamo.com/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_viamo_logo_01.jpg" />
+//         </a>
+//     </div>
+// </div>`, `<div class="contenido__clientes--logos">
+// <ul>
+//     <li>
+//         <a href="https://www.expoyerweb.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_expoyer_logo_01.jpg" />
+//         </a>
+//     </li>
+//     <li>
+//         <a href="https://fabrilmadererasa.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_fabril_logo_01.jpg" />
+//         </a>
+//     </li>
+//     <li>
+//         <a href="https://www.kanjitech.com/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_kanji_logo_01.jpg" />
+//         </a>
+//     </li>
+//     <li>
+//         <a href="https://www.moraspuertas.com/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_moras_logo_01.jpg" />
+//         </a>
+//     </li>
+//     <li>
+//         <a href="https://novakasaviviendas.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_novakasa_logo_01.jpg" />
+//         </a>
+//     </li>
+//     <li>
+//         <a href="https://www.oblak.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_oblak_logo_01.jpg" />
+//         </a>
+//     </li>
+//     <li>
+//         <a href="https://www.orbis.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_orbis_logo_01.jpg" />
+//         </a>
+//     </li>
+//     <li>
+//         <a href="https://www.pinceleseltucan.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_pincelestucan_logo_01.jpg" />
+//         </a>
+//     </li>
+//     <li>
+//         <a href="https://www.rheem.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_rheem_logo_01.jpg" />
+//         </a>
+//     </li>
+//     <li>
+//         <a href="https://simet.com.ar/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_simet_logo_01.jpg" />
+//         </a>
+//     </li>
+//     <li>
+//         <a href="https://www.viamo.com/" target="_blank" rel="noopener noreferrer">
+//             <img src="assets/img/clientes/clientes_viamo_logo_01.jpg" />
+//         </a>
+//     </li>
+// </ul>
+// </div>`)
+
+responsiveSlider('#contenido-clientes-contenedor', '(min-width: 1024px)', `<div class="contenido__clientes--slider" id="clientes-slider">
+<div class="clientes__slider--slide">
+    <a href="https://www.expoyerweb.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_expoyer_logo_01.jpg" />
+    </a>
+</div>
+<div class="clientes__slider--slide">
+    <a href="https://fabrilmadererasa.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_fabril_logo_01.jpg" />
+    </a>
+</div>
+<div class="clientes__slider--slide">
+    <a href="https://www.kanjitech.com/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_kanji_logo_01.jpg" />
+    </a>
+</div>
+<div class="clientes__slider--slide">
+    <a href="https://www.moraspuertas.com/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_moras_logo_01.jpg" />
+    </a>
+</div>
+<div class="clientes__slider--slide">
+    <a href="https://novakasaviviendas.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_novakasa_logo_01.jpg" />
+    </a>
+</div>
+<div class="clientes__slider--slide">
+    <a href="https://www.oblak.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_oblak_logo_01.jpg" />
+    </a>
+</div>
+<div class="clientes__slider--slide">
+    <a href="https://www.orbis.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_orbis_logo_01.jpg" />
+    </a>
+</div>
+<div class="clientes__slider--slide">
+    <a href="https://www.pinceleseltucan.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_pincelestucan_logo_01.jpg" />
+    </a>
+</div>
+<div class="clientes__slider--slide">
+    <a href="https://www.rheem.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_rheem_logo_01.jpg" />
+    </a>
+</div>
+<div class="clientes__slider--slide">
+    <a href="https://simet.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_simet_logo_01.jpg" />
+    </a>
+</div>
+<div class="clientes__slider--slide">
+    <a href="https://www.viamo.com/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_viamo_logo_01.jpg" />
+    </a>
+</div>
 </div>`, `<div class="contenido__clientes--logos">
 <ul>
-    <li>
-        <a href="https://www.expoyerweb.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_expoyer_logo_01.jpg" />
-        </a>
-    </li>
-    <li>
-        <a href="https://fabrilmadererasa.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_fabril_logo_01.jpg" />
-        </a>
-    </li>
-    <li>
-        <a href="https://www.kanjitech.com/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_kanji_logo_01.jpg" />
-        </a>
-    </li>
-    <li>
-        <a href="https://www.moraspuertas.com/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_moras_logo_01.jpg" />
-        </a>
-    </li>
-    <li>
-        <a href="https://novakasaviviendas.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_novakasa_logo_01.jpg" />
-        </a>
-    </li>
-    <li>
-        <a href="https://www.oblak.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_oblak_logo_01.jpg" />
-        </a>
-    </li>
-    <li>
-        <a href="https://www.orbis.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_orbis_logo_01.jpg" />
-        </a>
-    </li>
-    <li>
-        <a href="https://www.pinceleseltucan.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_pincelestucan_logo_01.jpg" />
-        </a>
-    </li>
-    <li>
-        <a href="https://www.rheem.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_rheem_logo_01.jpg" />
-        </a>
-    </li>
-    <li>
-        <a href="https://simet.com.ar/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_simet_logo_01.jpg" />
-        </a>
-    </li>
-    <li>
-        <a href="https://www.viamo.com/" target="_blank" rel="noopener noreferrer">
-            <img src="assets/img/clientes/clientes_viamo_logo_01.jpg" />
-        </a>
-    </li>
+<li>
+    <a href="https://www.expoyerweb.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_expoyer_logo_01.jpg" />
+    </a>
+</li>
+<li>
+    <a href="https://fabrilmadererasa.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_fabril_logo_01.jpg" />
+    </a>
+</li>
+<li>
+    <a href="https://www.kanjitech.com/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_kanji_logo_01.jpg" />
+    </a>
+</li>
+<li>
+    <a href="https://www.moraspuertas.com/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_moras_logo_01.jpg" />
+    </a>
+</li>
+<li>
+    <a href="https://novakasaviviendas.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_novakasa_logo_01.jpg" />
+    </a>
+</li>
+<li>
+    <a href="https://www.oblak.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_oblak_logo_01.jpg" />
+    </a>
+</li>
+<li>
+    <a href="https://www.orbis.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_orbis_logo_01.jpg" />
+    </a>
+</li>
+<li>
+    <a href="https://www.pinceleseltucan.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_pincelestucan_logo_01.jpg" />
+    </a>
+</li>
+<li>
+    <a href="https://www.rheem.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_rheem_logo_01.jpg" />
+    </a>
+</li>
+<li>
+    <a href="https://simet.com.ar/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/img/clientes/clientes_simet_logo_01.jpg" />
+    </a>
+</li>
 </ul>
 </div>`)
 
